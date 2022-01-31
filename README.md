@@ -12,7 +12,7 @@ Featured Students Include:
 * [Adam Friedman]()
 * [Chana Willinger]()
 * [Felice Berk]()
-* [Joe Wainer]
+* [Joe Wainer]()
 * [Michael Felsenthal]()
 * [Miriam Rosenberg]()
 * [Orit Itsik]()
