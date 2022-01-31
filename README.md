@@ -1,10 +1,18 @@
-# Hello! 
-This is the student showcase GitHub Repository.
+# Welcome to the Our Best Words GitHub Repository! 
 
-Each Student's work is in a folder.
+This repository was created to showcase our student's work with GitHub.
+Each assignment is explained in the student-assignments directory
 
-Feel free to browse and look at their work.
+Each Student's work is in the student-work directory.
+
+Feel free to browse and look at their work!
 
 Featured Students Include:
-* Student Name
-* Student Name 
+
+* [Adam Friedman](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/adam-friedman/)
+* [Chana Willinger]()
+* [Felice Berk]()
+* [Joe Wainer]()
+* [Michael Felsenthal]()
+* [Miriam Rosenberg]()
+* [Orit Itsik]()
