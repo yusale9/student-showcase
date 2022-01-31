@@ -9,7 +9,7 @@ Feel free to browse and look at their work!
 
 Featured Students Include:
 
-* [Adam Friedman]()
+* [Adam Friedman](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/adam-friedman/)
 * [Chana Willinger]()
 * [Felice Berk]()
 * [Joe Wainer]()
