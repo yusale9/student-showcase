@@ -17,3 +17,4 @@ Featured Students Include:
 * [Michael Felsenthal](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/michael-felsenthal/)
 * [Miriam Rosenberg](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/miriam-rosenberg/)
 * [Orit Itsik](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/orit-itsik/)
+
