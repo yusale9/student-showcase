@@ -20,5 +20,5 @@ Featured students include:
 
 
 
-* [Adam Friedman](/student-work/adam-friedman/)
+* [Adam Friedman](/student-work/adam-friedman/index.html)
 
