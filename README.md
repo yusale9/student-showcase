@@ -18,3 +18,7 @@ Featured students include:
 * [Miriam Rosenberg](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/miriam-rosenberg/)
 * [Orit Itsik](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/orit-itsik/)
 
+
+
+* [Adam Friedman](/student-work/adam-friedman/)
+
