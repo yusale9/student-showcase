@@ -29,7 +29,7 @@ YU Torah Mitzion Beit Midrash Zichron Dov of Toronto
 *Aug 2016 - Aug 2018*
 
 **Rabbinic Assistant**  
-Clanton Park Syanagogue, Toronto, Canada  
+Clanton Park Synagogue, Toronto, Canada  
 *Aug 2016 - Aug 2018*
 
 ## Skills
