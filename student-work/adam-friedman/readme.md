@@ -32,7 +32,7 @@ Clanton Park Syanagogue, Toronto, Canada
 *Aug 2016 - Aug 2018*
 
 ## Skills
- - Fullstack web development: HTML, CSS, JS, React, Node/Express, MongoDb
+ - Full stack web development: HTML, CSS, JS, React, Node/Express, MongoDb
  - Documentation tools: MadCap Flare, Markdown, JSDoc
  - Collaboration tools: Monday.com, JIRA
  - Experience working with git and GitHub
