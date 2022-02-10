@@ -1,11 +1,12 @@
 # Adam Friedmann
-![Adam Friedmann](https://media-exp1.licdn.com/dms/image/C5603AQHwL68DHlJg6g/profile-displayphoto-shrink_200_200/0/1640351113400?e=1649894400&v=beta&t=Cm4LvB5khSz7zpS17wQMXxYpwrdhcg8A7md0lfz09xI)  
+![Adam Friedmann](https://user-images.githubusercontent.com/70511425/153515854-2e34d435-c022-4524-93b9-8b6b049275a3.png)
+ 
 
 Technical Writer | API Documenter | Language Enthusiast
 
 > In software, if something is not well documented, it may as well not exist. My coding experience allows me to gain deep knowledge of your software and expose the full extent of its capabilities to your users.
 
-**Phone** +972 53 803 6559    
+**Phone** +972 53 803 6559 ![Whatsapp icon](https://user-images.githubusercontent.com/70511425/153515934-341d67d5-8fbf-4aed-8956-77a18a6939c6.png)  
 **Email** adamfwrites@gmail.com   
 [**LinkedIn**](https://www.linkedin.com/in/adamfri)   
 
