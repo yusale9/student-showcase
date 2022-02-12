@@ -1,5 +1,6 @@
 # Create a CV in Markdown
 
+## Synopisis
 The goal of this assignment is to create a CV in Markdown to serve as the front page for your repository. Leave room in the page for additions such as a portfolio. 
 
 1. Fork [the student showcase repo](https://github.com/Laura-Novich-OBW/student-showcase).
