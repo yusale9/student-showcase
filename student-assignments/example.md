@@ -45,7 +45,9 @@ Responisbilities include:
 * Manage outsourced freelancers and projects
 * Toolchest includes: GitHub, Sphinx, Restructured Text, CQL, AWS, GCE, all on Fedora
 
-Where to find my work? 
+# Portfolio
+
+* [LinkedIn](https://www.linkedin.com/in/lauranovich/)
 * [Scylla Docs](https://docs.scylladb.com)
 * [My Git Profile](https://github.com/lauranovich)
 * [Interview](https://www.scylladb.com/2019/06/13/whats-hot-in-scylla-docs/)
