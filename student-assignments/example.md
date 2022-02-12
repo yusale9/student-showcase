@@ -5,7 +5,7 @@ Docs Manager @ Zoomin | Documentarian, mentor, instructor, and passionate user a
 
 :round_pushpin: Israel   
 :email: lsnovich@gmail.com   
-:octocat: [GitHub](https://lauranovich.github.io)   
+:octocat: [GitHub](https://github.com/lsnovich)   
 :briefcase: [LinkedIn](https://linkedin.com/lauranovich/)  
 
 # About Me
