@@ -8,7 +8,9 @@ Technical Documentation is not just what I do, it's how I live. I have spent mos
 
 Open Source, Linux, and Git are my tools of the trade. I work in a Docs as Code Philosophy and teach what I know to anyone willing to listen.  
 
-With me you get a seasoned technical writer, a team player, and a leader. I coach, mentor, and assist new technical writers. I don't believe if you can't do, teach. I believe if you can inspire, teach.
+With me you get a seasoned technical writer, a team player, and a leader. I coach, mentor, and assist new technical writers.
+
+I don't believe if you can't do, teach. I believe if you can inspire, teach.
 
 Contact me at lsnovich@gmail.com
 
