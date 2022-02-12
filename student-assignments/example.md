@@ -1,6 +1,8 @@
 # Example CV 
 # Laura Novich 
-![headshot](headshot2.png)
+
+
+<img align="left" src="student-showcase/student-assignments/headshot2.png">
 Docs Manager @ Zoomin | Documentarian, mentor, instructor, and passionate user advocate | ITCQF Certified
 
 :round_pushpin: Israel   
