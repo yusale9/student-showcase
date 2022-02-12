@@ -27,7 +27,7 @@ Certified RHCSA - Red Hat Certified System Administrator
 
 ## Zoomin Software
 Technical Communication Manager
-**Dates Employed**: Nov 2021 &ndash; Present
+**Dates Employed**: Nov 2021 &ndash; Present  
 Responisbilities include:
 * Adminstration of the Zoomin Documetnation Portal (users and content management)
 * Hire technical writing team
