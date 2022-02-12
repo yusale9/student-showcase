@@ -27,18 +27,19 @@ Certified RHCSA - Red Hat Certified System Administrator
 
 ## Zoomin Software
 Technical Communication Manager
-**Dates Employed**: Nov 2021 &ndash; Present  
+**Dates Employed**: Nov 2021 &ndash; Present 
+
 Responisbilities include:
 * Adminstration of the Zoomin Documetnation Portal (users and content management)
 * Hire technical writing team
-* Documentation Roadmaps, procedures, workflows, styleguides, and tooling
+* Documentation roadmaps, procedures, workflows, styleguides, and tooling
 * Assign taks, mentor, and assist writers on the team
 
 ## ScyllaDB 
 Documentation Community Manager 
 **Dates Employed**: Feb 2018 &ndash; Oct 2021
 
-Responisbilities include:
+Responisbilities included:
 * Write maintain, and edit all documentation 
 * Migrate content to reside in the same repo as code ("docs as code")
 * Maintain web content and review contributions from developers
