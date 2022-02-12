@@ -5,7 +5,7 @@ Technical Documentation and Community Manager
 
 contact me at lsnovich@gmail.com
 
-![headshot](headshot.png)
+![headshot](headshot2.png)
 
 
 # Summary
