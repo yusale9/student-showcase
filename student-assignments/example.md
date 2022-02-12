@@ -1,9 +1,16 @@
 # Example CV 
 # Laura Novich 
 
-Technical Documentation and Community Manager
+Docs Manager @ Zoomin | Documentarian, mentor, instructor, and passionate user advocate | ITCQF Certified
 
-contact me at lsnovich@gmail.com
+# About Me
+Technical Documentation is not just what I do, it's how I live. I have spent most of my life documenting everything from quick start guides to APIs. 
+
+Open Source, Linux, and Git are my tools of the trade. I work in a Docs as Code Philosophy and teach what I know to anyone willing to listen.  
+
+With me you get a seasoned technical writer, a team player, and a leader. I coach, mentor, and assist new technical writers. I don't believe if you can't do, teach. I believe if you can inspire, teach.
+
+Contact me at lsnovich@gmail.com
 
 ![headshot](headshot2.png)
 
@@ -21,7 +28,7 @@ I create and understand complex architecture diagrams and have experience in com
 Tool Chest includes Madcap Flare, Jira/Confluence, Git/TFS, XML, DocBook, FrameMaker, MS Office Suite, WebWorks, Visio, CorelDraw and More!
 
 Trainer and Instructional Designer
-Certified RHCSA - Red Hat Certified System Administrator
+Certified RHCSA &mdash; Red Hat Certified System Administrator
 
 # Experience
 
