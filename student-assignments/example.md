@@ -3,6 +3,11 @@
 
 Docs Manager @ Zoomin | Documentarian, mentor, instructor, and passionate user advocate | ITCQF Certified
 
+:round_pushpin: Israel   
+:email: lsnovich@gmail.com   
+:octocat: [GitHub](https://lauranovich.github.io)   
+:briefcase: [LinkedIn](https://linkedin.com/lauranovich/)  
+
 # About Me
 Technical Documentation is not just what I do, it's how I live. I have spent most of my life documenting everything from quick start guides to APIs. 
 
