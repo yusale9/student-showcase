@@ -3,14 +3,14 @@
 >Adaptable professional with proven communication, writing, and technical skills. Aiming to leverage my abilities to successfully fill the Technical Writer role at your company. Frequently praised as proactive by my peers, I can be relied upon to help your company achieve its goals.
 
 :globe_with_meridians: Israel   
-:phone: +972 58-733-2525    
+:phone: +972 58–733–2525    
 :email: hello@joewainer.com   
 :file_folder: [GitHub](https://joewainer.github.io)   
 :computer: [Website](https://joewainer.com)  
 :briefcase: [LinkedIn](https://linkedin.com/in/joe-wainer)   
 
 ## Experience
-_March 2022 - Present_  
+_March 2022 – Present_  
 **Technical Writer, Wiz, Israel**
 * Work with Product Managers to keep the existing set of written documentation aligned with the product, in terms of both functionality and appearance.
 * Generate, organize, and update supporting materials for live training webinars (delivered by PMs).
