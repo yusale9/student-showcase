@@ -32,26 +32,26 @@ Mar 2021 &ndash; Present
 - UX designn
 
 **Office Manager and Safeguarding Lead at [iheart Principles Ltd](https://iheartprinciples.com/)**  
-Jan 2019-Present
+Jan 2019 &ndash; Present
  
 **Client Liaison and Account Manager at [RCUK](https://rcuk.com/)**  
-Dec 2016-April 2019
+Dec 2016 &ndash; April 2019
 
 **Court Clerk at Minitry of Justice, [Slough Couty Court](https://www.find-court-tribunal.service.gov.uk/courts/slough-county-court-and-family-court)**  
-Dec 2014-Mar 2016 
+Dec 2014 &ndash; Mar 2016 
 
 ## Education
 
 **Our Best Words**  
-April 2021-Present  
+April 2021 &ndash; Present  
 Marketing and Technical Writing
 
 **Royal Holloway University of London**  
-Sep 2009-Jun 2013  
+Sep 2009 &ndash; Jun 2013  
 Spanish with International Relations
 
 **University of Malaga**  
-Sep 2011-Jun 2012  
+Sep 2011 &ndash; Jun 2012  
 Translation, Interpretation and Applied Linguistics
 
 ## Skills
