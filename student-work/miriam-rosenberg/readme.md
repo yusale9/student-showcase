@@ -22,7 +22,7 @@ The best part of being a Technical Writer is that the intellectual journey never
 ## Experience
 
 **Technical Writer in Training at [Our Best Words](https://ourbestwords.com/)**  
-Mar 2021-Present  
+Mar 2021 &ndash; Present  
 - Creating functional documentation
 - Localization
 - User experience and usability
