@@ -12,7 +12,7 @@ Very early on, I realised that things only work when information and communicati
 
 Knowing a language is not enough; you need to know how to use it. So I took up the opportunity to learn it through a Technical Writing course. 
 It opened my eyes wider than I expected and challenged my intellect. 
-Here is what I learnt: 
+Here is what I learned: 
 1. The success of your product depends on the users knowing how to use it. 
 2. I step in to help with point 1. 
 3. The result is concise and straightforward documentation, an online Help system, or a User Guide.
