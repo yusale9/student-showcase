@@ -1,24 +1,24 @@
 # Laura Novich 
 <img align="left" src="./headshot2.png">
 
-Hello! I am Laura Novich. Welcome to my repository on GitHub! Some information about me:
-
-* Technical Documentation Manager at [Zoomin Software](https://www.zoominsoftware.com/)
-* Instructor at [Our Best Words](https://ourbestwords.com/)
-* [ITCQF Certified](https://itcqf.org/)
-
+Hello! I am Laura Novich. Welcome to my repository on GitHub! 
 
 Technical Documentation is not just what I do, it's how I live. 
 
 I have spent most of my life documenting everything from quick start guides to APIs. 
 Open Source, Linux, and Git are my tools of the trade. 
-
 I work in a Docs as Code Philosophy and teach what I know to anyone willing to listen.  
 With me you get a seasoned technical writer, a team player, and a leader. I coach, mentor, and assist new technical writers.
 
-> I don't believe if you can't do, teach. 
-> I believe if you can inspire, teach.
-> I am a documentarian, mentor, instructor, and passionate user advocate 
+Some information about me:
+
+* Technical Documentation Manager at [Zoomin Software](https://www.zoominsoftware.com/)
+* Instructor at [Our Best Words](https://ourbestwords.com/)
+* [ITCQF Certified](https://itcqf.org/)
+
+> I don't believe if you can't do, teach.   
+> I believe if you can inspire, teach.  
+> I am a documentarian, mentor, instructor, and passionate user advocate. 
 
 :round_pushpin: Israel   
 :email: lsnovich@gmail.com   
