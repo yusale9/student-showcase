@@ -10,12 +10,12 @@
 ```mermaid
    flowchart TD;
    
-   A(START) --> B{Is it Thursday?};
+   A((START)) --> B{Is it Thursday?};
    B -- Yes --> C[Go to Happy Hour];
    B -- No --> D[No Happy Hour];
    C ---> E[Enjoy your weekend!];
    D ---> E[Enjoy your weekend!];
-   E ---> F(END)
+   E ---> F((END))
 ```   
 # Sequence Diagram
 
