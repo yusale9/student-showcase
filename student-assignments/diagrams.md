@@ -1,8 +1,11 @@
+# Basic Diagram
+
 ```mermaid 
    graph TD;
    A-->B;
    A-->C;
 ```  
+# Flowchart Diagram
 
 ```mermaid
    flowchart TD;
@@ -14,6 +17,8 @@
    D ---> E[Enjoy your weekend!];
    E ---> F(END)
 ```   
+# Sequence Diagram
+
 ```mermaid
    sequenceDiagram;
    
@@ -37,7 +42,9 @@
     Working Dir->>Local: commit
     Local->>Remote: push
     Remote->>Working Dir: pull
-```    
+```  
+# Pie Chart
+
 ```mermaid
    pie
     title Key elements in Product X
