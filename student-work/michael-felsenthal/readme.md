@@ -15,16 +15,16 @@ I am someone who is always committed to the task at hand, and will always meet d
 
 :briefcase: [LinkedIn](https://www.linkedin.com/in/michael-w-felsenthal/)
 
-# Summary
+#  Summary
 I have previously worked with children and adults with developmental disabilities for 10+ years. I have also gained administrative experience working as a synagogue administrator.
 
 In Our Best Words, I have learned applications such as MadCap Flare, GitHub, and Markup Makeup.  I will also be learning API Documenation.  
 
 I am also skilled in MS Office Suite, G-Suite, Adobe Acrobat Reader, Canva, and MailChimp. 
 
-## Experience
+##  Experience
 
-##Yavneh Hebrew Academy:
+## Yavneh Hebrew Academy:
 Synagogue Administrator
 **Dates Employed**: July 2021 &ndash; Present
 
@@ -34,7 +34,7 @@ Responsibilities include:
 * Collaborate with lay leadership to prepare written content for distribution. 
 * Edit synagogue website weekly.   
 
-##Holding Hands, Inc:
+## Holding Hands, Inc:
 Developmental Therapist
 **Dates Employed**: November 2017 &ndash; Present
 
@@ -44,5 +44,5 @@ Responsibiliites include:
 * Write regular client progress reports to support continued care. 
 * Compose post-session notes to document clients’ progress on developmental goals. 
 
-#Portfolio
+#  Portfolio
 * [LinkedIn](https://www.linkedin.com/in/michael-w-felsenthal/) 
