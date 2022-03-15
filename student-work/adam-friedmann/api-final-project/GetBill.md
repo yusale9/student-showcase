@@ -75,5 +75,3 @@ Code | Meaning
   ]
 }
 ```
-
-<!-- Write a comment explaining the response, if it would be helpful. For a response with a complicated schema, create a table like the one used above for the request.  -->
