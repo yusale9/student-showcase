@@ -44,7 +44,6 @@ cost | float | The menu item's cost.
 curl -XGET 'https://putnamapp.com/bill?tableNumber=12'
 ```
 
-<!-- Follow with comments to explain what each part of the request is doing -->
 
 ### Response
 
