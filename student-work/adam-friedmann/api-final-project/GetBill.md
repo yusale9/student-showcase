@@ -39,8 +39,9 @@ cost | float | The menu item's cost.
 
 ### Request
 
+A sample request using cURL.
+
 ```BASH
-// Sample request using cURL
 curl -XGET 'https://putnamapp.com/bill?tableNumber=12'
 ```
 
