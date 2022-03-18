@@ -20,6 +20,7 @@ Certificate in Technical and Marketing Communications March 2022 from [Our Best 
 :round_pushpin: Israel   
 :email: felicejberk@gmail.com 
 
+
 # Summary
 
 - I am a self-motivated, highly organized, and creative individual with excellent written and verbal communication skills. 
