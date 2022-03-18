@@ -6,6 +6,7 @@ Hello! I am Felice Berk. Welcome to my repository on GitHub!
 I have spent most of my life writing anything from poems, to short stories, to chapter books for children.
 When it came time to pivot careers, Technical Writing seemed only natural.
 I have acquired a new appreciation for the written word, with its infinite applications.   
+
 As a new Technical Writer, you will gain from me a fresh perspective along with the knowledge and creativity you would expect from a more seasoned Technical Writer.
 
 Some information about my current role:
