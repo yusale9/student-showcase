@@ -1,5 +1,6 @@
 # Felice Berk 
-<img align="left" src="./FeliceHeadshotResize.png">
+<img align="top" src="./FeliceHeadshotResize.png">
+
 
 Hello! I am Felice Berk. Welcome to my repository on GitHub! 
 
