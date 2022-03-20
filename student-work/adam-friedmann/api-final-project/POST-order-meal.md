@@ -14,7 +14,7 @@ Creates a meal order and associates it with a table. See the [menu items list](m
 Name | type | Req. | Description
 ---- | ----- | ----- | --------------------
 mealType | string | Y |  The meal being ordered. <br>Options: `"breakfast"`,`"lunch"`, `"dinner"`
-tableNumber | int  | Y | The table to associated with the order.
+tableNumber | int  | Y | The table to associated with the order. Takeaway orders are table `99`.
 menuItems | Array\<menuItem\>| Y | An array of the `menuItem` objects included in the order. 
 
 ### Response
