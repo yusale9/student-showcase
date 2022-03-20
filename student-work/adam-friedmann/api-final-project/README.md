@@ -1,5 +1,5 @@
 
-## Workflow
+## Workflow for Front End
 
 ```mermaid
 flowchart TD
@@ -24,5 +24,7 @@ K --> N(Submit order);
 ```
 
 ## References
+I based this project on one designed by [Alex Fiedler](https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/).
+
 I based the API references in this project on 
 [the template](https://github.com/thegooddocsproject/templates/blob/master/api-reference/api-reference.md) from The Good Docs project. 
