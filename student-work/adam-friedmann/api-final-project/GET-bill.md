@@ -2,7 +2,7 @@
 
 Method | syntax
 ----- | ----------
-GET | https://www.putnamapp.com/bill
+GET | https://api.putnamdiner.com/bill
 
 
 ## Description
