@@ -1,6 +1,6 @@
 # Menu Items
 
-This index contains a list of all the items on the Putnam Diner menu that you can [order](POST-order-meal.md) using the app. Each menu item is represented in the app by a [meal object](#meal-objects) that contains several smaller [meal component objects](#meal-component-objects). Meal objects define which components are included in a meal, as well the limits of the numbers
+This file contains a list of all the items on the Putnam Diner menu that you can [order](POST-order-meal.md) using the app. Each menu item is represented in the app by a [meal object](#meal-objects) that contains several smaller [meal component objects](#meal-component-objects). Meal objects define which components are included in a meal, as well the limits of the numbers
 and sizes of the meal components.
 
 >Note<br>
@@ -56,7 +56,12 @@ Example meal object:
 
 Meal component objects are used to construct meal objects for orders.
 
-##### burger
+## Index
+[burger](#burger)<br>
+[drink](#drink)<br>
+[sides](#sides)<br>
+
+### burger
 An object representing a burger. `burger` items contain the following properties:
 
 Name | type | Req. | Description
@@ -69,16 +74,7 @@ bunType | string | Y | The type of bun for the burger. <br>Options: `"white"`, `
 condiments | Array\<string\> | N | The condiments for the burger. You can only add 2 condiments to a burger. If the `condiments` array includes more than 2 items, only the first 2 are included in the order. <br>Options: `"ketchup"`, `"mustard"`, `"chimichurri"`, `"mayo"`
 toppings | Array\<string\> | N | The toppings for the burger. You can only add 3 toppings to a burger. If the `toppings` array includes more than 3 items, only the first 3 are included in the order. <br>Options: `"lettuce"`, `"pickles"`, `"tomatoes"`, `"friedEgg"`
 
-
-##### sides
-An array of objects representing side dishes included in the order. Meal items have limits for the amount and size of the side dishes that you can add to the meal. Each side dish object contains the following properties:
-
-Name | type | Req.| Description
----- | ---- | --- | -----------
-type | string | Y | The type of side dish. <br>Options: `"frenchFries"`, `"mashedPotatoes"`, `"onionRings"`, `"coleslaw"`
-size | string | Y | The size of the side dish. Either `"small"` or `"large"`.
-
-##### drink
+### drink
 An array of objects representing drinks included in the order. Meal items have limits for the amount and size of the drinks that you can add to the meal. Each drink object contains the following properties:
 
 Name | type | Req.| Description
@@ -86,3 +82,12 @@ Name | type | Req.| Description
 type | string | Y | The type of drink. <br>Options: `"coke"`, `"dietCoke"`, `"sprite"`, `"water"`
 size | string | Y | The size of the side dish. <br>Options: `"small"`, `"large"`
 ice | boolean | N | A boolean representing if a drink comes with ice. Defaults to `true`.
+
+
+### sides
+An array of objects representing side dishes included in the order. Meal items have limits for the amount and size of the side dishes that you can add to the meal. Each side dish object contains the following properties:
+
+Name | type | Req.| Description
+---- | ---- | --- | -----------
+type | string | Y | The type of side dish. <br>Options: `"frenchFries"`, `"mashedPotatoes"`, `"onionRings"`, `"coleslaw"`
+size | string | Y | The size of the side dish. Either `"small"` or `"large"`.
