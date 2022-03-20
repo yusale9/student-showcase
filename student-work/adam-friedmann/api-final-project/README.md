@@ -1,11 +1,11 @@
 # ACME Putnam Diner App (POC)
 
-The Putman Diner app allows customers at the diner to place orders from touchless screens located at the front of the restaurant. The app receives order requests and generates bills for tables. Requests are made using HTTP and follow RESTful architecture. Eventually, Putnam wants to build a mobile app so that customers can order via table-side tablets.
+The Putman Diner app allows customers at the diner to place orders from touchless screens. The app receives order requests and generates bills for tables. Requests are made using HTTP and follow RESTful architecture. Eventually, Putnam wants to build a mobile app so that customers can order via table-side tablets.
+
+The POC version of the app needs to define two endpoints, one for [placing orders](POST-order-meal.md), and another for [generating a bill](GET-bill.md). This version is limited to ordering burger meals on the lunch menu. The object structure to use for menu items when placing orders is in the [menu item list](menu-items.md).
 
 
-
-
-## Workflow for Front End
+## Workflow for Frontend
 
 ```mermaid
 flowchart TD
