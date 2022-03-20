@@ -18,7 +18,17 @@ Name | type | Req. | Description
 ---- | ----- | ----- | --------------------
 tableNumber | int | Y |  The table number for the desired bill. The number for takeout orders is `99`.
 
-### Response Object
+### Response
+
+#### Response Codes
+
+Code | Meaning
+-----| -------
+200  | OK: The request succeeded. The response body contains the requested table's bill.
+404  | Not Found: Either the table number doesn't exist, or the requested table doesn't have an open order.
+500  | Error: Internal server error
+
+#### Response Object
 
 Name | type | Description
 -----| -----| -----------
@@ -27,7 +37,7 @@ timestamp | ISO 8601 timestamp | The date and time when the bill was generated.
 totalCost | float | The total cost of all the items on the bill.
 items | Array\<item\> | An array of `item` objects representing all the items on the bill.
    
-#### Item Object
+##### Item Object
 
 Name | type | Description
 -----| -----| -----------
@@ -47,14 +57,6 @@ curl -XGET 'https://putnamapp.com/bill?tableNumber=12'
 
 
 ### Response
-
-#### Response Codes
-
-Code | Meaning
------| -------
-200  | OK: The request succeeded. The response body contains the requested table's bill.
-404  | Not Found: Either the table number doesn't exist, or the requested table doesn't have an open order.
-500  | Error: Internal server error
 
 #### Sample Response Object
 
