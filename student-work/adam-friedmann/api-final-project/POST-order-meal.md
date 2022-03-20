@@ -84,7 +84,7 @@ curl -XPOST -H "Content-type: application/json" -d '{
 
 ### Response
 
-Same response object:
+Sample response object:
 
 ```JSON
 {
