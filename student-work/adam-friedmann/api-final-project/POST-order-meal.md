@@ -40,7 +40,7 @@ orderNumber | int | The order number associated with a newly created order.
 
 ### Request
 
-Here is a sample request for a burger meal using cURL.
+Sample request for a burger meal using cURL:
 
 ```BASH
 curl -XPOST -H "Content-type: application/json" -d '{
@@ -84,7 +84,11 @@ curl -XPOST -H "Content-type: application/json" -d '{
 
 ### Response
 
-```HTTP
-<!--  A copy-and-paste working request, if possible. Not one with values replaced by their names, such as "ID." -->
+Same response object:
+
+```JSON
+{
+  "orderNumber" : 123
+}
 
 ```
