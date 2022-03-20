@@ -24,10 +24,16 @@ menuItems | Array\<menuItem\>| Y | An array of the `menuItem` objects included i
 Code | Meaning
 -----| -------
 200  | OK: The order request succeeded. The response body contains the order number associated with the order.
-404  | Not Found: Either the table number doesn't exist, or the requested table doesn't have an open order.
+400  | Bad Request: The order request isn't formatted properly.
 500  | Error: Internal server error
 
+#### Response Arguments
 
+Responses to successful requests include the following in the response body.
+
+Name | type | Descrtiption
+---- | ---- | ----------
+orderNumber | int | The order number associated with a newly created order.
 
 
 ## Examples
@@ -81,51 +87,4 @@ curl -XPOST -H "Content-type: application/json" -d '{
 ```HTTP
 <!--  A copy-and-paste working request, if possible. Not one with values replaced by their names, such as "ID." -->
 
-```
-
-<!-- Follow with comments to explain what each part of the request is doing -->
-
-<!-- Write a comment explaining the response, if it would be helpful. For a response with a complicated schema, create a table like the one used above for the request.  -->
-
-```JSON
-{
-    "mealType": "lunch",
-    "tableNumber" : 12,
-    "menuItems": [
-        {
-            "burgerMeal" : {
-                "burger": {
-                    "pattyType": "beef",
-                    "pattyQuantity": 1,
-                    "pattyWeight": 300,
-                    "pattyCook": "mediumRare",
-                    "bunType": "wholeWheat",
-                    "condiments": [
-                        "ketchup",
-                        "secretSauce"
-                    ],
-                    "toppings": [
-                        "lettuce",
-                        "pickles"
-                    ]
-                },
-                "sides": [
-                    {
-                        "type": "frenchFries",
-                        "size": "large" 
-                    },
-                    {
-                        "type": "none", //No need for this.
-                        "size": ""
-                    }
-                ],
-                "drink": {
-                    "type": "coke",
-                    "size": "large",
-                    "ice": true
-                }
-            }
-        }
-    ]
-}
 ```
