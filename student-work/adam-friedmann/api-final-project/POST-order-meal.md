@@ -7,7 +7,7 @@ POST | https://putnamapp.com/order
 
 ## Description
 
-Creates a meal order and associates it with a table. See the [Menu Items Index](menu-items-index.md) for information on the menu items you can order with this endpoint.
+Creates a meal order and associates it with a table. See the [Menu Itemsv list](menu-items.md) for information on the menu items you can order with this endpoint.
 
 ### Parameters
 
