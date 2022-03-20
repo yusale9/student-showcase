@@ -7,6 +7,8 @@ The POC version of the app needs to define two endpoints, one for [placing order
 
 ## Workflow for Frontend
 
+The UI design for the app should follow this flow:
+
 ```mermaid
 flowchart TD
 
