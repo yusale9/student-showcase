@@ -1,6 +1,8 @@
 # ACME Putnam Diner App (POC)
 
-The Putman Diner app allows customers at the diner to place orders from touchless screens located at the front of the restaurant. The app receives order requests and generates bills for tables. Requests are made using HTTP and follow RESTful architecture. Eventually, Putnam wants to 
+The Putman Diner app allows customers at the diner to place orders from touchless screens located at the front of the restaurant. The app receives order requests and generates bills for tables. Requests are made using HTTP and follow RESTful architecture. Eventually, Putnam wants to build a mobile app so that customers can order via table-side tablets.
+
+
 
 
 ## Workflow for Front End
