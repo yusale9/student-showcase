@@ -1,3 +1,28 @@
+
+## Workflow
+
+```mermaid
+flowchart TD
+
+A(Begin order) --> B[Select burger meal];
+B --> C[Select patty details:<br> type, weight, cook, quantity];
+C --> D[Select bun type];
+D --> E{toppings?};
+E -- yes -->F[Select toppings];
+F --> G{condiments?};
+E -- no -->G;
+G -- yes --> H[Select condiments];
+H --> I{drink?};
+G -- no --> I;
+I -- yes --> J[select drink type];
+I -- no --> K[review order];
+J --> L{ice?};
+L -- yes --> M[Add ice];
+L -- no --> K;
+M --> K;
+K --> N(Submit order);
+```
+
 ## References
 I based the API references in this project on 
 [the template](https://github.com/thegooddocsproject/templates/blob/master/api-reference/api-reference.md) from The Good Docs project. 
