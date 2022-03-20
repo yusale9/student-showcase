@@ -14,6 +14,42 @@ Name | Description
 ---- | -----------
 burgerMeal | An object representing a burger meal, containing the following menu items: <ul><li>[`burger`](#burger)(required, limit: 1)</li><li>[`sides`](#sides) (optional, limit: 2 small dishes)</li><li>[`drink`](#drink) (optional, limit: 1 small drink)</li></ul>
 
+Meal objects are formatted in JSON. They have a single key which corresponds to the name of the meal object. The value of this key is an object containing the components included in the meal.
+
+Example meal object:
+
+```JSON
+"burgerMeal" : {
+    "burger": {
+        "pattyType": "beef",
+        "pattyQuantity": 1,
+        "pattyWeight": 300,
+        "pattyCook": "mediumRare",
+        "bunType": "wholeWheat",
+        "condiments": [
+            "ketchup",
+            "secretSauce"
+        ],
+        "toppings": [
+            "lettuce",
+            "pickles",
+            "friedEgg"
+        ]
+    },
+    "sides": [
+        {
+            "type": "frenchFries",
+            "size": "large" 
+        }
+    ],
+    "drink": {
+        "type": "coke",
+        "size": "large",
+        "ice": true
+    }
+}
+````
+
 ## Meal Component Objects
 
 Meal component objects are used to construct meal objects for orders.
