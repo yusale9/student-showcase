@@ -19,33 +19,35 @@ Meal objects are formatted in JSON. They have a single key which corresponds to 
 Example meal object:
 
 ```JSON
-"burgerMeal" : {
-    "burger": {
-        "pattyType": "beef",
-        "pattyQuantity": 1,
-        "pattyWeight": 300,
-        "pattyCook": "mediumRare",
-        "bunType": "wholeWheat",
-        "condiments": [
-            "ketchup",
-            "secretSauce"
+{
+    "burgerMeal" : {
+        "burger": {
+            "pattyType": "beef",
+            "pattyQuantity": 1,
+            "pattyWeight": 300,
+            "pattyCook": "mediumRare",
+            "bunType": "wholeWheat",
+            "condiments": [
+                "ketchup",
+                "secretSauce"
+            ],
+            "toppings": [
+                "lettuce",
+                "pickles",
+                "friedEgg"
+            ]
+        },
+        "sides": [
+            {
+                "type": "frenchFries",
+                "size": "large" 
+            }
         ],
-        "toppings": [
-            "lettuce",
-            "pickles",
-            "friedEgg"
-        ]
-    },
-    "sides": [
-        {
-            "type": "frenchFries",
-            "size": "large" 
+        "drink": {
+            "type": "coke",
+            "size": "large",
+            "ice": true
         }
-    ],
-    "drink": {
-        "type": "coke",
-        "size": "large",
-        "ice": true
     }
 }
 ````
