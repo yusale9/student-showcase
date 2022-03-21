@@ -15,7 +15,7 @@ Name | type | Req. | Description
 ---- | ----- | ----- | --------------------
 menuType | string | Y |  The menu used for the order. <br>Options: `"breakfast"`,`"lunch"`, `"dinner"`
 tableNumber | int  | Y | The table to associated with the order. Takeaway orders are table `99`.
-menuItems | Array\<menuItem\>| Y | An array of the `menuItem` objects included in the order. 
+menuItems | Array\<meal\>| Y | An array of the `meal` objects included in the order. 
 
 ### Response
 
