@@ -13,7 +13,7 @@ Creates a meal order and associates it with a table. See the [menu items list](m
 
 Name | type | Req. | Description
 ---- | ----- | ----- | --------------------
-mealType | string | Y |  The meal being ordered. <br>Options: `"breakfast"`,`"lunch"`, `"dinner"`
+menuType | string | Y |  The menu used for the order. <br>Options: `"breakfast"`,`"lunch"`, `"dinner"`
 tableNumber | int  | Y | The table to associated with the order. Takeaway orders are table `99`.
 menuItems | Array\<menuItem\>| Y | An array of the `menuItem` objects included in the order. 
 
@@ -31,7 +31,7 @@ Code | Meaning
 
 Responses to successful requests include the following in the response body.
 
-Name | type | Descrtiption
+Name | type | Description
 ---- | ---- | ----------
 orderNumber | int | The order number associated with a newly created order.
 
@@ -45,7 +45,7 @@ Sample request for a burger meal using cURL:
 ```BASH
 curl -XPOST -H "Content-type: application/json" -d '{
     
-    "mealType": "lunch",
+    "menuType": "lunch",
     "tableNumber" : 12,
     "menuItems": [
         {
