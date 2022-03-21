@@ -10,7 +10,6 @@ POST | https://api.putnamdiner.com/order
 Creates a meal order and associates it with a table. See the [menu items list](menu-items.md) for information on the menu items you can order with this endpoint.
 
 ### Parameters
-
 Name | type | Req. | Description
 ---- | ----- | ----- | --------------------
 menuType | string | Y |  The menu used for the order. <br>Options: `"breakfast"`,`"lunch"`, `"dinner"`
@@ -19,14 +18,6 @@ menuItems | Array\<meal\>| Y | An array of the `meal` objects included in the or
 
 ### Response
 
-#### Response Codes
-
-Code | Meaning
------| -------
-200  | OK: The order request succeeded. The response body contains the order number associated with the order.
-400  | Bad Request: The order request isn't formatted properly.
-500  | Error: Internal server error
-
 #### Response Arguments
 
 Responses to successful requests include the following in the response body.
@@ -34,6 +25,13 @@ Responses to successful requests include the following in the response body.
 Name | type | Description
 ---- | ---- | ----------
 orderNumber | int | The order number associated with a newly created order.
+
+#### Response Codes
+Code | Meaning
+-----| -------
+200  | OK: The order request succeeded. The response body contains the order number associated with the order.
+400  | Bad Request: The order request isn't formatted properly.
+500  | Error: Internal server error
 
 
 ## Examples
