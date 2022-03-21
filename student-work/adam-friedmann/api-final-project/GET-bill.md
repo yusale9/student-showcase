@@ -10,7 +10,7 @@ GET | https://api.putnamdiner.com/bill
 Receives a table number and returns that table's bill including the details of all items ordered. 
 
 > **Note**  
-> Once a table's bill is returned, the order associated with that table is closed.
+> The app closes any orders associated with a table after generating a bill.
 
 ### Query Parameters
 
@@ -20,13 +20,7 @@ tableNumber | int | Y |  The table number for the desired bill. The number for t
 
 ### Response
 
-#### Response Codes
-
-Code | Meaning
------| -------
-200  | OK: The request succeeded. The response body contains the requested table's bill.
-404  | Not Found: Either the table number doesn't exist, or the requested table doesn't have an open order.
-500  | Error: Internal server error
+When a request succeeds, the following object is included in the response body. The response codes for failed requests are found below,
 
 #### Response Object
 
@@ -44,6 +38,13 @@ Name | type | Description
 item | string | The menu item.
 cost | float | The menu item's cost.
 
+#### Response Codes
+
+Code | Meaning
+-----| -------
+200  | OK: The request succeeded. The response body contains the requested table's bill.
+404  | Not Found: Either the table number doesn't exist, or the requested table doesn't have an open order.
+500  | Error: Internal server error
 
 ## Examples
 
