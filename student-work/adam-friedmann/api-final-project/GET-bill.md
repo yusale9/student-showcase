@@ -20,7 +20,7 @@ tableNumber | int | Y |  The table number for the desired bill. The number for t
 
 ### Response
 
-When a request succeeds, the following object is included in the response body. The response codes for failed requests are found below,
+When a request succeeds, the response body includes the following object.
 
 #### Response Object
 
