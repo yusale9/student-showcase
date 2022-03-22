@@ -7,7 +7,7 @@ POST | https://api.putnamdiner.com/order
 
 ## Description
 
-Creates a meal order and associates it with a table. See the [menu items list](menu-items.md) for information on the menu items you can order with this endpoint.
+Creates an order and associates it with a table. See the [menu items list](menu-items.md) for the menu items you can order with this endpoint.
 
 ### Parameters
 Name | type | Req. | Description
