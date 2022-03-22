@@ -7,7 +7,7 @@ GET | https://api.putnamdiner.com/bill
 
 ## Description
 
-Receives a table number and returns that table's bill including the details of all items ordered. 
+Receives a table number and returns that table's bill including a list of all items ordered. 
 
 > **Note**  
 > The app closes any orders associated with a table after generating a bill.
@@ -27,7 +27,7 @@ When a request succeeds, the response body includes the following object.
 Name | type | Description
 -----| -----| -----------
 orderNumber | int | The order ID number used to generate the bill.
-timestamp | ISO 8601 timestamp | The date and time when the bill was generated.
+timestamp | ISO 8601 timestamp | The date and time when the app generated the bill.
 totalCost | float | The total cost of all the items on the bill.
 items | Array\<item\> | An array of `item` objects representing all the items on the bill.
    
@@ -36,7 +36,7 @@ items | Array\<item\> | An array of `item` objects representing all the items on
 Name | type | Description
 -----| -----| -----------
 item | string | The menu item.
-cost | float | The menu item's cost.
+price | float | The menu item's price.
 
 #### Response Codes
 
@@ -69,11 +69,11 @@ Sample response object:
   "items": [
     {
       "item": "burgerMeal",
-      "cost": 10.99
+      "price": 10.99
     },
     {
       "item": "salad",
-      "cost": 9.50
+      "price": 9.50
     }
   ]
 }
