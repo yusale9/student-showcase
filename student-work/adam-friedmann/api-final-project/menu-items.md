@@ -11,7 +11,7 @@ These are the meal objects that you can use when [placing orders](POST-order-mea
 
 Name | Description
 ---- | -----------
-burgerMeal | An object representing a burger meal, containing the following menu items: <ul><li>[`burger`](#burger)(required, limit: 1)</li><li>[`sides`](#sides) (optional, limit: 2 small dishes)</li><li>[`drink`](#drink) (optional, limit: 1 small drink)</li></ul>
+burgerMeal | An object representing a burger meal, containing the following menu items: <ul><li>[`burger`](#burger) (required, limit: 1, added price for more than 1 patty)</li><li>[`sides`](#sides) (optional, limit: 2 small dishes)</li><li>[`drink`](#drink) (optional, limit: 1 small drink)</li></ul>
 
 Meal objects are formatted in JSON. They have a single key which corresponds to the name of the meal object. The value of this key is an object containing the components included in the meal.
 
@@ -61,7 +61,7 @@ Meal component objects are used to construct meal objects for orders.
 [sides](#sides)<br>
 
 #### burger
-An object representing a burger. `burger` items contain the following properties:
+An object representing a burger, containing the following properties:
 
 Name | type | Req. | Description
 -----| -----| ---- | -----------
@@ -74,19 +74,19 @@ condiments | Array\<string\> | N | The condiments for the burger. You can only a
 toppings | Array\<string\> | N | The toppings for the burger. You can only add 3 toppings to a burger. If the `toppings` array includes more than 3 items, only the first 3 are included in the order. <br>Options: `"lettuce"`, `"pickles"`, `"tomatoes"`, `"friedEgg"`
 
 #### drink
-An array of objects representing drinks included in the order. Meal items have limits for the amount and size of the drinks that you can add to the meal. Each drink object contains the following properties:
+An object representing the drink included in a meal, containing the following properties:
 
 Name | type | Req.| Description
 ---- | ---- | --- | -----------
 type | string | Y | The type of drink. <br>Options: `"coke"`, `"dietCoke"`, `"sprite"`, `"water"`
-size | string | Y | The size of the side dish. <br>Options: `"small"`, `"large"`
-ice | boolean | N | A boolean representing if a drink comes with ice. Defaults to `true`.
+size | string | Y | The size of the side drink. <br>Options: `"small"`, `"medium"`, `"large"`
+ice | boolean | N | A boolean representing whether a drink comes with ice. Defaults to `true`.
 
 
 #### sides
-An array of objects representing side dishes included in the order. Meal items have limits for the amount and size of the side dishes that you can add to the meal. Each side dish object contains the following properties:
+An array of objects representing side dishes included in a meal. Each side dish object contains the following properties:
 
 Name | type | Req.| Description
 ---- | ---- | --- | -----------
 type | string | Y | The type of side dish. <br>Options: `"frenchFries"`, `"mashedPotatoes"`, `"onionRings"`, `"coleslaw"`
-size | string | Y | The size of the side dish. Either `"small"` or `"large"`.
+size | string | Y | The size of the side dish. <br>Options: `"small"` or `"large"`.
