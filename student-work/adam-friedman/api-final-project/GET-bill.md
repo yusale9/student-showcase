@@ -10,7 +10,7 @@ GET | /bill
 Receives a table number and returns that table's bill including a list of all items ordered. 
 
 > **Note**  
-> The app closes any orders associated with a table after generating a bill.
+> The API closes any orders associated with a table after generating a bill.
 
 ### Query Parameters
 
