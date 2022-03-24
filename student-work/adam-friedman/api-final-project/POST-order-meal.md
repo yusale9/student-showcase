@@ -2,7 +2,7 @@
 
 Method | syntax
 ----- | ----------
-POST | https://api.putnamdiner.com/order
+POST | /order
 
 
 ## Description
