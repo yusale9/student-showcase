@@ -4,7 +4,7 @@ The Orders API allows you to place orders that are served to kitchen staff and r
 
 ## Base URL
 
-`https://api.gpmdiner.com/`
+`https://api.gpmdiner.com`
 
 ## Endpoints
 Name | Description
