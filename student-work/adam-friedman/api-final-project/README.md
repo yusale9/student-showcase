@@ -8,7 +8,7 @@ The POC version of the app needs to define two endpoints, one for [placing order
 
 ## General Response Codes
 
-The orders API returns the following general response codes. The endpoint descriptions detail case-specifc responses.
+The orders API returns the following general response codes. The endpoint descriptions list case-specifc responses.
 
 Code | Description
 ---- | -----------
