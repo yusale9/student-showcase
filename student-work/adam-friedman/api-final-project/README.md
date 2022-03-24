@@ -1,12 +1,14 @@
 # General Putnam Motel Diner: Orders API
 
-The Orders API allows you to place orders that are served to kitchen staff and retrieve a bill based on the orders currently open at a table.
+The Orders API allows you to place orders that with the kitchen staff and retrieve a bill based on the orders currently open at a table.
 
 ## Base URL
 
 `https://api.gpmdiner.com`
 
 ## Endpoints
+The API includes the following endpoints:
+
 Name | Description
 ---- | -----------
 [GET /bill](GET-bill.md) | Retrieves a table's bill.
