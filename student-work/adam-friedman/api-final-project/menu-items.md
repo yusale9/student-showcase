@@ -1,9 +1,9 @@
 # Menu Items
 
-This file contains a list of all the items on the Putnam Diner menu that you can [order](POST-order-meal.md) using the app. Each menu item is represented in the app by a [meal object](#meal-objects) that contains several smaller [meal component objects](#meal-component-objects). Meal objects define the components included in a meal, as well the limits of the numbers and sizes of the meal components.
+This file contains a list of all the items on the Putnam Diner menu that you can [order](POST-order-meal.md) using the app. Each menu item is represented in the API by a [meal object](#meal-objects) that contains several smaller [meal component objects](#meal-component-objects). Meal objects define the components included in a meal, as well the limits of the numbers and sizes of the meal components.
 
 >Note<br>
->The POC version of the app only supports the `burgerMeal` meal object.
+>Currently, the API only supports the `burgerMeal` meal object.
 
 ## Meal Objects
 

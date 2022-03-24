@@ -2,7 +2,7 @@
 
 Method | syntax
 ----- | ----------
-GET | https://api.putnamdiner.com/bill
+GET | /bill
 
 
 ## Description
@@ -10,7 +10,7 @@ GET | https://api.putnamdiner.com/bill
 Receives a table number and returns that table's bill including a list of all items ordered. 
 
 > **Note**  
-> The app closes any orders associated with a table after generating a bill.
+> The API closes any orders associated with a table after generating a bill.
 
 ### Query Parameters
 
@@ -44,7 +44,6 @@ Code | Meaning
 -----| -------
 200  | OK: The request succeeded. The response body contains the requested table's bill.
 404  | Not Found: Either the table number doesn't exist, or the requested table doesn't have an open order.
-500  | Error: Internal server error
 
 ## Examples
 

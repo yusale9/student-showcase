@@ -2,7 +2,7 @@
 
 Method | syntax
 ----- | ----------
-POST | https://api.putnamdiner.com/order
+POST | /order
 
 
 ## Description
@@ -13,7 +13,7 @@ Creates an order and associates it with a table. See the [menu items list](menu-
 Name | type | Req. | Description
 ---- | ----- | ----- | --------------------
 menuType | string | Y |  The menu used for the order. <br>Options: `"breakfast"`,`"lunch"`, `"dinner"`
-tableNumber | int  | Y | The table to associated with the order. Takeaway orders are table `99`.
+tableNumber | int  | Y | The table to associate with the order. Takeaway orders are table `99`.
 menuItems | Array\<meal\>| Y | An array of the `meal` objects included in the order. 
 
 ### Response
@@ -30,8 +30,6 @@ orderNumber | int | The order number associated with a newly created order.
 Code | Meaning
 -----| -------
 200  | OK: The order request succeeded. The response body contains the order number associated with the order.
-400  | Bad Request: The order request isn't formatted properly.
-500  | Error: Internal server error
 
 
 ## Examples

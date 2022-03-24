@@ -1,13 +1,30 @@
-# ACME Putnam Diner App (POC)
+# General Putnam Motel Diner: Orders API
 
-The Putman Diner app allows customers at the diner to place orders from touch screens. The app receives order requests and generates bills for tables. Requests use HTTP and follow RESTful architecture. Eventually, Putnam wants to build a mobile app so that customers can order via table-side tablets.
+The Orders API allows you to place orders with the kitchen and retrieve a bill based on the orders currently open at a table.
 
-The POC version of the app needs to define two endpoints, one for [placing orders](POST-order-meal.md), and another for [generating a bill](GET-bill.md). This version only allows ordering burger meals on the lunch menu. The object structure to use for menu items when placing orders is in the [menu items list](menu-items.md).
+## Base URL
+
+`https://api.gpmdiner.com`
+
+## Endpoints
+The API includes the following endpoints:
+
+Name | Description
+---- | -----------
+[GET /bill](GET-bill.md) | Retrieves a table's bill.
+[POST /order](POST-order-meal.md) | Creates an order and associates it with a table.
+
+## General Response Codes
+
+The API returns the following general response codes. The endpoint descriptions list case-specifc responses.
+
+Code | Description
+---- | -----------
+400  | Bad Request: The request to the server was improperly formatted.
+500  | Internal Server Error: An unexpected server error occured.
 
 
-## Workflow for Frontend
-
-The UI design for the app should follow this flow:
+## API  Workflow
 
 ```mermaid
 flowchart TD
