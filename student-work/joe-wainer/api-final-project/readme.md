@@ -37,26 +37,24 @@ The General Putnam Motel Diner follows HTTP status codes for success or failure.
       C-->D[Choose weight];
       D-->E[Choose pattyCook];
       E-->F[Choose bunType];
-      F-->G[Condiment 1];
-      G-->H[Condiment 2];
-      H-->I[Topping 1];
-      I-->J[Topping 2];
-      J-->K[Topping 3];
-      K-->L[Topping 4];
-      L-->M{Want side dish?}
-      M-->Yes-->N[Choose sides type];
+      F-->G{Want condiments?};
+      G--Yes-->H[Choose condiments];
+      G--No-->J{Want toppings?};
+      H-->J;
+      J--Yes-->K[Choose toppings];
+      J--No-->L{Want side dish?};
+      K-->L;
+      L--Yes-->N[Choose sides type];
       N-->O[Choose sides size];
       O-->P;
-      M--No-->P{Want drink?};
+      L--No-->P{Want drink?};
       P--Yes-->Q[Choose drink];
       P--No-->S;
       Q-->R[Choose drink size];
       R-->S[Order complete - sent to kitchen];
 ```
 
-```jsx
-
-```
-
 ## References 
 [The Good Docs Project](https://github.com/thegooddocsproject)
+[Alex Fidler](https://www.linkedin.com/in/alexfiedler)
+[Mermaid Project](https://github.com/mermaid-js/mermaid)
