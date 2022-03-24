@@ -30,8 +30,6 @@ orderNumber | int | The order number associated with a newly created order.
 Code | Meaning
 -----| -------
 200  | OK: The order request succeeded. The response body contains the order number associated with the order.
-400  | Bad Request: The order request isn't formatted properly.
-500  | Error: Internal server error
 
 
 ## Examples
