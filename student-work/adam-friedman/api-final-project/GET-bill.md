@@ -44,7 +44,6 @@ Code | Meaning
 -----| -------
 200  | OK: The request succeeded. The response body contains the requested table's bill.
 404  | Not Found: Either the table number doesn't exist, or the requested table doesn't have an open order.
-500  | Error: Internal server error
 
 ## Examples
 
