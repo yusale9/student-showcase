@@ -3,8 +3,8 @@
 My name is Laura Novich and I teach Advanced Technical Communication at Our Best Words. 
 This repository was created to showcase our student's work with GitHub.
 
-* Each assignment is explained in the `student-assignments` directory.
-* Each student's work is in the `student-work` directory.
+* Each assignment is explained in the [student-assignments](https://github.com/Laura-Novich-OBW/student-showcase/tree/main/student-assignments) directory.
+* Each student's work is in the [student-work](https://github.com/Laura-Novich-OBW/student-showcase/tree/main/student-work) directory.
 
 Feel free to browse and look at their work! Even better, contact me at lauran@ourbestwords.com for student information or information about the courses available at [Our Best Words](https://ourbestwords.com/).
 
