@@ -10,7 +10,8 @@ Feel free to browse and look at their work! Even better, contact me at lauran@ou
 
 Featured students include:
 
-* [Adam Friedmann](#/student-work/adam-friedmann/readme.md)
+
+* [Adam Friedmann](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/adam-friedman/)
 * [Chana Willinger](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/chana-willinger/)
 * [Felice Berk](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/felice-berk/)
 * [Joe Wainer](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/joe-wainer/)
@@ -18,3 +19,8 @@ Featured students include:
 * [Miriam Rosenberg](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/miriam-rosenberg/)
 * [Orit Itsik](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/orit-itsik/)
 
+Featured Projects include:
+
+* [A Tech Comm Glossary of Terminology](https://github.com/Laura-Novich-OBW/glossary/blob/main/README.md)
+* [Technical Communication Resource List](https://github.com/Laura-Novich-OBW/resource-list/blob/main/README.md)
+* Final project documenting an API &mdash; located in each student's folder
