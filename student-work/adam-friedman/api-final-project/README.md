@@ -50,6 +50,6 @@ K --> N(Submit order);
 
 ## References
 I based this project on one designed by [Alex Fiedler](https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/).
-
+The diagram used in this API is from [Mermaid](https://mermaid-js.github.io/mermaid/#/)
 The API references in this project use 
 [the template](https://github.com/thegooddocsproject/templates/blob/master/api-reference/api-reference.md) from The Good Docs project. 
