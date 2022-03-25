@@ -9,7 +9,7 @@ Item1 | string | Y |  Describes the customer's order
 Item2 | int  | N | Provides customer's order number and time of order
 
 ## Code Samples
-
+```JSON
 "orderNum":123,
 
    "timestamp":"2020-01-21T07:44:45-05:00",
