@@ -56,5 +56,5 @@ The General Putnam Motel Diner follows HTTP status codes for success or failure.
 
 ## References 
 * [The Good Docs Project](https://github.com/thegooddocsproject)
-[Alex Fidler](https://www.linkedin.com/in/alexfiedler)
+* [Alex Fidler](https://www.linkedin.com/in/alexfiedler)
 [Mermaid Project](https://github.com/mermaid-js/mermaid)
