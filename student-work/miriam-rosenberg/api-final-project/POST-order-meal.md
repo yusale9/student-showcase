@@ -1,6 +1,6 @@
 # POST/lunch
 
-The POST request is created when a confirmed burger meal order comes in. Current `"mealType"` is limited to lunch only for POC purposes and will be developed to include additional menu items. The burger meal JSON object is included in the below code snippet. 
+The POST request is sent when an order is submitted. Current `"mealType"` is limited to lunch only for POC purposes and will be developed to include additional menu items. The burger meal JSON object is included in the below code snippet. 
 
 ```
 curl -H "Content-Type: application/json" -X POST -d'{
