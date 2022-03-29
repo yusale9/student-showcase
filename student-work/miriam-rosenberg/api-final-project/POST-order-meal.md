@@ -60,7 +60,7 @@ For the purpose of this POC the `"mealType"` is `"lunch"`, and the `"mealCat"` i
 | pattyType       | string      | "beef"	               |   Y      | Type of patty. | "beef", "lamb", "chickenBreast", "fish", and "bean"|
 | pattyQty        | int         | 1	                     |   Y      |Number of patties in the burger. Additional patties are at an extra cost. | 1, 2, and 3 |
 | pattyWeightG    | int         | 100	                   |   Y      |Patty weight in grams. The price increases with weight.|100, 170, and 250|
-| pattyCook       | string      | "MR"                   |   Y      |The way a patty is cooked.| "MR" medium-rare, "M" medium, "MW" medium-well, "WD" well-done. **Note:** chicken breast, fish and bean patty can only have "WD" well-done option.|
+| pattyCook       | string      | "MR"                   |   Y      |The way a patty is cooked.| "MR" medium-rare, "M" medium, "MW" medium-well, "WD" well-done. **Note:** chicken breast, fish and bean patty only have "WD" well-done option.|
 | bunType         | string      | "wholeWheat"	         |   Y      |Bun type to go with the burger.|"White", "wholeWheat", "Rye", "glutenFree", "None".|
 | condiment1	| string 	| "ketchup"                |Y | Choice of 1st condiments (max 2 condiments)|  "mayo", "veganMayo","BBQ", "ketchup", "secretSauce". "none"|
 | condiment2      | string      | "secretSauce"               |   Y      |Choice of the 2nd condiment (max 2 condiments)|  "mayo", "veganMayo","BBQ", "ketchup", "secretSauce". "none"|
