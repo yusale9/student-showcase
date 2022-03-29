@@ -40,7 +40,7 @@ curl -H "Content-Type: application/json" -X POST -d'{
 
 ## Code snippet explanation
 
-The lunch burger meal consists of burger, bun, condiment, topping, side, and drink.
+The lunch burger meal consists of a burger, with a bun, condiments, and toppings, sides, and a drink.
 The take out orders are ordered on table `99` to differetciate them from eat-in customers. 
 For the purpose of this POC the `"mealType"` is `"lunch"`, and the `"mealCat"` is `"burgerMeal"`. In the future, there will be variable values for breakfast and dinner, and for other type of meals.
 
