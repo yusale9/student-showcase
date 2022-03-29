@@ -1,0 +1,66 @@
+# POST Reference Guide
+The JSON code documents the request being sent to the kitchen.  Once the request is completed, the order is printed in the kitchen for the chef to begin cooking.
+For POC purposes, the burder meal is being documented.
+More items will be expanded in the future.
+
+## Code Guide
+
+Name | type | Req. | Description
+---- | ----- | ----- | --------------------
+"mealType" | string | Y |  The type of meal being ordered. Example includes "mealType":"lunch."
+"mealCat": | string  | Y | Categorizes the meal being ordered.
+"main"| string  | Y | The main course for the meal. Example for POC is "burgerMeal."  
+burger | string  | Y | Burger type that is ordered. 
+pattyType | string  | Y | Type of patty being ordered. Example for POC is "beef."
+pattyQty | string/int  | Y | Amount of patties ordered. For this example, only 1 is ordered.
+pattyWeightG | string/int  | Y | Weight of the patty. Can be 300grams
+pattyCook | string  | Y | Describes how the customer wants their burger to be cooked, such as "MR" for medium rare.
+bunType | string  | Y | The type of bun ordered.  Examples include "wholeWheat" or "white."
+condiment1 | string  | Y | 1st condiment being ordered, such as "ketchup."
+condiment2| string  | Y | 2nd condiment being ordered, such as "secretSauce."
+topping1 | string  | Y | First topping being ordered, such as "lettuce."
+topping2| string  | Y | Second topping being ordered, such as "pickles."
+topping3 | string  | Y | Third topping being ordered.  If not topping is ordered, then "None" is selected.
+topping4 | string  | Y | Fourth topping being ordered. If not topping is ordered, then "None" is selected.
+side1 | string/int  | Y | First side being ordered.  Examples include "type":"frenchFries", or "size":"large" 
+side2 | string/int  | Y | Second side being ordered.  If a second side is not ordered, then "type":"none", or "size":"" will be inputed.
+drink | string/boolean  | Y | Type of drink being ordered. Examples include "type":"Coke", "size":"large", and "ice":true. 
+         
+
+## Code Samples
+```JSON
+curl -H "Content-Type: application/json" -X POST -d'{
+   "mealType":"lunch",
+   "mealCat":{
+      "main":"burgerMeal",
+      "burger":{
+         "pattyType":"beef",
+         "pattyQty":1,
+         "pattyWeightG":300,
+         "pattyCook":"MR",
+         "bunType":"wholeWheat",
+         "condiment1":"ketchup",
+         "condiment2":"secretSauce",
+         "topping1":"lettuce",
+         "topping2":"pickles",
+         "topping3":"None",
+         "topping4":"None",
+      },
+      "sides":{
+         "side1":{
+            "type":"frenchFries",
+            "size":"large"
+         },
+         "side2":{
+            "type":"none",
+            "size":""
+         }
+      },
+      "drink":{
+         "type":"Coke",
+         "size":"large",
+         "ice":true
+      }
+   }
+},
+http://URL/
