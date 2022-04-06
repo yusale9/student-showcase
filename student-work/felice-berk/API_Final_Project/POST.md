@@ -82,7 +82,7 @@ Beneath the code snippet is a table explaining the components of the POST.
 When a correct order is placed, the server replies to the app with an acknowledgment. 
 This is not displayed to the user.  
 
-```JSON
+```HTTP
 200 OK
 
 ```
