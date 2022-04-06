@@ -84,5 +84,4 @@ This is not displayed to the user.
 
 ```HTTP
 200 OK
-
 ```
