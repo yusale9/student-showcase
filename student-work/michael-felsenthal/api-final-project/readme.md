@@ -9,7 +9,6 @@ The owners of General Putnam Diner are creating an app for their customers to ma
 In the future, the owners would like to place the app on a tablet so customers can order from their seat. 
 
 
-
 The application will interface with the server side ordering system in the kitchen which prints out orders for the cooks. The API is the interface between the app and the server. 
 
 
