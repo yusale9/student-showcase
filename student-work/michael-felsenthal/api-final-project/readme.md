@@ -10,7 +10,6 @@ In the future, the owners would like to place the app on a tablet so customers c
 
 The application will interface with the server side ordering system in the kitchen which prints out orders for the cooks. The API is the interface between the app and the server. 
 
-
 The diner hired ACME APP company to provide them with this app. The developers have been assigned to provide a proof of concept and finished app. Once approved, the General Putnam Diner will sign off and become a customer.
 
 
