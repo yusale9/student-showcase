@@ -49,7 +49,6 @@ These are the resources for the General Putnam API:
 graph TD;
 
 A[Place order]-->B[select burger meal];
-
 B-->C[select patty type];
 
 C-->D[select bun type];
