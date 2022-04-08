@@ -77,3 +77,11 @@ Beneath the code snippet is a table explaining the components of the POST.
 | ice        	| string    	| "yes", "none"                                 	| Choice of adding ice to the drink. Choice of none means no ice.	|
 
 
+## POST Response Example 
+
+When a correct order is placed, the server replies to the app with an acknowledgment. 
+This is not displayed to the user.  
+
+```HTTP
+200 OK
+```
