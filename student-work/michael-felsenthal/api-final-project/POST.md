@@ -64,12 +64,10 @@ ice | boolean| Y | Indicates whether or not customer wants ice for their drink. 
          "ice":true
       }
    }
-}```
 
-```HTTP
-
-http://URL/```
+```
 
 # POST Response Example
-```HTTP
-200 OK```
+```none
+   200 OK
+```
