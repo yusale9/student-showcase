@@ -46,3 +46,5 @@ Responsibiliites include:
 
 #  Portfolio
 * [LinkedIn](https://www.linkedin.com/in/michael-w-felsenthal/) 
+* [API Documentation Sample](https://github.com/Laura-Novich-OBW/student-showcase/tree/main/student-work/michael-felsenthal/api-final-project) 
+* [Glossary of Technical Communication Technology](https://github.com/Laura-Novich-OBW/glossary/blob/main/Michael-T-Z.md) 
