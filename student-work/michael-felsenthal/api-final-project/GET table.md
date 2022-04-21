@@ -16,7 +16,8 @@ ItemOrdered | string | Item that was ordered
 ```HTTP
 
 "curl -X GET "http://URL/tableNo?id=99"```
-
+### Response
+```JSON
 {
 
    "orderNum":123,
