@@ -15,7 +15,7 @@ ItemOrdered | string | Item that was ordered
 ### GET Request
 ```HTTP
 
-"curl -X GET "http://URL/tableNo?id=99"
+"curl -X GET "http://URL/tableNo?id=99"```
 
 {
 
