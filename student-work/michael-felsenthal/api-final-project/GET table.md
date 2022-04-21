@@ -13,10 +13,13 @@ ItemOrdered | string | Item that was ordered
 
 ## Code Samples
 ### GET Request
-```HTTP
+```none
 
-"curl -X GET "http://URL/tableNo?id=99"```
+"curl -X GET "http://URL/tableNo?id=99"
+```
+
 ### Response
+
 ```JSON
 {
 
@@ -34,4 +37,4 @@ ItemOrdered | string | Item that was ordered
          "Cost":9.50
       }
    }
-}```
+```
