@@ -17,7 +17,7 @@ This is the call sent when a staff member wants to get the bill. The GET request
 | orderNum | integer | Unique number identifying the order. Take out orders are table 99. |
 | timestamp | string | Date and time of the order (UTC). |
 | Item | object | Object containing details of the meal. |
-| ItemOrdered | string | The requested order. Can be either “burgerMeal” or “salad”. |
+| ItemOrdered | string | The requested order. Can be either ``burgerMeal`` or ``salad``. |
 | cost | float | Price of each ordered meal. |
 
 ## Example
