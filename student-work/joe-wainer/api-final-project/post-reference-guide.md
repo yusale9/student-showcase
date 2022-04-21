@@ -74,6 +74,6 @@ POST is used to send commands to the server. The burger JSON object is included 
 
 ### Response
 
-```json
+```http
 200 OK
 ```
