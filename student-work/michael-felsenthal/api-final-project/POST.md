@@ -31,7 +31,7 @@ ice | boolean| Y | Indicates whether or not customer wants ice for their drink. 
 
 ## Code Samples
 ```JSON
-
+{
    "mealType":"lunch":[
    "mealCat" :{
       "main":"burgerMeal",
