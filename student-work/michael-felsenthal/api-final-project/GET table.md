@@ -12,7 +12,7 @@ timestamp | string/int | Time order was placed
 ItemOrdered | string | Item that was ordered 
 
 ## Code Samples
-```JSON
+```HTTP
 
 "curl -X GET "http://URL/tableNo?id=99"
 
