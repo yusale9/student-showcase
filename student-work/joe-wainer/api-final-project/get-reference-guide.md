@@ -24,7 +24,7 @@ This is the call sent when a staff member wants to get the bill. The GET request
 
 ### Request
 
-```json
+```http
 HTTP curl -X GET "http://URL/tableNo?id=99"
 ```
 
