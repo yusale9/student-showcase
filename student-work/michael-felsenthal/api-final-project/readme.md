@@ -34,7 +34,7 @@ These are the resources for the General Putnam API:
 
 
 
-* [GET Reference Guide](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/michael-felsenthal/api-final-project/GET%20table.md).
+* [GET Reference Guide](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/michael-felsenthal/api-final-project/GET%20table.md)
 
 * [Post Reference Guide](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/michael-felsenthal/api-final-project/POST.md).
 
