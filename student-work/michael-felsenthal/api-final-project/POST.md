@@ -71,4 +71,5 @@ ice | boolean| Y | Indicates whether or not customer wants ice for their drink. 
 http://URL/
 
 # POST Response Example
-200 OK
+```HTTP
+200 OK```
