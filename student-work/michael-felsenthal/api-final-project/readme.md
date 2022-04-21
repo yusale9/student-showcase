@@ -25,7 +25,7 @@ Code Type| Code Description
 200 OK | The order was placed successfully.
 401 Order Incomplete | A section of the order was not filled out. Examples can include not filling out "pattyType" or not checking a selection for "drink."
 405 Missing Information | The customer's contact information is missing. A cell phone number and email is required to complete an order. 
-
+500 Internal Server Error | Generic error message.     
 
 
 ## Resources
@@ -34,7 +34,7 @@ These are the resources for the General Putnam API:
 
 
 
-[GET Reference Guide](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/michael-felsenthal/api-final-project/GET%20table.md).
+* [GET Reference Guide](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/michael-felsenthal/api-final-project/GET%20table.md).
 
 * [Post Reference Guide](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/michael-felsenthal/api-final-project/POST.md).
 
@@ -46,34 +46,34 @@ These are the resources for the General Putnam API:
 
 graph TD;
 
-A[Place order]-->B[select burger meal];
-B-->C[select patty type];
+A[Place Order]-->B[Select burgerMeal];
+B-->C[Select pattyType];
 
-C-->D[select bun type];
+C-->D[Select bunType];
 
 D-->E[Toppings?];
 
-E--no-->G[Condiments?];
+E--No-->G[Condiments?];
 
-E--yes-->F[Select toppings];
+E--Yes-->F[Select Toppings];
 
 F-->G[Condiments?];
 
-G--no-->I[Drink?]
+G--No-->I[Drink?]
 
-G--yes-->H[Select condiments];
+G--Yes-->H[Select Condiments];
 
 H-->I[Drink?];
 
-I--no-->M[Proceed to checkout];
+I--No-->M[Proceed To Checkout];
 
-I--yes-->J[Select drink];
+I--Yes-->J[Select Drink];
 
 J-->K[Ice?];
 
-K--no-->M[Proceed to checkout];
+K--No-->M[Proceed To Checkout];
 
-K--yes-->L[Select Ice];
+K--Yes-->L[Select Ice];
 
 L-->M[Review Order];
 
@@ -83,15 +83,15 @@ M-->N[Checkout];
 
 ## References
 
-This project was based on one originally designed by [Alex Fiedler](https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/).
+* This project was based on one originally designed by [Alex Fiedler](https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/).
 
 
 
-The diagram used in this API comes from [Mermaid](https://mermaid-js.github.io/mermaid/#/).
+* The diagram used in this API comes from [Mermaid](https://mermaid-js.github.io/mermaid/#/).
 
 
 
-The template from this project comes from [the Good Docs Project](https://github.com/thegooddocsproject/templates/blob/master/api-reference/api-reference.md). 
+* The template from this project comes from [The Good Docs Project](https://github.com/thegooddocsproject/templates/blob/master/api-reference/api-reference.md). 
 
 
 
