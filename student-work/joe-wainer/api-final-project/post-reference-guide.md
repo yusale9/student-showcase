@@ -36,7 +36,7 @@ POST is used to send commands to the server. The burger JSON object is included 
 ### Request
 
 ```json
-curl -H "Content-Type: application/json" -X POST -d'{
+{
    "mealType":"lunch",
    "mealCat":{
       "main":"burgerMeal",
