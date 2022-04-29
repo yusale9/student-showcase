@@ -8,8 +8,8 @@ This API is already set up to be used for in-house orders. Below you will see a 
 
 ```mermaid
 flowchart TD
-    A[Burger Meal] --> B[burger type, weight, doneness];
-    B --> C[bun type];
+    A[Order a Burger Meal] --> B[Choose burger type, weight, doneness];
+    B --> C[Choose bun type];
     C --> D{Condiments?};
     D -- Yes --> E[Order condiments];
     E --> F{Toppings?};
@@ -19,13 +19,13 @@ flowchart TD
     F -- No --> H{Sides?};
     H -- Yes --> I[Order sides];
     I --> J{Drink?};
+    J -- No --> N[Send order to kitchen];
     H -- No --> J{Drink?};
-    J -- Yes --> K[Size?];
+    J -- Yes --> K[Choose size];
     K --> L{Ice?};
-    L -- Yes --> M[Order drinks];
-    J -- No --> N[send order to kitchen];
-    M --> N[send order to kitchen];
-    L -- No --> N[Send order to kitchen];
+    L -- Yes --> M[Order drink];
+    L -- No --> M[Order drink];
+    M --> N[Send order to kitchen];
 ```
 
 ### Additional Topics
@@ -36,8 +36,8 @@ flowchart TD
 
 ### Acknowledgements
 
-This exercise was borrowed and adapted from [Alex Fiedler](https://il.linkedin.com/in/alexfiedler?trk=public_post_share-update_actor-text).
+* This exercise was borrowed and adapted from [Alex Fiedler](https://il.linkedin.com/in/alexfiedler?trk=public_post_share-update_actor-text).
 
-Templates for API Reference were borrowed from [The Good Docs](https://github.com/thegooddocsproject/templates/edit/master/api-reference/api-reference.md).
+* Templates for API Reference were borrowed from [The Good Docs](https://github.com/thegooddocsproject/templates/edit/master/api-reference/api-reference.md).
 
-Markdown workflow diagram was borrowed and adapted from [Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/).
+* Markdown workflow diagram was borrowed and adapted from [Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/).
