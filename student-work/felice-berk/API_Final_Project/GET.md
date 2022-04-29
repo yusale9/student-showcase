@@ -35,7 +35,7 @@ The following table depicts the elements of the response for GET/tableNo.
 |------------	|-----------	|-------------------------------------------------------------------------------------------------	|
 | orderNum   	| Int  | Indicates what the specific order number is.                                                      |
 | timestamp  	| Timestamp 	| The timestamp shows the date and time the order was placed.                                       |
-| item``x``     | String    	| Indicates the item(s) ordered, beneath which can be seen what was ordered and the cost.           |
+| item     | String    	| Indicates the item(s) ordered, beneath which can be seen what was ordered and the cost.           |
 | type        | String      | Indicates what meal was specifically ordered.                                                     |
 | cost        | Float       | Indicates the price of the item that was ordered.
 
