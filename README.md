@@ -21,6 +21,6 @@ Featured students include:
 
 Featured Projects include:
 
-* [A Tech Comm Glossary of Terminology](https://github.com/Laura-Novich-OBW/glossary/blob/main/README.md)
-* [Technical Communication Resource List](https://github.com/Laura-Novich-OBW/resource-list/blob/main/README.md)
+* [A Tech Comm Glossary of Terminology](https://laura-novich-obw.github.io/glossary/)
+* [Technical Communication Resource List](https://laura-novich-obw.github.io/TC-Resource-List/)
 * Final project documenting an API &mdash; located in each student's folder
