@@ -51,30 +51,30 @@ Beneath the code snippet is a table explaining the components of the POST.
 
 | Object Name   | Data Type     | Values     | Description    |
 | ------------- | ------------- | ---------- | ------------- |
-| mealType      | string        | "lunch" (in the future will include other options) | The type of meal ordered. |
-| main          | string        | "burgerMeal" |Burger with bun, condiments/sauces, toppings, a choice of up to 2 sides, and a drink. |
-| pattyType     | string    	| "beef", "Angus" "ground turkey" "black bean" | Choice of different burger types including beef, Angus, ground turkey, black bean. |   
-| pattyQty      	| int       	| 1 or 2                            | The quantity of patties on the burger. Limit of 2. 	|
-| pattyWeightG  	| int       	| 160, 220, 330                         	| This indicates the weight of the patty in grams. The limit is 330 grams.             	|
-| pattyCook     	| string    	| "MR", "M", "MW" , "WD"                | The doneness of the patty. MR-medium rare, M-medium, MW-medium well, WD-well done.                    	|
-| bunType       	| string    	| "white", "wholeWheat", "glutenFree"               	| Choice of bun types including white, whole wheat, and gluten free.        	|
-| condiment(x) 	| string    	| "ketchup", "barbecueSauce", "spicyMayo", "none"  	| Choice of up to three condiments. A choice of none means no condiments.              	|
-| topping(x)   	| string    	| "lettuce", "tomato", "onion", "pickles", "none" 	| Choice of up to four toppings. A choice of none means no topping.                 	|
+| mealType      | string        | ``lunch`` (in the future will include other options) | The type of meal ordered. |
+| main          | string        | ``burgerMeal`` |Burger with bun, condiments/sauces, toppings, a choice of up to 2 sides, and a drink. |
+| pattyType     | string    	| ``beef``, ``Angus``, ``ground turkey``, ``black bean`` | Choice of different burger types including beef, Angus, ground turkey, black bean. |   
+| pattyQty      	| int       	| ``1``, ``2``                            | The quantity of patties on the burger. Limit of 2. 	|
+| pattyWeightG  	| int       	| ``160``, ``220``, ``330``                         	| This indicates the weight of the patty in grams. The limit is 330 grams.             	|
+| pattyCook     	| string    	| ``R`` (rare), ``MR`` (medium rare), ``M`` (medium), ``MW`` (medium well) , ``WD`` (well done)                | The doneness of the patty.                    	|
+| bunType       	| string    	| ``white``, ``wholeWheat``, ``glutenFree``               	| Choice of bun types including white, whole wheat, and gluten free.        	|
+| condiment 	| string    	| ``ketchup``, ``barbecueSauce``, ``spicyMayo``, ``none``  	| Choice of up to three condiments. A choice of none means no condiments.              	|
+| topping   	| string    	| ``lettuce``, ``tomato``, ``onion``, ``pickles``, ``none`` 	| Choice of up to four toppings. A choice of none means no topping.                 	|
 
 ### Sides
 
 | Object Name   | Data Type     | Values     | Description    |
 | ------------- | ------------- | ---------- | ------------- |
-| type       	| string    	| "frenchFries", "sweetPotatoFries", "onionRings", "none" 	| Choice of different sides. Limit of 2. A choice of none means no side.	|
-| size       	| string    	| "small", "medium", "large"                        	| Choice of portion size.            	|
+| type       	| string    	| ``frenchFries``, ``sweetPotatoFries``, ``onionRings``, ``none`` 	| Choice of different sides. Limit of 2. A choice of none means no side.	|
+| size       	| string    	| ``small``, ``medium``, ``large``                        	| Choice of portion size.            	|
 
 ### Drink
 
 | Object Name   | Data Type     | Values     | Description    |
 | ------------- | ------------- | ---------- | ------------- |
-| type       	| string    	| "Coke", "Zero", "Fanta", "Seltzer", "Water", "Iced Tea", "none" 	| Choice of drink type. Limit of 1. A choice of none means no drink.        	|
-| size       	| string    	| "small", "medium", "large"                    	| Choice of drink size.              	|
-| ice        	| string    	| "yes", "none"                                 	| Choice of adding ice to the drink. Choice of none means no ice.	|
+| type       	| string    	| ``Coke``, ``Zero``, ``Fanta``, ``Seltzer``, ``Water``, ``Iced Tea``, ``none`` 	| Choice of drink type. Limit of 1. A choice of none means no drink.        	|
+| size       	| string    	| ``small``, ``medium``, ``large``                    	| Choice of drink size.              	|
+| ice        	| string    	| ``yes``, ``none``                                 	| Choice of adding ice to the drink. Choice of none means no ice.	|
 
 
 ## POST Response Example 
