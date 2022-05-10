@@ -25,7 +25,7 @@ I am also skilled in MS Office Suite, G-Suite, Adobe Acrobat Reader, Canva, and 
 ##  Experience
 
 ## Yavneh Hebrew Academy:
-Synagogue Administrator
+Synagogue Administrator  
 **Dates Employed**: July 2021 &ndash; Present
 
 Responsibilities include: 
@@ -35,7 +35,7 @@ Responsibilities include:
 * Edit synagogue website weekly.   
 
 ## Holding Hands, Inc:
-Developmental Therapist
+Developmental Therapist  
 **Dates Employed**: November 2017 &ndash; Present
 
 Responsibiliites include: 
