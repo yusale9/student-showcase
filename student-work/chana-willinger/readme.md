@@ -13,7 +13,7 @@ Investor Services
 
 Powerlix Ltd - 2019-2021
 
-Copywriter, Content Writer, Customer Service 
+Copywriter, Content Writer, and Customer Service 
 
 * I built both the copywriting department and customer service department mostly from scratch. 
 * I created processes for copywriting, I created the copy, edited the copy, and renewed old copy.
