@@ -24,7 +24,7 @@ Altria Israel Ltd - 2014-2019
 
 Performance Coach - 2017-2019
 
-*  Ensure that consumer interactions are performed as needed, through QAs, pulling up reports, analyzing data and giving feedback.
+* Ensure that consumer interactions are performed as needed, through QAs, pulling up reports, analyzing data, and giving feedback.
 * Develop agent capabilities through ongoing coaching and effective feedback. This includes minimum of weekly coaching sessions, as well as ensuring the agents receive the proper training, sometimes giving the training myself. This is also done monthly, through assignments that I created for them. I also developed them towards their future career goals, by consulting with them and using different tools to train them.
 * Maintain documentation on agent performance.
 * Drive culture and help agents feel connected to the wider organization. Since the agents are remote, this was done through communication and inclusive programs.
