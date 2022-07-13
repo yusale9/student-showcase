@@ -16,7 +16,7 @@ Powerlix Ltd - 2019-2021
 Copywriter, Content Writer, Customer Service 
 
 * I built both the copywriting department and customer service department mostly from scratch. 
-* I created processes for copywriting, I created the copy, edited the copy and renewed old copy.
+* I created processes for copywriting, I created the copy, edited the copy, and renewed old copy.
 * I wrote listing pages on Amazon, slogans for products, brand slogans, the copy for the packaging and inserts, the user manuals, letters to Amazon for different types of requests, and templates for the cusomter service team, which includes both email templates and chat templates.
 * Regarding customer service, I created policies and processes, built new reporting systems, did AB testing, trained new employees, and responded to customer inquiries.
 
