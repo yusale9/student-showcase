@@ -37,7 +37,7 @@ Senior Customer Service Agent - 2014-2017
 * Spoke to customers on different channels, including phones, live chat, email and Social Media, to help them and solve their issues.
 * I handled live chat, in which I had to speak to multiple customers at once, quickly think of creative solutions that would appease the customer, while handling the documentation at the same time.
 * I was the head of Social Media, servicing multiple platforms at once.
-* Admin work – I created labels for returns, investigated on hold orders, handled fraud, compliance, unexpected returns, refunds. 
+* Admin work--I created labels for returns, investigated on hold orders, handled fraud, compliance, unexpected returns, and refunds. 
 
 ## Education
 
