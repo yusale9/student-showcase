@@ -43,7 +43,7 @@ Senior Customer Service Agent - 2014-2017
 
 Rutgers University-New Brunswick
 
-Bachelor of Arts - BA, English Language and Literature, General
+Bachelor of Arts--BA, English Language and Literature, General
 
 ## Skills
 
