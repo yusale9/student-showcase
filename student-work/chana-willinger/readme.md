@@ -29,7 +29,7 @@ Performance Coach - 2017-2019
 * Maintain documentation on agent performance.
 * Drive culture and help agents feel connected to the wider organization. Since the agents are remote, this was done through communication and inclusive programs.
 * Address or escalate agent concerns
-* Everything managerial – this includes time reports, vacation requests, disciplinary action, etc.
+* Everything managerial--this includes time reports, vacation requests, disciplinary action, etc.
 * Assisted in the onboarding process, checking writing samples and assessing skill levels.
 
 Senior Customer Service Agent - 2014-2017
