@@ -9,7 +9,7 @@ Apex Group Ltd - 2021-present
 
 Investor Services
 
-* I work with Israeli Hedge Funds, collecting and reviewing investor documents, processing them, creating and sending reports, and many other little tasks.
+* I work with Israeli Hedge Funds, collecting and reviewing investor documents, processing them, creating and sending reports, and many other tasks.
 
 Powerlix Ltd - 2019-2021
 
