@@ -31,14 +31,14 @@ This is the call sent when the patron wants to get their bill. The GET request i
 
 These are the items included.
 
-| orderNum    | int    | The order number              |
-|-------------|--------|-------------------------------|
+| orderNum    | int         | The order number              |
+|-------------|--------     |-------------------------------|
 | timestamp   | timestamp   | The time the order was placed |
-| Item1       | string | Describes the order placed    |
-| ItemOrdered | string | Descibes the type of meal     |
-| type        | string | Food type                     |
-| cost        | float    | Cost of food item             |
-| Item2       | string | Second food order placed      |
+| Item1       | string      | Describes the order placed    |
+| ItemOrdered | string      | Descibes the type of meal     |
+| type        | string      | Food type                     |
+| cost        | float       | Cost of food item             |
+| Item2       | string      | Second food order placed      |
 
 
 
