@@ -26,7 +26,7 @@ This is the call sent when the patron wants to get their bill. The GET request i
          "type":"salad",
          "Cost":9.50
       }
-   }
+   };
 ```
 
 These are the items included.
