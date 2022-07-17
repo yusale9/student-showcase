@@ -1,6 +1,6 @@
 ## GET/tableNo
 
-This is the call sent when the server wants to get the bill. The GET request includes the table number. Take out orders are table 99. When this is printed, the customer can pay the bill.
+This is the call sent when the patron wants to get their bill. The GET request includes the table number. Take out orders are table 99. When this is printed, the customer can pay the bill.
 
 ## Code Example
 
