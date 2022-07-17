@@ -4,7 +4,8 @@ This is the call sent when the server wants to get the bill. The GET request inc
 
 ## Code Example
 
-curl -X GET "http://URL/tableNo?id=99"
+```curl
+      curl -X GET "http://URL/tableNo?id=99"
 
 
 ## Response Example 
