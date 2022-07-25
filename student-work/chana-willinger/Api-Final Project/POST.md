@@ -2,7 +2,7 @@ POST/lunch
 
 This is a post order for lunch, to send to the kitchen. When an OK response is received, the order is printed in the kitchen so the cook can start cooking.
 
-**Example Response
+**Example Response**
 
 ```curl 
 
