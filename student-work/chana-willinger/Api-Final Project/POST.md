@@ -45,7 +45,7 @@ This is a post order for lunch, to send to the kitchen. When an OK response is r
 },
 http://URL/
 ```
-**BurgerMeal Guide
+**BurgerMeal Guide**
 
 | **Name**    | **Data Type** | **Value**                            | **Description**                                                                                           |
 |-------------|---------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------|
