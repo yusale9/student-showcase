@@ -1,14 +1,57 @@
-# Endpoint name
+# Get Bill Documentation
 
-Method | syntax
------ | ----------
-GET | base_url/endpoint/etc.
+## GET/tableNo
 
-<!-- Delete this comment after you have replaced the method and syntax above. -->
+This Get request is used to get the bill and includes the table number. 
+The order number is included in the response. Take out orders are table 99. 
+When this is printed, the customer can pay the bill. 
 
-## Description
+### Elements
 
-<!-- Enter a short description. What is it for, and what can it do? -->
+Elements of the GET Request:
+
+| Name      	| Data Type 	| Description                                        	|
+|------------	|-----------	|---------------------------------------------------	|
+| orderNum   	| Int         |Takeout order number                                 |
+| tableNo   	| Int         | Table number for takeout orders                     |
+| orderNum   	| Int         | Indicates what the specific order number is.        |
+| timestamp  	| Timestamp 	| Date and time of order.                             |
+| item        | String    	| Item in order                                       |
+| type        | String      | Meal type                                           |
+| cost        | Float       | Cost of item                                        |                                                                  
+
+
+### Request
+
+```http
+HTTP curl -X GET "http://URL/tableNo?id=99"
+```
+
+### response
+
+```json
+{
+   "orderNum":123,
+   "timestamp":"2020-01-21T07:44:45-05:00",
+   "Item1":{
+      "ItemOrdered":{
+         "type":"burgerMeal",
+         "Cost":10.99
+      }
+   },
+   "Item2":{
+      "ItemOrdered":{
+         "type":"salad",
+         "Cost":9.50
+      }
+   }
+}
+```
+
+
+
+
+
 
 Parameters
 
