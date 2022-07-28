@@ -34,30 +34,34 @@ Code | Description
 ```mermaid
   flowchart TD;
   
-      A[Place order]-->B(Choose patty type);
-      B-->C(Choose patty quantity);
-      C-->D(Choose patty weight);
-      D-->E(Choose patty cook);
-      E-->F(Choose bun type);
-      F-->G{Condiments?};
-      G--Yes-->H(Choose condiments);
-      G--No-->J{Toppings?};
-      H-->J;
-      J--Yes-->K(Choose toppings);
-      J--No-->L{Side dish?};
-      K-->L;
-      L--Yes-->N(Choose sides type);
-      N-->O(Choose sides size);
-      O-->P;
-      L--No-->P{Drink?};
-      P--Yes-->Q(Choose drink);
-      P--No-->U;
-      Q-->R(Choose drink size);
-      R-->S{Ice?}
-      S--Yes-->T(Ice)
-      S--No-->U[Order Completed]
-      T-->U;
-
+     A(Place order)-->B[Choose bun type];
+      B-->C[Choose patty type];
+      C-->D[Choose patty weight];
+      D-->E[Choose patty amount];
+      E-->F[Choose patty cook];
+      F-->G{Topping?};
+      G--Yes-->H[Choose topping];
+      H-->J{Another topping?}
+      J--yes-->G;
+      J--No-->K{Condiment?};
+      K--Yes-->L[Choose condiment];
+      L-->W{Another condiment?}
+      W--yes-->L;
+      W--no-->M;
+      K--No-->M{Side dish?};
+      M--Yes-->O[Choose side type];
+      O-->P[Choose side size];
+      P-->X{Another side?};
+      X--yes-->O;
+      X--no-->Q;
+      M--No-->Q{Drink?};
+      Q--Yes-->R[Choose drink];
+      Q--No-->V;
+      R-->S[Choose drink size];
+      S-->T{Ice?}
+      T--yes-->U[ice];
+      U-->V;        
+      T--no-->V(Order Completed);
 ```
 
 ## References 
