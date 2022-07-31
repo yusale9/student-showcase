@@ -39,7 +39,7 @@ Acknowledgments:
 This exercise was borrowed and adapted by Alex Fiedler.
 
 This exercise was borrowed and adapted by Good Docs Project Templates.
-
+## Additional Topics
 [Get request](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/chana-willinger/Api-Final%20Project/GET.md)
 
 [Post request](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/chana-willinger/Api-Final%20Project/POST.md)
