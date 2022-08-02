@@ -4,8 +4,8 @@
 
 The General Putnam Motel Diner API POC illustrates two of many basic functions required for the Diner's operations:
 
-* Takeout Order placement
-* Bill Processing
+* Takeout order placement
+* Bill processing
 
 The API POC will allow patrons to place a takeout order and get the bill. 
 
@@ -15,8 +15,8 @@ The API may be further developed to include features such digital orders for in-
 
 For details, refer to:
 
-- [Takeout Order Documentation](https://github.com/solidoc365/student-showcase/blob/main/student-work/solidoc/api-final-project/Post-Order)
-- [Bill Documentation](https://github.com/solidoc365/student-showcase/blob/main/student-work/solidoc/api-final-project/Get-Bill)
+- [Takeout Order Documentation](https://github.com/solidoc365/student-showcase/blob/main/student-work/solidoc/api-final-project/Post-Order.md)
+- [Bill Documentation](https://github.com/solidoc365/student-showcase/blob/main/student-work/solidoc/api-final-project/Get-Bill.md)
 
 ## General Response Codes
 
@@ -42,7 +42,7 @@ Code | Description
       F-->G{Topping?};
       G--Yes-->H[Choose topping];
       H-->J{Another topping?}
-      J--yes-->G;
+      J--yes-->H;
       J--No-->K{Condiment?};
       K--Yes-->L[Choose condiment];
       L-->W{Another condiment?}
@@ -57,7 +57,9 @@ Code | Description
       M--No-->Q{Drink?};
       Q--Yes-->R[Choose drink];
       Q--No-->V;
-      R-->S[Choose drink size];
+      R---Y{Is drink seltzer or beer?};
+      Y--no-->S[Choose drink size];
+      Y--yes-->V;
       S-->T{Ice?}
       T--yes-->U[ice];
       U-->V;        
@@ -65,8 +67,10 @@ Code | Description
 ```
 
 ## References 
-[The Good Docs Project](https://github.com/thegooddocsproject/templates)
+
+[Laura Novich, Instructor Extraordinaire at OBW](https://github.com/Laura-Novich-OBW)
 
 [Mermaid Live Editor](http://mermaid-js.github.io/mermaid/)
 
-[Laura Novich, Instructor Extraordinaire at OBW](https://github.com/Laura-Novich-OBW)
+[The Good Docs Project](https://github.com/thegooddocsproject/templates)
+
