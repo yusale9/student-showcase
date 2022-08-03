@@ -2,20 +2,24 @@
 
 ## Because communication is key.  
 
-Welcome to our page, and here's a brief introduction to the services we provide.
+Welcome to our page, and here's a brief introduction to some of the services we provide.
 
 <details>
 <summary> Technical Writing </summary>
 
-  Technical writing is a skill and an art that simplifies the complex.  
-
-  It is specialized communication geared toward letting your target audience reach their goal, and is crucial to almost every industry.  
+  Technical writing is a skill and an art that simplifies the complex. It is specialized communication geared toward letting your target audience reach their goal, and is crucial to almost every industry.  
   
   At Solidoc, we provide relevant, accurate, and useful documentation: 
 
   * IFU manuals, Learning & Training Guides
   
-  * Product documentation
+  * Product catalogs and documentation
+  
+  * Project documentation
+  
+  * Process flows
+  
+  * Release notes
   
   * Localization
   
@@ -23,13 +27,19 @@ Welcome to our page, and here's a brief introduction to the services we provide.
   
   * UX Design
   
-  * White Papers
-  
-  * Warning labels
+  * Process flows
+    
+  * Warning Labels
   
   * Proposals
     
   * Websites
+  
+  * Reference Guides
+  
+  * Instructions
+  
+  * FAQs (Frequently Asked Questions)
  
  </details>
   
@@ -45,7 +55,7 @@ Welcome to our page, and here's a brief introduction to the services we provide.
    
   * Documentation translated from other languages (ESL)
   
-  * Product catalogs  and documentation
+  * Product catalogs and documentation
   
   * Academic papers
   
@@ -64,15 +74,15 @@ Welcome to our page, and here's a brief introduction to the services we provide.
 <details>
 <summary>Marketing and Content Writing</summary>
 
-We make our marketing text compact, punchy and persuasive. It follows a personalized marketing strategy to let you focus on your target audience.
+We make our marketing text compact, punchy, and persuasive. It follows a personalized marketing strategy to let you focus on your target audience.
 
 Some products we offer are:
 
    * Websites
   
-  * Business Blogs
+  * Business Bblogs
   
-  * Brochures, Flyers, Exhibition Materials
+  * Brochures, flyers, and exhibition materials
   
   *  Advertisements (digital and print)
   
@@ -80,6 +90,6 @@ Some products we offer are:
   
   * eBooks and White Papers
   
-  * Social Media Pages
+  * Social mdia pages
         
 </details>       
