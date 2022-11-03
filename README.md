@@ -8,6 +8,13 @@ This repository was created to showcase our student's work with GitHub.
 
 Feel free to browse and look at their work! Even better, contact me at lauran@ourbestwords.com for student information or information about the courses available at [Our Best Words](https://ourbestwords.com/).
 
+## 2022 Class
+
+Featured students include:
+* [your name](link to your page)
+
+
+## 2021 Class
 Featured students include:
 
 
