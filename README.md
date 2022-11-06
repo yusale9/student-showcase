@@ -11,7 +11,7 @@ Feel free to browse and look at their work! Even better, contact me at lauran@ou
 ## 2022 Class
 
 Featured students include:
-* [your name](link to your page)
+* [Jonathan Kemp]([link to your page](https://github.com/Jay-Tee-Kemp/jonathan-kemp/blob/main/README.md))
 
 
 ## 2021 Class
