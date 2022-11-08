@@ -11,7 +11,8 @@ Feel free to browse and look at their work! Even better, contact me at lauran@ou
 ## 2022 Class
 
 Featured students include:
-* [your name](link to your page)
+* [Amichai Klipstein](https://github.com/Laura-Novich-OBW/student-showcase/tree/main/student-work/2022/Amichai-Klipstein)
+* [Andrea Parkins](https://github.com/Laura-Novich-OBW/student-showcase/tree/main/student-work/2022/Andrea-Parkins)
 
 
 ## 2021 Class
