@@ -11,8 +11,10 @@ Feel free to browse and look at their work! Even better, contact me at lauran@ou
 ## 2022 Class
 
 Featured students include:
+
 * [Amichai Klipstein](https://github.com/Laura-Novich-OBW/student-showcase/tree/main/student-work/2022/Amichai-Klipstein)
 * [Andrea Parkins](https://github.com/Laura-Novich-OBW/student-showcase/tree/main/student-work/2022/Andrea-Parkins)
+* [Jonathan Kemp](https://github.com/Jay-Tee-Kemp/jonathan-kemp/blob/main/README.md)
 
 
 ## 2021 Class
