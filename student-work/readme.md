@@ -9,8 +9,8 @@ Featured students include:
 
 
 # 2021 Class
-Featured students include:
 
+Featured students include:
 
 * [Adam Friedmann](student-work/2021/adam-friedman/)
 * [Chana Willinger](student-work/2021/chana-willinger/)
