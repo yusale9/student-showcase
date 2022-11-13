@@ -14,21 +14,22 @@ Featured students include:
 
 * [Amichai Klipstein](student-work/2022/Amichai-Klipstein/)
 * [Andrea Parkins](student-work/2022/Andrea-Parkins/)
-* [Jonathan Kemp](https://github.com/Jay-Tee-Kemp/jonathan-kemp/blob/main/README.md)
+* [Debbie Markowitz](student-work/2022/Debbie-Markowitz)
+* [Jonathan Kemp](/student-work/2022/Jonathan-Kemp/)
 
 
 ## 2021 Class
 Featured students include:
 
 
-* [Adam Friedmann](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/adam-friedman/)
-* [Chana Willinger](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/chana-willinger/)
-* [Felice Berk](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/felice-berk/)
-* [Joe Wainer](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/joe-wainer/)
-* [Michael Felsenthal](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/michael-felsenthal/)
-* [Miriam Rosenberg](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/miriam-rosenberg/)
-* [Orit Itsik](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/orit-itsik/)
-* [Solidoc365](https://github.com/Laura-Novich-OBW/student-showcase/tree/main/student-work/solidoc)
+* [Adam Friedmann](student-work/2021/adam-friedman/)
+* [Chana Willinger](student-work/2021/chana-willinger/)
+* [Felice Berk](student-work/2021/felice-berk/)
+* [Joe Wainer](student-work/2021/joe-wainer/)
+* [Michael Felsenthal](student-work/2021/michael-felsenthal/)
+* [Miriam Rosenberg](student-work/2021/miriam-rosenberg/)
+* [Orit Itsik](student-work/2021/orit-itsik/)
+* [Solidoc365](student-work/2021/solidoc)
 
 Featured Projects include:
 
