@@ -1,4 +1,6 @@
-# 2022 Class
+# Featured Students
+
+## 2022 Class
 
 Featured students include:
 
@@ -8,7 +10,7 @@ Featured students include:
 * [Jonathan Kemp](2022/Jonathan-Kemp/)
 
 
-# 2021 Class
+## 2021 Class
 
 Featured students include:
 
