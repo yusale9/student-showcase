@@ -12,7 +12,7 @@ Feel free to browse and look at their work! Even better, contact me at lauran@ou
 
 Featured students include:
 
-* [Amichai Klipstein](https://github.com/Laura-Novich-OBW/student-showcase/tree/main/student-work/2022/Amichai-Klipstein)
+* [Amichai Klipstein](student-work/2022/Amichai-Klipstein/ReadMe.md)
 * [Andrea Parkins](https://github.com/Laura-Novich-OBW/student-showcase/tree/main/student-work/2022/Andrea-Parkins)
 * [Jonathan Kemp](https://github.com/Jay-Tee-Kemp/jonathan-kemp/blob/main/README.md)
 
