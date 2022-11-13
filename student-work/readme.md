@@ -2,21 +2,21 @@
 
 Featured students include:
 
-* [Amichai Klipstein](student-work/2022/Amichai-Klipstein/)
-* [Andrea Parkins](student-work/2022/Andrea-Parkins/)
-* [Debbie Markowitz](student-work/2022/Debbie-Markowitz)
-* [Jonathan Kemp](/student-work/2022/Jonathan-Kemp/)
+* [Amichai Klipstein](2022/Amichai-Klipstein/)
+* [Andrea Parkins](2022/Andrea-Parkins/)
+* [Debbie Markowitz](2022/Debbie-Markowitz)
+* [Jonathan Kemp](2022/Jonathan-Kemp/)
 
 
 # 2021 Class
 
 Featured students include:
 
-* [Adam Friedmann](student-work/2021/adam-friedman/)
-* [Chana Willinger](student-work/2021/chana-willinger/)
-* [Felice Berk](student-work/2021/felice-berk/)
-* [Joe Wainer](student-work/2021/joe-wainer/)
-* [Michael Felsenthal](student-work/2021/michael-felsenthal/)
-* [Miriam Rosenberg](student-work/2021/miriam-rosenberg/)
-* [Orit Itsik](student-work/2021/orit-itsik/)
-* [Solidoc365](student-work/2021/solidoc)
+* [Adam Friedmann](2021/adam-friedman/)
+* [Chana Willinger](2021/chana-willinger/)
+* [Felice Berk](2021/felice-berk/)
+* [Joe Wainer](2021/joe-wainer/)
+* [Michael Felsenthal](2021/michael-felsenthal/)
+* [Miriam Rosenberg](2021/miriam-rosenberg/)
+* [Orit Itsik](2021/orit-itsik/)
+* [Solidoc365](2021/solidoc)
