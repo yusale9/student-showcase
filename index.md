@@ -11,6 +11,6 @@ Feel free to browse and look at their work! Even better, contact me at lauran@ou
 
 Featured Projects include:
 
-* [A Tech Comm Glossary of Terminology](https://laura-novich-obw.github.io/glossary/)
-* [Technical Communication Resource List](https://laura-novich-obw.github.io/TC-Resource-List/)
+* [A Tech Comm Glossary of Terminology](https://laura-novich-obw.github.io/glossary/readme.md)
+* [Technical Communication Resource List](https://laura-novich-obw.github.io/TC-Resource-List/readme.md)
 * Final project documenting an API &mdash; located in each student's folder
