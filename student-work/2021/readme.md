@@ -3,6 +3,8 @@
 Featured students include:
 
 * [Adam Friedmann](adam-friedman/)
+  * [Introduction](adam-friedman/readme.md)
+  * [API Documentation Project](adam-friedman/api-final-project/README.md)
 * [Chana Willinger](chana-willinger/)
 * [Felice Berk](felice-berk/)
 * [Joe Wainer](joe-wainer/)
