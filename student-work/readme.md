@@ -13,7 +13,9 @@ Featured students include:
 * [Jonathan Kemp](2022/Jonathan-Kemp/)
 * [Liat Regev](2022/Liat-Regev/)
 * [Mindy Steen](2022/Mindy-Steen/)
-* [Rachel Goldstuck](2022/Rachel-Goldstuck)
+* [Rachel Goldstuck](2022/Rachel-Goldstuck/)
+* [Rosalina Djedjo](2022/Rosalina-Djedjo/)
+* [Yael Lachman](2022/Yael-Lachman/)
 
 ## 2021 Class
 
