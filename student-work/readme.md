@@ -6,9 +6,14 @@ Featured students include:
 
 * [Amichai Klipstein](2022/Amichai-Klipstein/)
 * [Andrea Parkins](2022/Andrea-Parkins/)
-* [Debbie Markowitz](2022/Debbie-Markowitz)
+* [Debbie Markowitz](2022/Debbie-Markowitz/)
+* [Doron Lieman](2022/Doron-Liema/n)
+* [Eitan Gavson](2022/Eitan-Gavson/)
+* [Jason Rosenberg](2022/Jason-Rosenberg/)
 * [Jonathan Kemp](2022/Jonathan-Kemp/)
-
+* [Liat Regev](2022/Liat-Regev/)
+* [Mindy Steen](2022/Mindy-Steen/)
+* [Rachel Goldstuck](2022/Rachel-Goldstuck)
 
 ## 2021 Class
 
