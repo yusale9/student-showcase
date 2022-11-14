@@ -9,6 +9,8 @@ Featured students include:
   * [Introduction](chana-willinger/readme.md)
   * [API Documentation Project](chana-willinger/Api-Final-Project/ReadMe.md)
 * [Felice Berk](felice-berk/)
+  * [Introduction](felice-berk/readme.md)
+  * [API Documentation Project](felice-berk/API_Final_Project/README.md)
 * [Joe Wainer](joe-wainer/)
 * [Michael Felsenthal](michael-felsenthal/)
 * [Miriam Rosenberg](miriam-rosenberg/)
