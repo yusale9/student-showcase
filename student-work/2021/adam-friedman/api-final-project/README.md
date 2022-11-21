@@ -28,7 +28,6 @@ Code | Description
 
 ```mermaid
 flowchart TD;
-
 A(Begin order) --> B[Select burger meal];
 B --> C[Select patty details:<br> type, weight, cook, quantity];
 C --> D[Select bun type];
