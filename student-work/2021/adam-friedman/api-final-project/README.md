@@ -27,7 +27,7 @@ Code | Description
 ## API  Workflow
 
 ```mermaid
-flowchart TD
+flowchart TD;
 
 A(Begin order) --> B[Select burger meal];
 B --> C[Select patty details:<br> type, weight, cook, quantity];
