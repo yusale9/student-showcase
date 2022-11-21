@@ -7,7 +7,7 @@ Future plans include adding breakfast, dinner, and meals other than a burger mea
 This API is already set up to be used for in-house orders. Below you will see a workflow chart of the API.
 
 ```mermaid
-flowchart TD
+flowchart TD;
     A[Order a Burger Meal] --> B[Choose burger type, weight, doneness];
     B --> C[Choose bun type];
     C --> D{Condiments?};
