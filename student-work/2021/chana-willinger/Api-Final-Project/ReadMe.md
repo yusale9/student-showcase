@@ -3,7 +3,7 @@
 The owners of General Putnam Motel Diner are creating an app for patrons to use to order take-out. In the future, they want to add the app to tablets, so patrons can order from their seats in the restaurant. I am creating a hamburger API, so that the developers can create a POC. At this time, it is only for lunch orders, but in the future, it will be expanded to other meals as well, such as dinner, breakfast, and events. 
 
 ```mermaid
-flowchart TD
+flowchart TD;
     A[Order Burger Meal] --> B(Choose patty type);
     B --> C[Choose patty quantity and weight];
     C --> D(Choose patty cook and bun type);
