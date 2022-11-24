@@ -39,7 +39,7 @@ BA
 Volunteering
 Wise
 Volunteer Judge for research paper competition
-April 2015 - Present
+April 2015 &ndash; Present
 Students from participating NYC high schools generate research-based proposals to improve the quality of life in their communities or a report on their implemented community project. Volunteer Judges read and evaluate student proposals. All students who complete a proposal receive certificates signed by the mayor and are eligible to compete for college scholarship money.Students from participating NYC high schools generate research-based proposals to improve the quality of life in their communities or a report on their implemented community project. Volunteer Judges read and evaluate student proposals. All students who complete a proposal receive certificates signed by the mayor and are eligible to compete for college scholarship money.…see more
 
 Matav
