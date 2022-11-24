@@ -7,7 +7,7 @@ Self-directed, collaborative, and energetic Technical Communicator with solid un
 
 ### Work Experience ###
 **AI Infrastructure Consultant**  Aug 2021 &ndash; Aug 2022 
-#### Run:AI ·Tel Aviv, Israel ####
+*Run:AI ·Tel Aviv, Israel*
 Run:AI helps organizations streamline and speed up the delivery of AI capabilities through elastic compute infrastructure management and distributed computing.
 
 
