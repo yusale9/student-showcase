@@ -25,7 +25,7 @@ United States
 National Human Resources Manager (Outlets)
 Jun 2011 &ndash;  Jun 2012
 Regional Human Resources Manager
-Jun 2009 - Jun 2011
+Jun 2009 &ndash;  Jun 2011
 
 Education
 
