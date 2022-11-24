@@ -17,7 +17,7 @@ Jan 2019 - Aug 2021
 
 Regional Human Resources Manager
 SEPHORA
-Aug 2015 - Dec 2018 ·
+Aug 2015 - Dec 2018
 United States
 
 PACSUN
