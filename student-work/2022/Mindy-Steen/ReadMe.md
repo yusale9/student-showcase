@@ -44,5 +44,5 @@ Students from participating NYC high schools generate research-based proposals t
 
 Matav
 Coordinator for Volunteers
-Aug 2019 - Jul 2020
+Aug 2019 &ndash; Jul 2020
 Social Services
