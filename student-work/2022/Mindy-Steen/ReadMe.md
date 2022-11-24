@@ -6,7 +6,7 @@ Self-directed, collaborative, and energetic Technical Communicator with solid un
 #### [http://www.linkedin.com/in/mindysteen](http://www.linkedin.com/in/mindysteen)[mindys360@gmail.com] 053-232-0545 ####
 
 ### Work Experience ###
-#### _AI Infrastructure Consultant_  Aug 2021 - Aug 2022 ####
+**AI Infrastructure Consultant**  Aug 2021 &ndash; Aug 2022 
 #### Run:AI ·Tel Aviv, Israel ####
 Run:AI helps organizations streamline and speed up the delivery of AI capabilities through elastic compute infrastructure management and distributed computing.
 
