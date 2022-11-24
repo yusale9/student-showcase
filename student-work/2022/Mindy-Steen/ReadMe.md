@@ -1,6 +1,7 @@
 # Mindy Steen, MBA #
 ## Technical Writer ##
-### Self-directed, collaborative, and energetic Technical Communicator with solid understanding of the way enterprise, B2B SaaS businesses operate. Self disciplined focused, results-driven individual who stays current with industry changes through networking and ongoing professional development. Highly motivated to contribute to your documentation team and to create content that customers love. ###
+### Objective ###
+Self-directed, collaborative, and energetic Technical Communicator with solid understanding of the way enterprise, B2B SaaS businesses operate. Self disciplined focused, results-driven individual who stays current with industry changes through networking and ongoing professional development. Highly motivated to contribute to your documentation team and to create content that customers love. 
 
 #### [http://www.linkedin.com/in/mindysteen](http://www.linkedin.com/in/mindysteen)[mindys360@gmail.com] 053-232-0545 ####
 
