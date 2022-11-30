@@ -36,8 +36,8 @@ are three qualities that describe my approach to new opportunities.
 * Provided information about customers' parcels
 * Promoted company's products and services
 # Education
-**Technical Communication**, Our Best Words (OBW) Mar 2022–Nov 2022
-**International Relations**, University of Évora Sep 2013–Jun 2016 | Évora, Portugal
+**Technical Communication**, [Our Best Words](https://ourbestwords.com/) | Mar 2022–Nov 2022  
+**International Relations**, University of Évora | Sep 2013–Jun 2016 
 # Skills
 * Microsoft Office
 * Editing
@@ -53,5 +53,5 @@ are three qualities that describe my approach to new opportunities.
 * Portuguese-based Creole
 * Spanish
 # Certificates
-Certified Technical Communication Professional
-ITCQF - International Technical Communication Qualifications Foundation
+[ITCQF - International Technical Communication Qualifications Foundation](https://itcqf.org/)
+* Certified Technical Communication Professional  
