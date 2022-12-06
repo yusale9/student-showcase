@@ -46,9 +46,33 @@ I am an accomplished Communications practitioner who loves all writing; copywrit
   Achievements: Successfully established the brand of Swazi Candles in South Africa
   Landed BMW as a client for Swazi Candles 
   Skills: Training & Development · Business Strategy · Business Development · Employee Training · Employee Learning & Development · Marketing
-  · Marketing   Strategy
+  · Marketing Strategy
+# Education
+* UNISA-University of South Africa/Universiteit van Suid-Afrika 
+  Masters degree in Psychology
+
+* UNISA University of South Africa/Universiteit van Suid-Afrika
+  Honours in Psychology
+
+* UNISA University of South Africa/Universiteit van Suid-Afrika
+  BA Communications/ Sociology
+
+* University of Cape Town 
+  Certification in Executive & Management Coaching 
+
+* State University of New York, Empire State College-Jerusalem, Israel
+   Visual Arts
+
+* PRISA Public Relations Institute of South Africa
+  Public Relations
+
+* ORT Jerusalem, Israel
+  Interior Design
   
-* Volunteering & Professional: Israel Advocacy
+* Hebrew University of Jerusalem, Israel
+  Mechina program
+
+# Volunteering & Professional: Israel Advocacy
   
   NGO – EMET South Africa
   2000-2003
