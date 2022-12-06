@@ -72,8 +72,8 @@ I am an accomplished Communications practitioner who loves all writing; copywrit
 * Hebrew University of Jerusalem, Israel
   Mechina program
 
-# Volunteering & Professional: Israel Advocacy
-  
+# Volunteering & Professional
+ 
   NGO – EMET South Africa
   2000-2003
   Middle East Researcher/Analyst, Editor and Writer 
