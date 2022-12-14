@@ -32,7 +32,8 @@ Rachel emigrated to Israel in Novemeber 2021 and decided to retrain as a technic
 ### Macmillan South Africa | February 2007 – May 2016
 
 - Developing, commissioning and project managing authors and stakeholders in the development of Southern African textbooks for Grade 1-12.
-- Successfully achieved the target of having multiple textbooks listed on the National Catalogue. Project management of the conversion of all textbooks in the Educational Catalogue into digital formats for different portals of learning.
+- Successfully achieved the target of having multiple textbooks listed on the National Catalogue.
+  Project management of the conversion of all textbooks in the Educational Catalogue into digital formats for different portals of learning.
 - Developing, commissioning, and project managing additional eLearning support materials and strategic eLearning products for learners.
 
 # EDUCATION
