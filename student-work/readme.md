@@ -6,7 +6,7 @@ Featured students include:
 
 * [Amichai Klipstein](2022/Amichai-Klipstein/)
 * [Andrea Parkins](2022/Andrea-Parkins/)
-* [Debbie Markowitz](2022/Debbie-Markowitz/)
+* [Debbie Mankowitz](2022/Debbie-Mankowitz/)
 * [Doron Lieman](2022/Doron-Liema/n)
 * [Eitan Gavson](2022/Eitan-Gavson/)
 * [Jason Rosenberg](2022/Jason-Rosenberg/)
