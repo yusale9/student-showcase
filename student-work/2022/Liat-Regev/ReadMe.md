@@ -60,9 +60,8 @@ BA, Linguistics and English Literature (with distinction)
 2002 - 2005
 
 ### Certifications
-ITCQF Certified Technical Communications Foundation  
-[ITCQF](https://itcqf.org) - International Technical Communication Qualifications Foundation  
-2022 
+[ITCQF](https://itcqf.org) - Certified Technical Communications Professional  
+Issued Oct 2022 
 
 ## Volunteering
 **BGU Radio**  
