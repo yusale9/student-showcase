@@ -7,7 +7,14 @@ Self-directed, collaborative, and energetic Technical Communicator with solid un
 [LinkedIn](https://www.linkedin.com/in/mindysteen360/) | [Email](mindys360@gmail.com)
 
 ## Skills ##
-Github | Markdown | HTML | CSS | Wix | Microsoft Office 
+* Github
+* Markdown
+* HTML
+* CSS
+* KBs
+* APIs
+* Wix
+* Microsoft Office 
 
 
 ## Work Experience ##
