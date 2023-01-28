@@ -13,4 +13,4 @@ I live in Northern Israel, in Nahariya by the coast.  I enjoy cycling, and you c
 
 Please find my portfolio here: https://jtkemp70.wixsite.com/jonathan-kemp-writer
 
-See a diagram I created in mermaid [here](diagram.md)
+See a diagram I created in mermaid [here](diagram.md).
