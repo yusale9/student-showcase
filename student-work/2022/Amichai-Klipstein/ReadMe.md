@@ -50,5 +50,5 @@ Technical Communicator and Content Writer
 - **Computer Skills** MadCap Flare, Trello, Wix, WordPress, GitHub
 
 # Certificates and Awards
-- •	ITCQF ([itcqf.org](https://itcqf.org)) Certified Technical Communication Professional Foundation Level Certification (2022)
+- ITCQF ([itcqf.org](https://itcqf.org)) Certified Technical Communication Professional Foundation Level Certification (2022)
 - IDF Company Active Duty Award (2021)
