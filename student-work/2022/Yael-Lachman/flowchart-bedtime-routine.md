@@ -16,6 +16,5 @@
   I--No-->K[Put clothes in washing machine]
   K-->J
   J-->L[Brush teeth]
-  K-->L
   L-->M[Shema]
   M-->N(End)
