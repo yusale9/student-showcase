@@ -17,4 +17,4 @@
   K-->J
   J-->L[Brush teeth]
   L-->M[Shema]
-  M-->N(End)
+  M-->N((End))
