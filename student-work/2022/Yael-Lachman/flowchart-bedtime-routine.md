@@ -14,6 +14,7 @@
   H-->I{Do they have clothes for tomorrow?}
   I--Yes-->J[Lay out tomorrow's clothes]
   I--No-->K[Put clothes in washing machine]
+  K-->J
   J-->L[Brush teeth]
   K-->L
   L-->M[Shema]
