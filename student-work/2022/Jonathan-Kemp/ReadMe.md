@@ -12,3 +12,5 @@ I am currently taking a Technical Communication and Marketing Communication foun
 I live in Northern Israel, in Nahariya by the coast.  I enjoy cycling, and you can often find me on my bike somewhere along this coast.
 
 Please find my portfolio here: https://jtkemp70.wixsite.com/jonathan-kemp-writer
+
+See a diagram I created in mermaid [here](diagram.md)
