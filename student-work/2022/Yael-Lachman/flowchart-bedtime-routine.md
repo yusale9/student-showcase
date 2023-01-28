@@ -1,7 +1,7 @@
 ### Putting kids to bed
 ```mermaid
   graph TD;
-  A(Start)-->B[Eat supper]
+  A((Start))-->B[Eat supper]
   B-->C{Are they hungry?}
   C--Yes-->B
   C--No-->D{Do they have homework?}
