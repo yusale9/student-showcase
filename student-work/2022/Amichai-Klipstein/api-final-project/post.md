@@ -15,17 +15,10 @@
 
 This POST request is for ordering a burger meal out of the meal categories. 
 
-### burgerMeal 
-Each burger meal consists of the burger, side dishes, and a drink.
-Name | Type | Req. | Description | Default Option | Available Options
----- | ----- | ----- | ----------|----------------|-------------------
-burger | string | Y | the burger you ordered
-sides | string | Y|  the side dishes you ordered 
-drink | string | Y | the drink you ordered
+## burgerMeal 
+ach burger meal consists of the burger, side dishes, and a drink.
 
- 
-
-#### burger   
+### burger   
 Each burger includes a patty, a bun, condiments, toppings, and specials. A customer can order up to 3 condiments, 3 toppings, and 2 specials.
 Name | Type | Req. | Description | Default Option | Available Options
 -----|------|------|-------------|----------------|------------------
@@ -43,7 +36,7 @@ topping3 | string | N | the third topping | none |
 specials1 | string | Y | the first special topping | none | <ul><li>none</li><li>finelyChoppedAsado</li><li>portobelloMushrooms</li><li>cornedBeef</li><li>avocado></li></ul>
 specials2 | string | N | the second special topping | none
 
-#### sides
+### sides
 A customer can order up to two side dishes per burgerMeal. 
 Name | Type | Req. | Description 
 -----|------|------|--------------
@@ -56,7 +49,7 @@ Name | Type | Req. | Description | Default Option | Available Options
 type| string |Y | the type of side dish | none | <ul><li>none</li><li>frenchFries</li><li>israeliSalad</li><li>caesarSalad</li><li>shukSalad</li><li>chickenNuggets</li><li>chickenWings</li></ul>
 size| string | Y | the size of the side dish | medium (N/A if "type" is "none") | <ul><li>small</li><li>medium</li><li>large</li></ul>
 
-#### drinks
+### drinks
 Each drink requires a type, size, and ice.
 Name | Type | Req. | Description | Default Option | Available Options
 -----|------|------|-------------|----------------|------------------
