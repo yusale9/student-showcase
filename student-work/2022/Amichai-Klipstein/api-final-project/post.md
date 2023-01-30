@@ -15,7 +15,7 @@
 
 This POST request is for ordering a burger meal out of the meal categories. 
 
-## burgerMeal 
+### burgerMeal 
 ach burger meal consists of the burger, side dishes, and a drink.
 
 ### burger   
