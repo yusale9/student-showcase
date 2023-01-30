@@ -12,7 +12,7 @@ I am an accomplished Communications practitioner who loves all writing, copywrit
 
 # Work Experience
 ***Media Concept-it*** (Owner · Sep 2009 - Present)
-* Communications Specialist** 
+* Communications Specialist
 * Content 
 * Copywriting
 * Editing 
