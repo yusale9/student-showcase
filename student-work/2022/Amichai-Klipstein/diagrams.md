@@ -1,11 +1,12 @@
 # Turkish Coffee  
 ```mermaid
   graph TD;
-      A(Start)-->B[Boil water ];
-      A-->C[Add two teaspoons of coffee to a glass cup];
-      B-->D[/Add the boiling water/];
-      C-->D;
-      D-->E[Mix with a teaspoon];
-      E-->F[Drink the coffee];
-      F-->G(End);
+      A(Start)-->B(Is the water boiling?);  
+      B-Yes->C[Add two teaspoons of coffee to a glass cup];
+      B-No->D[Boil water];
+      D-->B;
+      C-->E[Add boiling water];
+      E-->F[Mix with a teaspoon];
+      F--G[Drink the coffee];
+      G-->H(End);
 ```
