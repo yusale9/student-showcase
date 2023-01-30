@@ -2,7 +2,7 @@
 
 Method | syntax
 ----- | ----------
-GET | base_url/endpoint/etc.
+GET | http://URL/tableNo?id
 
 ## Description
 
@@ -21,7 +21,9 @@ timeStamp | datetime  | Y | time and date of the order
 item| string |
 
 #### Items
-Each ordered item adds a new parameter. The items are numbered according to their place in the order. For example: item1 first, then item2 etc. Each item includes the type of the item and time and date of the order.  
+Each ordered item adds a new parameter. The items are numbered according  
+to their place in the order. For example: item1 first, then item2 etc. Each item  
+ includes the type of the item and time and date of the order.  
 **Note:** All prices are in USD.
 Name | Type | Req.  | Description 
 -----|------|-------|-------------
@@ -33,11 +35,9 @@ cost | string | Y | the total price of the meal
 
 ### Request
 
-```JSON
+```CURL
 curl -X GET "http://URL/tableNo?id=99"
 ```
-
-<!-- Follow with comments to explain what each part of the request is doing -->
 
 ### Response
 
