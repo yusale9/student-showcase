@@ -18,15 +18,17 @@ This flowchart represents the procedure of ordering a burger at the diner:
       F--No-->H[select drink type and size];
       G-->H;
       H-->I{Ice?};
-      I--Yes-->J[/confirm order/];
+      I--Yes-->J[/confirm item/];
       I--No-->J;
       J-->K[/application adds table number, time and date stamp\];
       K-->L[/application adds price of the item\];
       J-->M{do you want add anything else?};
       M--Yes-->C;
-      M--No-->N[pay bill];
-      L-->N;
-      N-->O(end);
+      M--No-->N[/confirm order/];
+      L-->M;
+      N-->O[pay bill];
+      O-->P[eat burger];
+      P-->Q(end);
       
 ```
 ## Credits:
