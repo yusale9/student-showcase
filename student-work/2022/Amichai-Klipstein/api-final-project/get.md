@@ -5,8 +5,7 @@ Method | syntax
 GET | http://URL/tableNo?id
 
 ## Description
-
-Use this GET request to get the data for the bill.
+The cashier uses this GET request to retrieve data for billing.
 
 ### Request Parameters
 Each order is calculated per table. Takeaways are table "99".
@@ -18,9 +17,8 @@ Name | Type | Req. | Description
 ---- | ----- | ----- | --------------------
 orderNum | int | Y |  number of the order
 timeStamp | datetime  | Y | time and date of the order
-item| string |
 
-#### Items
+#### JSON Object: Items
 Each ordered item adds a new parameter. The items are numbered according  
 to their place in the order. For example: item1 first, then item2 etc. Each item  
  includes the type of the item and time and date of the order.  
