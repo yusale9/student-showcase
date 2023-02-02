@@ -1,7 +1,7 @@
 # Turkish Coffee  
 ```mermaid
   graph TD;
-      A(Start)-->B(Is the water boiling?);  
+      A(Start)-->B{Is the water boiling?};  
       B--Yes-->C[Add two teaspoons of coffee to a glass cup];
       B--No-->D[Boil water];
       D-->B;
