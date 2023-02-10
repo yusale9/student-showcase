@@ -17,3 +17,13 @@ C-->G
 E[160g]
 F[200g]
 G[300g]
+F-->H
+H[How do I want it cooked?]
+H-->I
+H-->J
+H-->K
+H-->L
+I[Rare]
+J[Medium rare]
+K[Medium]
+L[Well done]
