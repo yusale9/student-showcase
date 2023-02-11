@@ -45,3 +45,29 @@ R-->U
 S[Lettuce]
 T[Tomato]
 U[Pickle]
+S-->V
+T-->V
+U-->V
+V{{Do you want a side?}}
+V--Yes-->X
+V--No-->AH
+X[What side do I want?]
+X-->Z
+X-->AA
+X-->AB
+Z[Fries]
+AA[Curly fries]
+AB[Sweet potato fries]
+AB-->AC
+AC{{Do I want a drink?}}
+AC--Yes-->AD
+AC--No-->AH
+AD[What drink do I want?]
+AD-->AE
+AD-->AF
+AD-->AG
+AE[Cola]
+AF[Lemonade]
+AG[Root beer]
+AF-->AH
+AH[Pay]
