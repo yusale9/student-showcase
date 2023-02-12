@@ -170,14 +170,15 @@ The [{authorization method}](#authorization) is required for each API request.
 ```
 {Provide an example of the API request, filled with sample values.}
 ```
+```
 curl -X GET http://URL/tableNo?id=99
 {
    "orderNum":123,
-   "timestamp":"2020-01-21T07:44:45-05:00",
+   "timestamp":"2023-02-12T07:44:45-05:00",
    "Item1":{
   	"ItemOrdered":{
-     	"type":"burgerMeal",
-     	"Cost":10.99
+     	"type":"burger",
+     	"Cost":49.50
   	}
    },
    "Item2":{
