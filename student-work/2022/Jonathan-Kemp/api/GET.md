@@ -28,33 +28,6 @@ Authentication and authorization {is | is not} required for requests to these AP
 
 {Provide the version number using semantic versioning or your product's API versioning scheme. For example: `0.0.1`}
 
-### Pagination
-
-{This section is optional.}
-
-Due to the potentially very large result sets from API calls, responses {are | can be} returned as shorter pages.
-
-Pagination can be customized using {pagination settings}. If not specified, the default values are {values}.
-
-### Rate limiting and throttling
-
-{This section is optional.}
-
-The {product} APIs use a {strategy-name} rate limiting strategy. The maximum number of requests allowed to access a {resource | endpoint |..} is {number} requests per {time period}.
-
-### HTTP status codes
-
-The {product} APIs use the following standard HTTP response codes:
-
-| Status code | Message           | Description   |
-|-------------|-------------------|---------------|
-| `200 OK`    | Request succeeds. | {description} |
-|             |                   |               |
-|             |                   |               |
-
-### Errors
-
-{This section is optional.}
 
 The {product} APIs use the following error types:
 
