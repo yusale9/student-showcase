@@ -170,6 +170,24 @@ The [{authorization method}](#authorization) is required for each API request.
 ```
 {Provide an example of the API request, filled with sample values.}
 ```
+curl -X GET http://URL/tableNo?id=99
+{
+   "orderNum":123,
+   "timestamp":"2020-01-21T07:44:45-05:00",
+   "Item1":{
+  	"ItemOrdered":{
+     	"type":"burgerMeal",
+     	"Cost":10.99
+  	}
+   },
+   "Item2":{
+  	"ItemOrdered":{
+     	"type":"salad",
+     	"Cost":9.50
+  	}
+
+
+
 
 ### Response schema
 
@@ -184,4 +202,38 @@ The [{authorization method}](#authorization) is required for each API request.
 {Provide an example of the API response, filled with sample values.}
 ```
 ```
-curl -X GET http://URL/tableNo?id=99
+curl -H "Content-Type: application/json" -X POST -d'
+{
+	"mealType": "lunch",
+	"mealCat": "burgerMeal",
+	  "burger": {
+		"pattyType": "beef",
+		"pattyQty": 1,
+		"pattyWeightG": 300,
+		"pattyCook": "MR",
+		"bunType": "wholeWheat",
+		"condiment1": "ketchup",
+		"condiment2": "secretSauce",
+		"topping1": "lettuce",
+		"topping2": "pickles",
+		"topping3": "onion"
+	},
+	"sides": {
+		"side1": {
+			"type": "frenchFries",
+			"size": "large"
+		},
+		"side2": {
+			"type": "none",
+			"size": ""
+		}
+	},
+	"drink": {
+		"type": "Coke",
+		"size": "large",
+		"ice": true
+    }
+
+}
+
+   }
