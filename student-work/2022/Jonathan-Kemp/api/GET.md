@@ -10,7 +10,7 @@ Use the {product} APIs to {access | customize | program} the {features | functio
 ### Base URL
 
 ```
-{(https://api.example.com](https://github.com/jonathan-t-kemp/student-showcase/tree/main/student-work/2022/Jonathan-Kemp/api)}
+{(https://github.com/jonathan-t-kemp/student-showcase/tree/main/student-work/2022/Jonathan-Kemp/api)}
 ```
 
 ### Authorization
