@@ -10,7 +10,7 @@ Use the {product} APIs to {access | customize | program} the {features | functio
 ### Base URL
 
 ```
-{Provide the base URL of the API. For example: https://api.example.com}
+{(https://api.example.com](https://github.com/jonathan-t-kemp/student-showcase/tree/main/student-work/2022/Jonathan-Kemp/api)}
 ```
 
 ### Authorization
