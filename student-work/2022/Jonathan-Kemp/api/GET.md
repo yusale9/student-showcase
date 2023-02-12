@@ -70,7 +70,7 @@ Use the following endpoints to interact with the {resource name} entities.
 | Method | Endpoint name                            | Description             |
 |--------|------------------------------------------|-------------------------|
 | POST   | {[Endpoint name A](#link_to_endpoint_a)} | Creates a {resource}.   |
-| GET    | {[Endpoint name B](#link_to_endpoint_b)} | Retrieves a {resource}. |
+| GET    | {[Menu](https://github.com/jonathan-t-kemp/student-showcase/blob/main/student-work/2022/Jonathan-Kemp/api/GET.md)} | Retrieves a {resource}. |
 |        |                                          |                         |
 
 
