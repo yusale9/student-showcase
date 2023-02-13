@@ -8,9 +8,16 @@
 | {Medium patty}   | 30 |  Required  |  {Medium beef patty.} |
 | {Small patty}   | 25 |  Required  |  {Small beef patty.} |
 | {Seeded bun}   | 10 |  Required  |  {Seeded bun.} |
-| {Regular bun}   |  |  Required  |  {Regular bun.} |
-| {Chiabatta bun}   |  |  Required  |  {Chiabatta bun.} |
-| {Gluten free bun}   |  |  Required  |  {Gluten free bun.} |
+| {Regular bun}   | 8 |  Required  |  {Regular bun.} |
+| {Chiabatta bun}   | 12 |  Required  |  {Chiabatta bun.} |
+| {Gluten free bun}   | 10 |  Required  |  {Gluten free bun.} |
+| {Lettuce}   | 9 |  Required  |  {Lettuce filling.} |
+| {Tomato}   | 9 |  Required  |  {Tomato filling.} |
+| {Pickle}   | 9 |  Required  |  {Pickle filling.} |
+| {Fries}   | 25 |  Required  |  {Fries side.} |
+| {Curly fries}   | 25 |  Required  |  {Curly fries side.} |
+| {Sweet potato fries}   | 25 |  Required  |  {Sweet potato fries side.} |
+
         
 
 ### Request example
