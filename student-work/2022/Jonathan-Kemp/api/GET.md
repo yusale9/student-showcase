@@ -147,9 +147,10 @@ curl -X GET http://URL/tableNo?id=99
    },
    "Item2":{
   	"ItemOrdered":{
-     	"type":"salad",
-     	"Cost":9.50
+     	"type":"side",
+     	"Cost":25.00
   	}
+   }
 
 
 
