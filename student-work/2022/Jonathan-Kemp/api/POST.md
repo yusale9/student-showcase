@@ -1,10 +1,3 @@
-### Response schema
-
-| Status code | Schema                                  | Description          |
-|-------------|-----------------------------------------|----------------------|
-| `2xx`       | [{ExampleDataType}](#data-model)        | {Describe the result where the request succeeds.} |
-| `4xx`       | [{ExampleErrorType}](#exampleerrortype) | {Describe the result where the request fails with the specified error code.} |
-
 ### Response example
 
 ```
@@ -23,11 +16,11 @@ curl -H "Content-Type: application/json" -X POST -d'
 		"bunType": "seeded",		
 		"topping1": "lettuce",
 		"topping2": "pickles",
-		"topping3": "onion"
+		"topping3": "tomato"
 	},
 	"sides": {
 		"side1": {
-			"type": "frenchFries",
+			"type": "sweetPotatoFries",
 			"size": "large"
 		},
 		"side2": {
@@ -36,7 +29,7 @@ curl -H "Content-Type: application/json" -X POST -d'
 		}
 	},
 	"drink": {
-		"type": "Coke",
+		"type": "Lemonade",
 		"size": "large",
 		"ice": true
     }
