@@ -1,12 +1,3 @@
-
-# API Reference
-
-{Before using this template, read [the accompanying guide](api-reference-guide.md) to this template}.
-
-## Overview
-
-Use the {product} APIs to {access | customize | program} the {features | functionality}.
-
 ### Base URL
 
 ```
@@ -183,18 +174,16 @@ curl -H "Content-Type: application/json" -X POST -d'
 	  "burger": {
 		"pattyType": "beef",
 		"pattyQty": 1,
-		"pattyWeightG": 300,
+		"pattyWeightG": 200,
 		"pattyCook": "MR",
-		"bunType": "wholeWheat",
-		"condiment1": "ketchup",
-		"condiment2": "secretSauce",
+		"bunType": "seeded",		
 		"topping1": "lettuce",
 		"topping2": "pickles",
-		"topping3": "onion"
+		"topping3": "tomato"
 	},
 	"sides": {
 		"side1": {
-			"type": "frenchFries",
+			"type": "sweePotatoFries",
 			"size": "large"
 		},
 		"side2": {
