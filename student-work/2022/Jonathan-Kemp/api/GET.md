@@ -17,7 +17,9 @@
 | {Fries}   | 25 |  Required  |  {Fries side.} |
 | {Curly fries}   | 25 |  Required  |  {Curly fries side.} |
 | {Sweet potato fries}   | 25 |  Required  |  {Sweet potato fries side.} |
-
+| {Cola}   | 25 |  Required  |  {Cola drink.} |
+| {Lemonade}   | 25 |  Required  |  {Lemonade drink.} |
+| {Root beer}   | 25 |  Required  |  {Root beer drink.} |
         
 
 ### Request example
