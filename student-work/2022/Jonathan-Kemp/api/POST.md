@@ -1,3 +1,13 @@
+## POST Order meal
+Sends your meal order.
+### Response schema
+
+| Argument | Type    | Description                  |
+|-----------|--------|------------------------------|
+| meal_type     | string | The meal you ordered  |
+| mealCat   | string | Type of meal ordered.               |
+|           |        |                              |
+
 ### Response example
 
 ```
