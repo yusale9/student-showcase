@@ -1,25 +1,43 @@
+# API for the General Putnam Motel Diner
 
+
+#### ExampleErrorType
+
+| Status          | Type     | Code Description                                      |
+|----------------|----------|--------------------------------------------------|
+| 200 - OK    | string  | Order is correct. |
+| 400 - Bad Request | string | Meal ordered is incorrect |
+
+## GET Retrieve the currently available meal 
+Retrieves the meal that is available at the current time. 
+## GET /meal 
+Arguments (Query Parameters) 
+There are no arguments. 
 
 #### Header parameters
 
 | Parameter name | Data type   | Required? | Description                          |
 |------------------|--------|-----------|--------------------------------------|
-| {Large patty}   | 40 | Required  | {Large beef patty.} |
-| {Medium patty}   | 30 |  Required  |  {Medium beef patty.} |
-| {Small patty}   | 25 |  Required  |  {Small beef patty.} |
-| {Seeded bun}   | 10 |  Required  |  {Seeded bun.} |
-| {Regular bun}   | 8 |  Required  |  {Regular bun.} |
-| {Chiabatta bun}   | 12 |  Required  |  {Chiabatta bun.} |
-| {Gluten free bun}   | 10 |  Required  |  {Gluten free bun.} |
-| {Lettuce}   | 9 |  Required  |  {Lettuce filling.} |
-| {Tomato}   | 9 |  Required  |  {Tomato filling.} |
-| {Pickle}   | 9 |  Required  |  {Pickle filling.} |
-| {Fries}   | 25 |  Required  |  {Fries side.} |
-| {Curly fries}   | 25 |  Required  |  {Curly fries side.} |
-| {Sweet potato fries}   | 25 |  Required  |  {Sweet potato fries side.} |
-| {Cola}   | 25 |  Required  |  {Cola drink.} |
-| {Lemonade}   | 25 |  Required  |  {Lemonade drink.} |
-| {Root beer}   | 25 |  Required  |  {Root beer drink.} |
+| largePatty | string | Required  | Large beef patty. |
+| mediumPatty | string |  Required  | Medium beef patty.|
+| smallPatty | string |  Required  |  Small beef patty. |
+| r | string |  Required  |  Cooked rare. |
+| mr | string |  Required  |  Cooked medium rare. |
+| m | string |  Required  |  Cooked medium. |
+| wd | string |  Required  |  Cooked well done. |
+| seedBun | string |  Required  |  Seeded bun. |
+| regularBun  | string |  Required  |  Regular bun. |
+| chiabattaBun | string |  Required  | Chiabatta bun. |
+| glutenFreeBun | string |  Required  |  {Gluten free bun.} |
+| filling1| string |  Required  | Lettuce filling. |
+| filling2 | string |  Required  | Tomato filling. |
+| filling3 | string |  Required  |  Pickle filling. |
+| fries | string |  Required  |  Fries side. |
+| curlyFries | string |  Required  | Curly fries side. |
+| sweetPotatoFries  | string |  Required  |  Sweet potato fries side. |
+| cola  | string |  Required  | Cola drink. |
+| lemonade  | string |  Required  |  Lemonade drink. |
+| rootBeer | string |  Required  |  Root beer drink. |
         
 
 ### Request example
@@ -34,13 +52,18 @@ curl -X GET http://URL/tableNo?id=99
    "timestamp":"2023-02-12T07:44:45-05:00",
    "Item1":{
   	"ItemOrdered":{
-     	"type":"burger",
+     	"type":"mediumPatty",
+        "type":"seedBun",
+        "type":"mr",
+        "type":"filling1",
+        "type":"filling2",
+        "type":"filling3",
      	"Cost":49.50
   	}
    },
    "Item2":{
   	"ItemOrdered":{
-     	"type":"side",
+     	"type":"sweetPotatoFries",
      	"Cost":25.00
   	}
    }
