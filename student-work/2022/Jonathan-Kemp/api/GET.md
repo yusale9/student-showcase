@@ -28,7 +28,7 @@ There are no arguments.
 | seedBun | string |  Required  |  Seeded bun. |
 | regularBun  | string |  Required  |  Regular bun. |
 | chiabattaBun | string |  Required  | Chiabatta bun. |
-| glutenFreeBun | string |  Required  |  {Gluten free bun.} |
+| glutenFreeBun | string |  Required  | Gluten free bun. |
 | filling1| string |  Required  | Lettuce filling. |
 | filling2 | string |  Required  | Tomato filling. |
 | filling3 | string |  Required  |  Pickle filling. |
