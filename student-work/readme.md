@@ -5,7 +5,7 @@
 Featured students include:
 
 * [Amichai Klipstein](2022/Amichai-Klipstein/)
-  * [Introduction](2022/Amichai-Klipstein/readme.md)
+  * [Introduction](2022/Amichai-Klipstein/ReadMe.md)
   * [API Documentation Project](2022/Amichai-Klipstein/api-final-project/readme.md)
 * [Andrea Parkins](2022/Andrea-Parkins/)
 * [Debbie Mankowitz](2022/Debbie-Mankowitz/)
