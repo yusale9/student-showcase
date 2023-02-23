@@ -9,23 +9,22 @@ This flowchart represents the procedure of ordering a burger at the diner:
 
 ```mermaid
   flowchart TD;
-      A(start)-->B[select new order];
-      B-->C[select burger meal];
-      C-->D[choose patty, level of cooking, bun, condiments, toppings and specials]; 
-      D-->E[choose first dish type and size];
-      E-->F{do you want a second side dish?};
-      F--Yes-->G[choose a second dish type and size];
-      F--No-->H[select drink type and size];
+      A(start)-->B[Select new order];
+      B-->C[Select your meal];
+      C-->D[Choose patty, level of cooking, bun, condiments, toppings and specials]; 
+      D-->E[Choose first side dish type and size];
+      E-->F{Do you want a second side dish?};
+      F--Yes-->G[Choose a second dish type and size];
+      F--No-->H[Select drink type and size];
       G-->H;
-      H-->I{Ice?};
-      I--Yes-->J[/Application confirms item/];
-      I--No-->J;
-      J-->K[/application adds table number, time and date stamp/];
-      K-->L[/application adds price of the item/];
-      J-->M{do you want add anything else?};
+      H-->I{Do you want ice?};
+      I--Yes-->J[Add ice];
+      J-->K;
+      I--No-->K[/Add table number, time and date stamp to order/];
+      K-->L[/Adds price of the items to the order/];
+      L-->M{Do you want add anything else?};
       M--Yes-->C;
-      M--No-->N[/Application confirms order/];
-      L-->M;
+      M--No-->N[/Confirm order/];
       N-->O[pay bill];
       O-->P[eat burger];
       P-->Q(end);
