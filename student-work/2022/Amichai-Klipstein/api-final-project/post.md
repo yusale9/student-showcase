@@ -21,14 +21,14 @@ Each burger meal consists of the burger, side dishes, and a drink.
 ### burger   
 Each burger includes a patty, a bun, condiments, toppings, and specials. A customer can order up to 3 condiments, 3 toppings, and 2 specials.
 
-|     Name     |  Type    | Req.     | Description                    |   Default Option   |   Available Options                                                 |
-|--------------|----------|----------|--------------------------------|--------------------|---------------------------------------------------------------------|
-| pattyType    | string   | Y        | the patty you ordered          | beef               | beef, lamb, or vegan                                                |
-| pattyQty     | int      | Y        | the amount of patties per meal | 1                  | 1-3                                                                 |
-| pattyWeightG | int      | Y        | the size of the patty in grams | 220                | 220 or 400                                                          |
-| pattyCook    | string   | Y        | the level of cooking           | well               | rare, mR, medium, mW, wellDone                                      |
-| bunType      | string   | Y        | the bun type                   | plainBurgerBun     | none, ruralBurgerBun, plainBurgerBun, glutenFree, baguette,ciabetta |
-| condiment1   | string   | Y        | the first condiment            | none               | <ul><li>none</li><li>ketchup</li><li>chiliSauce</li><li>BBQSauce</li><li>hummus</li><li>tahini</li><li>mayonnaise</li><li>garlicMayonnaise</li><li>chipotleSauce</li><li>secretSauce</li><li>chimichuri</li><li>pesto</li><li>mustard</li><li>viniagrette</li></ul>|
+Name | Type | Req. | Description | Default Option | Available Options
+-----|------|------|-------------|----------------|------------------
+pattyType | string | Y | the patty you ordered | beef | <ul><li>beef</li><li>lamb</li><li>vegan</li></ul>
+pattyQty | int | Y | the amount of patties per meal | 1 |  1-3 |
+pattyWeightG | int | Y | the size of the patty in grams | 220 | <ul><li>220</li><li>440</li></ul> 
+pattyCook | string | Y | the level of cooking | well | <ul><li>rare</li><li>mR</li><li>medium</li><li>mW</li><li>well</li><li>wellDone</li></ul>
+bunType | string | Y | the bun type | plain burger bun | <ul><li>none</li><li>ruralBurgerBun</li><li>plainBurgerBun</li><li>glutenFree</li><li>baguette</li><li>ciabetta</li></ul>
+condiment1 | string | Y | the first condiment | none | <ul><li>none</li><li>ketchup</li><li>chiliSauce</li><li>BBQSauce</li><li>hummus</li><li>tahini</li><li>mayonnaise</li><li>garlicMayonnaise</li><li>chipotleSauce</li><li>secretSauce</li><li>chimichuri</li><li>pesto</li><li>mustard</li><li>viniagrette</li></ul>
 condiment2 | string | N | the second condiment | none |
 condiment3 | string | N | the third condiment | none |
 topping1 | string | Y | the first topping | none | <ul><li>none</li><li>lettuce</li><li>tomato</li><li>pickles</li><li>redOnion</li><li>jalapenoPeppers</li><li>friedOnion</li></ul>
