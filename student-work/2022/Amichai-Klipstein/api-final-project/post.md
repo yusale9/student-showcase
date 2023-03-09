@@ -26,6 +26,9 @@ pattyType | string | Y | the patty you ordered | beef | beef, lamb, or vegan
 pattyQty | int | Y | the amount of patties per meal | 1 |  1-3 |
 pattyWeightG | int | Y | the size of the patty in grams | 220 | 220 or 400 
 pattyCook | string | Y | the level of cooking | well | rare, mR, medium, mW, wellDone
+
+Name | Type | Req. | Description | Default Option | Available Options
+-----|------|------|-------------|----------------|------------------
 bunType | string | Y | the bun type | plain burger bun | <ul><li>none</li><li>ruralBurgerBun</li><li>plainBurgerBun</li><li>glutenFree</li><li>baguette</li><li>ciabetta</li></ul>
 condiment1 | string | Y | the first condiment | none | <ul><li>none</li><li>ketchup</li><li>chiliSauce</li><li>BBQSauce</li><li>hummus</li><li>tahini</li><li>mayonnaise</li><li>garlicMayonnaise</li><li>chipotleSauce</li><li>secretSauce</li><li>chimichuri</li><li>pesto</li><li>mustard</li><li>viniagrette</li></ul>
 condiment2 | string | N | the second condiment | none |
