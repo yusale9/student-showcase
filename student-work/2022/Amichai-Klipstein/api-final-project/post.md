@@ -20,12 +20,14 @@ ach burger meal consists of the burger, side dishes, and a drink.
 
 ### burger   
 Each burger includes a patty, a bun, condiments, toppings, and specials. A customer can order up to 3 condiments, 3 toppings, and 2 specials.
+
 Name | Type | Req. | Description | Default Option | Available Options
 -----|------|------|-------------|----------------|------------------
 pattyType | string | Y | the patty you ordered | beef | beef, lamb, or vegan
 pattyQty | int | Y | the amount of patties per meal | 1 |  1-3 |
 pattyWeightG | int | Y | the size of the patty in grams | 220 | 220 or 400 
 pattyCook | string | Y | the level of cooking | well | rare, mR, medium, mW, wellDone
+
 
 Name | Type | Req. | Description | Default Option | Available Options
 -----|------|------|-------------|----------------|------------------
