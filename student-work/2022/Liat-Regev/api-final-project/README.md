@@ -7,8 +7,9 @@ The Hamburger API is used to interface between the Hamburger app and the server-
 The API follows REST principles, uses JSON to encode requests and responses, and relies on standard HTTP codes to signal operation outcomes.
 
 The Hamburger API currently contains the following methods:
-GET - retrieves data from the server. In this case, the GET for the POC will be to GET the bill.
-POST - sends data to the server. In this case, the POST will send the customer’s order to the server in the kitchen. The printer in the kitchen will print out the order for the cook to use.
+* [GET](get.md) - retrieves data from the server. In this case, the GET for the POC will be to GET the bill.
+* [POST](post.md) - sends data to the server. In this case, the POST will send the customer’s order to the server in the kitchen. The printer in the kitchen will print out the order for the cook to use.
+
 
 ## Workflow
 The app uses the following workflow:
