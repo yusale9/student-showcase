@@ -14,6 +14,8 @@ Featured students include:
 * [Jason Rosenberg](2022/Jason-Rosenberg/)
 * [Jonathan Kemp](2022/Jonathan-Kemp/)
 * [Liat Regev](2022/Liat-Regev/)
+  * [Introduction](2022/Liat-Regev/ReadMe.md)
+  * [API Documentation Project](2022/Liat-Regev/api-final-project/README.md)
 * [Mindy Steen](2022/Mindy-Steen/)
 * [Rachel Goldstuck](2022/Rachel-Goldstuck/)
 * [Rosalina Djedjo](2022/Rosalina-Djedjo/)
