@@ -18,6 +18,10 @@ A REST API leverages HTTP methods which in this instance includes a GET request 
 ```mermaid
 graph TD;
 
+A[START]-->B[Order burgers]
+B-->C 
+
+
 
  
  
