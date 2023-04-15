@@ -10,7 +10,7 @@ Once the App receives the order the order is printed out in the kitchen for the 
 
 The App uses REST which is flexible and reusable which suits the menu App as modules will be added, substituted, or adjusted.
 A REST API leverages HTTP methods which in this instance includes a GET request to fetch data and POST request to create data;
-* [GET] (get.md) to retrieve data from the server in this case the bill once the order has been placed.
+* [GET] (get.md) to retrieve data from the server, POC in this case the bill once the order has been placed.
 * [POST] (get.md) sends data to the server, the customers order is printed in the kitchen of GPMD once received.
 
 ### Workflow
