@@ -10,12 +10,14 @@ graph TB;
 A(Start)--> B[Wake up at 5.30];
 A --> C[Exercise];
 B --> D[Lay out your clothes];
-C --> D[Shower,dress & leave by 7:15];
-D --Yes--> E{Take the car};
-D --No--> F[Take the bus];
-F --> E;
-E --> G[Arrive at work];
-G --> H[Make a coffee];
-H --> I[Open my computer];
-I --> J(End)
+C --> D[Shower];
+D --> E[Dress];
+E --> F[Leave at 7.30];
+F --Yes--> G{Take the car};
+G --No--> H[Take the bus];
+H -->I{Read on the bus}
+I --> J[Arrive at work];
+J --> K[Make a coffee];
+K --> L[Open my computer];
+L --> M(End)
 ```
