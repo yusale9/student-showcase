@@ -13,6 +13,14 @@ A REST API leverages HTTP methods which in this instance includes a GET request 
 * [GET] (get.md) to retrieve data from the server, POC in this case the bill, once the order has been placed.
 * [POST] (get.md) sends data to the server, the customers order is printed in the kitchen of GPMD once received.
 
+### References 
+
+* Astera Enabling Data Innovation
+What is REST API
+
+* Alex Fiedler 
+General Putnam Motel Diner API Guide
+
 ### Workflow 
 
 ```mermaid
@@ -33,8 +41,6 @@ P -->Q{Drinks?}
 Q -->R[Yes]
 R -->S[Diet Coke]
 T[(ORDER END)]
-
-
 
 
 
