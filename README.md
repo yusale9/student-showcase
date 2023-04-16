@@ -13,13 +13,28 @@ A REST API leverages HTTP methods which in this instance includes a GET request 
 * [GET] (get.md) to retrieve data from the server, POC in this case the bill, once the order has been placed.
 * [POST] (get.md) sends data to the server, the customers order is printed in the kitchen of GPMD once received.
 
-### Workflow
+### Workflow 
 
 ```mermaid
 graph TD;
+A[(START)]-->B[Order Burger]
+B -->C{What type of burger do you want?}
+C -->D{Chicken Beef or Veg}
+D -->E{How many pattys do you want?}
+E -->Two-->F
+F -->G{Toppings?}
+H -->I[lettuce tomato relish]
+I -->J{Bun choice- white wholewheat gluten free?}
+K -->L[Gluten free]
+L -->M{Sauces-mayo ketchup mustard?}
+M -->N[Yes]
+N -->O[Mayo]
+P -->Q{Drinks?}
+Q -->R[Yes]
+R -->S[Diet Coke]
+T[(ORDER END)]
 
-A[START]-->B[Order burgers]
-B-->C 
+
 
 
 
