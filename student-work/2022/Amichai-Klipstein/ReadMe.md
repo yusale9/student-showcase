@@ -5,6 +5,9 @@ Technical Communicator and Content Writer
 **Email:** amklipstein@gmail.com  
 **LinkedIn:** www.linkedin.com/in/amichaiklipstein  
 **Portfolio:** www.amklipstein.wixsite.com/klipsteinwriting  
+**GitHub Projects:**  
+  * [Markdown Exercise](2022/Amichai-Klipstein/readme.md)
+  * [API Documentation Project](2022/Amichai-Klipstein/api-final-project/readme.md)
 
 # Summary
 

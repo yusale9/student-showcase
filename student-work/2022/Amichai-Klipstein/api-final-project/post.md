@@ -16,10 +16,11 @@
 This POST request is for ordering a burger meal out of the meal categories. 
 
 ### burgerMeal 
-ach burger meal consists of the burger, side dishes, and a drink.
+Each burger meal consists of the burger, side dishes, and a drink.
 
 ### burger   
 Each burger includes a patty, a bun, condiments, toppings, and specials. A customer can order up to 3 condiments, 3 toppings, and 2 specials.
+
 Name | Type | Req. | Description | Default Option | Available Options
 -----|------|------|-------------|----------------|------------------
 pattyType | string | Y | the patty you ordered | beef | <ul><li>beef</li><li>lamb</li><li>vegan</li></ul>
