@@ -1,7 +1,7 @@
 # API for the General Putnam Motel Diner
 
 
-#### ExampleErrorType
+# HTTP Responses 
 
 | Status          | Type     | Code Description                                      |
 |----------------|----------|--------------------------------------------------|
