@@ -14,7 +14,7 @@ Retrieves the meal that is available at the current time.
 Arguments (Query Parameters) 
 There are no arguments. 
 
-#### Header parameters
+### Response Parameters
 
 | Parameter name | Data type   | Required? | Description                          |
 |------------------|--------|-----------|--------------------------------------|
