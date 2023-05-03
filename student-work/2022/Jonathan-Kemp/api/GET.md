@@ -40,7 +40,7 @@ There are no arguments.
 | rootBeer | string |  Required  |  Root beer drink. |
         
 
-### Request example
+### Example
 
 ```
 {Provide an example of the API request, filled with sample values.}
