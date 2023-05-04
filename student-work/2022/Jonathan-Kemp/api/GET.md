@@ -1,4 +1,4 @@
-# API for the General Putnam Motel Diner
+# GET /meal
 
 
 # HTTP Responses 
@@ -18,26 +18,21 @@ There are no arguments.
 
 | Parameter name | Data type   | Required? | Description                          |
 |------------------|--------|-----------|--------------------------------------|
-| largePatty | string | Required  | Large beef patty. |
-| mediumPatty | string |  Required  | Medium beef patty.|
-| smallPatty | string |  Required  |  Small beef patty. |
-| r | string |  Required  |  Cooked rare. |
-| mr | string |  Required  |  Cooked medium rare. |
-| m | string |  Required  |  Cooked medium. |
-| wd | string |  Required  |  Cooked well done. |
-| seedBun | string |  Required  |  Seeded bun. |
-| regularBun  | string |  Required  |  Regular bun. |
-| chiabattaBun | string |  Required  | Chiabatta bun. |
-| glutenFreeBun | string |  Required  | Gluten free bun. |
-| filling1| string |  Required  | Lettuce filling. |
-| filling2 | string |  Required  | Tomato filling. |
-| filling3 | string |  Required  |  Pickle filling. |
-| fries | string |  Required  |  Fries side. |
-| curlyFries | string |  Required  | Curly fries side. |
-| sweetPotatoFries  | string |  Required  |  Sweet potato fries side. |
-| cola  | string |  Required  | Cola drink. |
-| lemonade  | string |  Required  |  Lemonade drink. |
-| rootBeer | string |  Required  |  Root beer drink. |
+| Patty | string | Required  | "largePatty" - for a large patty "mediumPatty" - for a medium patty "smallPatty" - for a small patty|
+| r | string |  Required  |  Cooked rare |
+| mr | string |  Required  |  Cooked medium rare |
+| m | string |  Required  |  Cooked medium |
+| wd | string |  Required  |  Cooked well done |
+| Bun | string |  Required  |  "seededBun" - for a seeded bun "regularBun" - for a regular bun "chiabattaBun" - for a chiabatta bun "glutenFreeBun" - for a gluten free bun|
+| filling1| string |  Required  | Lettuce filling |
+| filling2 | string |  Required  | Tomato filling |
+| filling3 | string |  Required  |  Pickle filling |
+| fries | string |  Required  |  Fries side |
+| curlyFries | string |  Required  | Curly fries side |
+| sweetPotatoFries  | string |  Required  |  Sweet potato fries side |
+| cola  | string |  Required  | Cola drink |
+| lemonade  | string |  Required  |  Lemonade drink |
+| rootBeer | string |  Required  |  Root beer drink |
         
 
 ### Example
