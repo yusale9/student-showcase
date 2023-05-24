@@ -19,18 +19,18 @@ curl -H "Content-Type: application/json" -X POST -d'
 	"mealType": "lunch",
 	"mealCat": "burgerMeal",
 	  "burger": {
-		"pattyType": "beef",
+		"PattySize":"M",
 		"pattyQty": 1,
 		"pattyWeightG": 200,
 		"pattyCook": "MR",
-		"bunType": "seeded",		
+		"BunType": "seeded",		
 		"Fixing1": "lettuce",
 		"Fixing2": "pickles",
 		"Fixing3": "tomato"
 	},
 	"sides": {
 		"side1": {
-			"type": "sweetPotatoFries",
+			"FriesType":"SweetPotaoFries",
 			"size": "large"
 		},
 		"side2": {
@@ -38,11 +38,7 @@ curl -H "Content-Type: application/json" -X POST -d'
 			"size": ""
 		}
 	},
-	"drink": {
-		"type": "Lemonade",
-		"size": "large",
-		"ice": true
-    }
+
 
 }
 
