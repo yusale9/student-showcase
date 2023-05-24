@@ -40,18 +40,18 @@ curl -X GET http://URL/tableNo?id=99
    "timestamp":"2023-02-12T07:44:45-05:00",
    "Item1":{
   	"ItemOrdered":{
-     	"type":"mediumPatty",
-        "type":"seedBun",
-        "type":"mr",
-        "type":"filling1",
-        "type":"filling2",
-        "type":"filling3",
+     	"PattySize":"M",
+        "BunType":"Seeded",
+        "BurgerCook":"MR",
+        "Fixing1":"Lettuce",
+        "Fixing2":"Tomato",
+        "Fixing3":"Pickle",        
      	"Cost":49.50
   	}
    },
    "Item2":{
   	"ItemOrdered":{
-     	"type":"sweetPotatoFries",
+     	"FriesType":"SweetPotaoFries",
      	"Cost":25.00
   	}
    }
