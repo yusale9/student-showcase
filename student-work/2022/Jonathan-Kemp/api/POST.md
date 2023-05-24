@@ -24,9 +24,9 @@ curl -H "Content-Type: application/json" -X POST -d'
 		"pattyWeightG": 200,
 		"pattyCook": "MR",
 		"bunType": "seeded",		
-		"topping1": "lettuce",
-		"topping2": "pickles",
-		"topping3": "tomato"
+		"Fixing1": "lettuce",
+		"Fixing2": "pickles",
+		"Fixing3": "tomato"
 	},
 	"sides": {
 		"side1": {
