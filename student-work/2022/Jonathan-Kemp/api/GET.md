@@ -31,7 +31,6 @@ There are no arguments.
 ### Example
 
 ```
-{Provide an example of the API request, filled with sample values.}
 ```
 ```
 curl -X GET http://URL/tableNo?id=99
