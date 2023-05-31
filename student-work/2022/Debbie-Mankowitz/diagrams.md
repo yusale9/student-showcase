@@ -13,8 +13,8 @@ B --> D[Lay out your clothes];
 C --> D[Shower];
 D --> E[Dress];
 E --> F[Leave at 7.30];
-F --Yes--> G{Take the car};
-G --No--> H[Take the bus];
+F --Yes--> G{Take the bus};
+G --No--> H[Take the car];
 H -->I{Read on the bus}
 I --> J[Arrive at work];
 J --> K[Make a coffee];
