@@ -1,13 +1,19 @@
 **Amichai Klipstein**  
 Technical Communicator and Content Writer  
 **Address:** 24 HaShaked St., Eli, Israel  
-**Email:** (amklipstein@gmail.com)  
-**LinkedIn:** (www.linkedin.com/in/amichaiklipstein)
+**Phone Number:** (+972) 54-618-2844  
+**Email:** amklipstein@gmail.com  
+**LinkedIn:** www.linkedin.com/in/amichaiklipstein  
+**Portfolio:** www.amklipstein.wixsite.com/klipsteinwriting  
+**GitHub Projects:**  
+  * [Markdown Exercise](2022/Amichai-Klipstein/readme.md)
+  * [API Documentation Project](2022/Amichai-Klipstein/api-final-project/readme.md)
 
 # Summary
 
-&nbsp;&nbsp;&nbsp; Writer. Specialize in technical and content writing and editing.  
-&nbsp;&nbsp;&nbsp; Looking for an entry-level writing job.
+&nbsp;&nbsp;&nbsp; Technical communicator and content writer. Fluent in both Hebrew and English.  
+&nbsp;&nbsp;&nbsp; Eager to work, learn, and produce great documentation.  
+&nbsp;&nbsp;&nbsp; Looking for a technical writing position.
 
 # Work Experience  
 ## Elementary School Afternoon Program Teacher  
@@ -41,13 +47,11 @@ Technical Communicator and Content Writer
 - Position: Tank Gunner Merkava Mk. IV  
 
 # Skills
-- **Writing Skills:** Technical, UX, DITA, Blogs, Press Releases, Social Media, Content
+- **Writing Skills:** Release Notes, DITA, API Documentation, User Story Development, Knowledge Base, Blogs, Press Releases, Social Media, Content
 - **Soft Skills:** Teamwork, Creativity, Time Management
-
-# Aditional Information
 - **Languages:** Hebrew (native), English (native)
-- **Computer Skills** MS Word (expert), MadCap, Trello, Wix, WordPress, GitHub
+- **Computer Skills** MadCap Flare, Trello, Wix, WordPress, GitHub
 
 # Certificates and Awards
-- ITCQF Certified (2022)
+- ITCQF ([itcqf.org](https://itcqf.org)) Certified Technical Communication Professional Foundation Level Certification (2022)
 - IDF Company Active Duty Award (2021)
