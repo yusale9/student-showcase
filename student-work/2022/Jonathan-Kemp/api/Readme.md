@@ -29,7 +29,10 @@ I[Rare]
 J[Medium rare]
 K[Medium]
 L[Well done]
+I-->M
 J-->M
+K-->M
+L-->M
 M[What bun do I want?]
 M-->N
 M-->O
@@ -39,7 +42,10 @@ N[Regular]
 O[Seeded]
 P[Chiabatta]
 Q[Gluten Free]
+N-->R
 O-->R
+P-->R
+Q-->R
 R[What filling do I want?]
 R-->S
 R-->T
@@ -60,6 +66,8 @@ X-->AB
 Z[Fries]
 AA[Curly fries]
 AB[Sweet potato fries]
+Z-->AC
+AA-->AC
 AB-->AC
 AC{{Do I want a drink?}}
 AC--Yes-->AD
@@ -71,6 +79,8 @@ AD-->AG
 AE[Cola]
 AF[Lemonade]
 AG[Root beer]
+AE-->AH
 AF-->AH
+AG-->AH
 AH[Pay]
 ```
