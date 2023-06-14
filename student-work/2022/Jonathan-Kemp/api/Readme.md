@@ -17,7 +17,9 @@ C-->G
 E[160g]
 F[200g]
 G[300g]
+E-->H
 F-->H
+G-->H
 H[How do I want it cooked?]
 H-->I
 H-->J
