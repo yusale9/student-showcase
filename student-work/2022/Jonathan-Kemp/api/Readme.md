@@ -84,3 +84,6 @@ AF-->AH
 AG-->AH
 AH[Pay]
 ```
+Additional parts to this API include:
+* [GET Request](link to GET)
+* [POST](Link to POST)
