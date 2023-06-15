@@ -86,4 +86,4 @@ AH[Pay]
 ```
 Additional parts to this API include:
 * [GET Request](GET.md)
-* [POST](POST.md)
+* [POST Request](POST.md)
