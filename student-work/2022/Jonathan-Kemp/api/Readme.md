@@ -56,7 +56,7 @@ U[Pickle]
 S-->V
 T-->V
 U-->V
-V{{Do you want a side?}}
+V{Do you want a side?}
 V--Yes-->X
 V--No-->AH
 X[Choose a side]
@@ -69,7 +69,7 @@ AB[Sweet potato fries]
 Z-->AC
 AA-->AC
 AB-->AC
-AC{{Do I want a drink?}}
+AC{Do I want a drink?}
 AC--Yes-->AD
 AC--No-->AH
 AD[Choose a drink]
