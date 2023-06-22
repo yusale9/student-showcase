@@ -6,11 +6,11 @@ There is a GET.md for bills. There is a POST.md file for orders to the kitchen. 
 flowchart TD
 A((Start))
 A-->B
-B{{Do I want a burger}}
+B{Do I want a burger?}
 B--Yes-->C
 B--No-->D
 D[Go and order something else]
-C[What size burger?]
+C[Choose a burger size]
 C-->E
 C-->F
 C-->G
@@ -20,7 +20,7 @@ G[300g]
 E-->H
 F-->H
 G-->H
-H[How do I want it cooked?]
+H[Choose how you want it cooked]
 H-->I
 H-->J
 H-->K
@@ -33,7 +33,7 @@ I-->M
 J-->M
 K-->M
 L-->M
-M[What bun do I want?]
+M[Choose the bun type]
 M-->N
 M-->O
 M-->P
@@ -46,7 +46,7 @@ N-->R
 O-->R
 P-->R
 Q-->R
-R[What filling do I want?]
+R[Choose toppings]
 R-->S
 R-->T
 R-->U
@@ -59,7 +59,7 @@ U-->V
 V{{Do you want a side?}}
 V--Yes-->X
 V--No-->AH
-X[What side do I want?]
+X[Choose a side]
 X-->Z
 X-->AA
 X-->AB
@@ -72,7 +72,7 @@ AB-->AC
 AC{{Do I want a drink?}}
 AC--Yes-->AD
 AC--No-->AH
-AD[What drink do I want?]
+AD[Choose a drink]
 AD-->AE
 AD-->AF
 AD-->AG
