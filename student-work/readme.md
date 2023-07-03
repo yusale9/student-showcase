@@ -1,5 +1,8 @@
 # Featured Students
 
+## 2023 Class
+* [Melissa Ligertwood](2023/Melissa-Ligertwood/)
+
 ## 2022 Class
 
 Featured students include:
