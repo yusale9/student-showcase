@@ -1,5 +1,4 @@
-# Debbie-Mankowitz-showcase-
-Our Best Words Student Showcase and Portfolio
+# Debbie Mankowitz
 ## API Hamburger DOC for General Putnam Motel Diner
 
 This is the preliminary version of the new Hamburger App for take-out orders from the General Putnam Motel Diner (GPMD). 
@@ -15,47 +14,22 @@ A REST API leverages HTTP methods which in this instance includes a GET request 
 
 ### References 
 
-* Astera Enabling Data Innovation
-What is REST API
-
-* Alex Fiedler 
-General Putnam Motel Diner API Guide
+* Astera Enabling Data Innovation - What is REST API
+* Alex Fiedler - General Putnam Motel Diner API Guide
 
 ### Workflow 
 
 ```mermaid
 graph TD;
-A[(START)]-->B[Order Burger]
-B -->C{What type of burger do you want?}
-C -->D{Chicken Beef or Veg}
-D -->E{How many pattys do you want?}
-E -->Two-->F
-F -->G{Toppings?}
-H -->I[lettuce tomato relish]
-I -->J{Bun choice- white wholewheat gluten free?}
-K -->L[Gluten free]
-L -->M{Sauces-mayo ketchup mustard?}
-M -->N[Yes]
-N -->O[Mayo]
-P -->Q{Drinks?}
-Q -->R[Yes]
-R -->S[Diet Coke]
-T[(ORDER END)]
+A((START))-->B[Order Burger]
+B -->C[Choose burger type]
+C -->D[Choose number of patties]
+D -->E[Choose toppings]
+E -->F[Choose your bun]
+F -->G[Choose your sauces]
+G -->H[Choose your drinks?]
+H((END))
 
-```
-curl --location --request POST 'https://api.gpmd.com' \ 
---header 'Authorization: 
-https://docs.google.com/document/d/1jBZeW-5fZ450NM-CZZply_wbW6p5LdkmQBMno' \ --header 'Accept: application/json' \ 
---header 'Content-Type: application/json' \ 
---data-raw '{ 
-“meal_type”:“dinner", 
-“main”:“ ”, 
-“main_quantity”:1, 
-“side”:“fries”, 
-“side_quantity”:“1“, 
- 
-} 
-' 
 
 
 
