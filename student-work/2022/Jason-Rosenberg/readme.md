@@ -1,7 +1,7 @@
 # JASON CHAIM ROSENBERG
 
 Central District, Israel | <comparc@icloud.com> | 053-336-7431
-# **Skills Summary**
+# Skills Summary
 Experienced IT technician, ghostwriter, technical editor, and programmer pivoting to technical communication. ITCQF Certified Technical Writer.
 # **Education**
 ## ***Technical Communication, Our Best Words, Tel Aviv, 2022-2023***
