@@ -1,6 +1,7 @@
 ![black and white photo of a typewriter](https://github.com/TechWriterMelissa/student-showcase/blob/35b45e2cae5dd3b8e15b9a4c36d3c44c02ad0474/student-work/2023/Melissa-Ligertwood/GitHub%20CV%20Assignment%20Header%20Image.png)
 
-### Melissa Ligertwood figure out she/her
+### Melissa Ligertwood *(She/Her)*
+
 **Technical Writer | FN Consultant + Analyst | UX-Informed Content  
 Designer | Copywriter**  
 Calgary, Alberta, Canada · [Contact info](https://www.contentlime.com/contact)
@@ -22,22 +23,15 @@ I also recently upskilled into user experience research and design, and I am cur
 
 I would love to meet with your team in person to chat more about working together. Please don’t hesitate to contact me if you have any questions or require further information.
 
-### Featured
-
-| Link | Link | Document |
-| ----- | ----- | ----- |
-| IMAGE | IMAGE | IMAGE |
-| **WEBSITE REFRESH: Perfect Pitch Pros Consulting** <br>Information Design \| Content Design \| Copywriting \| Project Coordination \| Collaboration <br>In collaboration with the company's founder and in-house designer, I suggested updates to site navigation, made suggestions for a visual design refresh, reorganized the content, and rewrote 75% of the copy (CTAs not included). | **UX CASE STUDY: Itoko Sushi Restaurant App** <br> UX Research \| UX Design \| Prototyping \| Usability Testing <br>Junior UX project to review an existing restaurant app, conduct user research, ideate, and select one process flow to redesign and test. Wireframes and prototypes done in Figma.  | **PRINT: Integral Ecology Group - Cultural Services Brochure** <br> Copywriting \| Internal Review/Editing \| Coordination of Graphic Design \| Image Selection |
-
 ---
 
 ### Experience
 **Technical Writer | Analyst**  
 Content Lime Communications Inc. · Self-Employed  
-Oct 2008 - Present · 14 yrs 10 mos  
-North America
+*Oct 2008 - Present · 14 yrs 10 mos*  
+*North America*
 
-Technical Writing  
+###### Technical Writing  
 I transform complex subject matter into digestible information
 * Research, summarize and synthesize complex information from multiple sources 
 * Collaborate with subject matter experts to understand and translate technical concepts
@@ -45,14 +39,14 @@ I transform complex subject matter into digestible information
 * Write, edit and contribute to technical proposals, land use plans and government briefings
 * Develop polished, professional documents and document templates for reporting, presentations and daily use
 
-Creative Direction | Project Coordination | Marketing & Communications  
+###### Creative Direction | Project Coordination | Marketing & Communications  
 I work with some of the best creatives in the biz to develop beautiful and effective marcom materials
 * Hire and manage creative associates for design, photography, web development and visuals
 * Perform thorough content review, attending to details in text, context, branding and design parameters
 * Understand client expectations and project guidelines to ensure deliverables are consistent and on point
 * Create work plan and budget in accordance with project objectives and available resources
 
-Copywriting | Storytelling | Content Development  
+###### Copywriting | Storytelling | Content Development  
 I write content for websites, blogs, brochures, corporate story presentations and social media
 * Work with subject matter experts to create B2B content for print, web and social media
 * Manage information design and content development for small to medium business websites
@@ -62,7 +56,7 @@ I write content for websites, blogs, brochures, corporate story presentations an
 
 **Consultant | Technical Communication Analyst**  
 As'in'î'wa'chî Ni'yaw Nation · Contract Part-time  
-Jan 2011 - Present · 12 yrs 7 mos  
+*Jan 2011 - Present · 12 yrs 7 mos*  
 
 I work with Nation leadership, lawyers and environmental consultants to advance community programs that benefit Indigenous people.
 
@@ -80,8 +74,8 @@ Current Portfolios:
 
 **Technical Writer**  
 Parkland Corporation · Contract Part-time  
-Jun 2019 - Jun 2022 · 3 yrs 1 mo  
-Calgary, Alberta, Canada
+*Jun 2019 - Jun 2022 · 3 yrs 1 mo*  
+*Calgary, Alberta, Canada*
 
 I provided research, interviews, and process documentation for two IT Infrastructure projects and one cybersecurity project.
 
@@ -99,53 +93,89 @@ I provided business analyst support to project leaders for one compliance projec
 
 **Technical Writer | Researcher | Documentation Specialist**  
 Endeavour Scientific · Freelance  
-Sep 2017 - Sep 2019 · 2 yrs 1 mo  
-Calgary, Canada Area
+*Sep 2017 - Sep 2019 · 2 yrs 1 mo*  
+*Calgary, Canada Area*
 
 ---
 
 **Technical Writer/Content Writer**  
 Alberta Health Services · Contract Part-time  
-Oct 2017 - Oct 2018 · 1 yr 1 mo  
-Alberta, Canada
+*Oct 2017 - Oct 2018 · 1 yr 1 mo*  
+*Alberta, Canada*
 
 ---
 
 **Content Writer**  
 Southern Alberta Institute of Technology (SAIT) · Contract Full-time  
-May 2017 - Sep 2017 · 5 mos  
-Calgary, Alberta, Canada
+*May 2017 - Sep 2017 · 5 mos*  
+*Calgary, Alberta, Canada*
 
 ---
 
 **Technical Consultant**  
 CPHR Alberta · Contract Part-time  
-Feb 2017 - Jun 2017 · 5 mos  
-Calgary, Alberta, Canada
+*Feb 2017 - Jun 2017 · 5 mos*  
+*Calgary, Alberta, Canada*
 
 ---
 
 **Lead, Corporate Communications & Marketing**  
 Pacer Corporation Group of Companies · Permanent Full-time  
-Nov 2013 - Oct 2015 · 2 yrs  
-Calgary, Canada Area
+*Nov 2013 - Oct 2015 · 2 yrs*  
+*Calgary, Canada Area*
 
 ---
 
 **Freelance Journalist**  
 Castanet Media · Freelance  
-Mar 2013 - Oct 2013 · 8 mo  
-North Okanagan, British Columbia, Canada
+*Mar 2013 - Oct 2013 · 8 mo*  
+*North Okanagan, British Columbia, Canada*
 
 ---
 
 **Executive Administrator**  
 Various Employers · Permanent Full-time  
-Sep 2006 - Feb 2013 · 6 yrs 6 mos  
+*Sep 2006 - Feb 2013 · 6 yrs 6 mos*  
 
-Highlights
+###### Highlights:
 * Created a steering committee to review and evaluate site document control processes
 * Built a pilot library system using SharePoint to track and catalogue hundreds of technical documents
 * Created user guides for virtual meeting software, and wrote business cases, tactical plans and quarterly reports
 * Conducted demos with webinar presenters and provided technical support during webinar events
 * Wrote, edited, researched and coordinated funding applications and proposals
+
+---
+
+### Education
+
+**Southern Alberta Institute of Technology (SAIT)**  
+UX Design  
+*2022*
+
+**[View Student Project](https://docs.google.com/presentation/d/1yni6p1YLZW-GU4ua8qHd1nthfYU4m1QDxsp-I7FUyaQ/edit?usp=sharing)**
+<br/>
+<br/>
+
+**Thompson Rivers University**  
+Bachelor of Arts (B.A.), Psychology and Political Science  
+*2005*
+
+###### &nbsp;&nbsp;Highlights:
+* 4.17 GPA
+* Faculty Position - Instructional Assistant, Dept. of Psychology, 2004-05
+* Research Assistant, Department of Psychology, 2003-05
+* Dean's List 2003-04, 2004-05
+* Global Awareness Through Experience (GATE), Mexico City Field Study, August 2004
+* CUEF Research Scholarship
+
+###### &nbsp;&nbsp;Activities and societies: 
+* TRU Get Out the Vote Campaign
+* TRU Psychology Club
+* TRU Foundation Gala
+
+###### &nbsp;&nbsp;TRU Peer SupportActivities and societies: 
+* TRU Get Out the Vote Campaign
+* TRU Psychology Club
+* TRU Foundation Gala
+* TRU Peer Support
+
