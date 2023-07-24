@@ -19,7 +19,6 @@ E-commerce Ops, 2018-2021
 
 Maintained B2C website, set up Google AdWords, and continually updated product offerings. Set up online business profiles. Performed various customer service tasks. Ensured compliance with California Bureau of Cannabis Control regulations.
 ##
-##
 ## ***Uber, San Francisco***
 ### *Junior QA, 2013-2018*
 Beta tested driver and passenger apps, including driving, riding as a passenger, writing reports, and meeting with software engineers on a regular basis.
