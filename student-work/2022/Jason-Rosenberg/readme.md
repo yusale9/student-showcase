@@ -30,7 +30,7 @@ Edited US Patent applications for electrical engineering professor emeritus, Cha
 
 Learned specs of dozens of different models across nine brands that Galpin sold. Sold customers new and used Ford, VW, and Honda cars and trucks.
 
-•	Presented the best product demonstration of the training class: 40 minutes with no notes
+* Presented the best product demonstration of the training class: 40 minutes with no notes
 
 •	Met or exceeded monthly sales quota starting in my 2nd month.
 
