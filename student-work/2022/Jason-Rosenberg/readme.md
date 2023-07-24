@@ -42,4 +42,4 @@ Learned specs of dozens of different models across nine brands that Galpin sold.
 
 A+, Network+, i-Net+ — CompTIA
 
-ITCQF Technical Writing Foundations @ https://www.gasq.org/en/certification/check-a-certificate.html Certificate No. 66165 - GASQ
+[ITCQF Technical Writing Foundations] (https://www.gasq.org/en/certification/check-a-certificate.html) Certificate No. 66165 - GASQ
