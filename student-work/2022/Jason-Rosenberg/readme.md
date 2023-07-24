@@ -25,7 +25,6 @@ Beta tested driver and passenger apps, including driving, riding as a passenger,
 ## ***Intellectual Capital, LP, Los Angeles and Camp Hill, AL, USA***
 ### *Partner, Ghost Writer, Business, and Legal Liaison, 2006-2014*
 Edited US Patent applications for electrical engineering professor emeritus, Chair of Computer Architecture at the University of Alabama, and Auburn University. Handled business and legal communication in writing, on the phone, and in person. Worked with large Intellectual Property Law Firms in Atlanta and Irvine to prosecute multiple U.S. Patent applications that were granted by the USPTO. Worked on an IP enforcement case vs. Texas Instruments. Sold my share of the partnership in 2014 at a profit.
-##
 ## ***Galpin Motors, Los Angeles (Van Nuys/North Hills)***
 ### *Car Sales, 2012-2013*
 
