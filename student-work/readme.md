@@ -12,6 +12,8 @@ Featured students include:
   * [API Documentation Project](2022/Amichai-Klipstein/api-final-project/readme.md)
 * [Andrea Parkins](2022/Andrea-Parkins/)
 * [Debbie Mankowitz](2022/Debbie-Mankowitz/)
+  * [Introduction](2022/Debbie-Mankowitz/ReadMe.md)
+  * [Diagrams](2022/Debbie-Mankowitz/diagrams.md)
 * [Doron Lieman](2022/Doron-Liema/n)
 * [Eitan Gavson](2022/Eitan-Gavson/)
 * [Jason Rosenberg](2022/Jason-Rosenberg/)
