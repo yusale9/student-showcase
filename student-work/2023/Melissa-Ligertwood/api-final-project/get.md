@@ -87,14 +87,14 @@ Use the following endpoints to interact with the {resource name} entities.
 |        |                                          |                         |
 
 
-## {Endpoint name}
+## Retrieve the bill
 
 {Provide a one-line description of what the API does. Starts with a verb in the indicative mood. For example, "Retrieves a user by `userID`".}
 
 ### Endpoint
 
 ```
-{METHOD} /{request-url}/{{path-parameter}}
+GET /tableNO
 ```
 
 ### Description
@@ -154,7 +154,7 @@ The [{authorization method}](#authorization) is required for each API request.
 ### Request example
 
 ```
-{Provide an example of the API request, filled with sample values.}
+curl -X GET 'http://api.gpmd.com/tableNO?id-99'
 ```
 
 ### Response schema
