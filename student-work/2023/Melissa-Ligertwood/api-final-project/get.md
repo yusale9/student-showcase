@@ -1,4 +1,4 @@
-# ABC Take Out Order API Reference
+# AppCorp Meal Order API Reference
 
 ## Overview
 
@@ -7,7 +7,7 @@ Use the {product} APIs to {access | customize | program} the {features | functio
 ### Base URL
 
 ```
-https://api.gpmd.com
+https://api.acmo.com
 ```
 
 ### Authorization
@@ -21,7 +21,7 @@ Authentication and authorization {is | is not} required for requests to these AP
 
 ### Version
 
-The current API vesrion is 1.0
+The current API version is 1.0
 
 ### Rate limits
 
@@ -29,7 +29,7 @@ Multiple orders allowed in a single request. Max three orders per request.
 
 ### HTTP status codes
 
-The ABC Take Out Order API uses the following standard HTTP response codes:
+The Meal Order API uses the following standard HTTP response codes:
 
 | Status code | Message           | Description   |
 |-------------|-------------------|---------------|
@@ -39,7 +39,7 @@ The ABC Take Out Order API uses the following standard HTTP response codes:
 
 ### Errors
 
-The ABC Take Out Order API uses the following error types:
+The Meal Order API uses the following error types:
 
 | Error                                   | Description      |
 |-----------------------------------------|------------------|
@@ -94,7 +94,7 @@ Use the following endpoints to interact with the {resource name} entities.
 ### Endpoint
 
 ```
-GET /tableNO
+GET /tableNo
 ```
 
 ### Description
@@ -151,10 +151,11 @@ The [{authorization method}](#authorization) is required for each API request.
 | {id}   | string | Required  | {Unique identifier of the user}  |
 | {name} | string | Optional  | {Name of the user}               |
 
+
 ### Request example
 
 ```
-curl -X GET 'http://api.gpmd.com/tableNO?id-99'
+curl -X GET 'http://api.acmo.com/tableNo?id-99'
 ```
 
 ### Response schema
@@ -167,8 +168,21 @@ curl -X GET 'http://api.gpmd.com/tableNO?id-99'
 ### Response example
 
 ```
-{Provide an example of the API response, filled with sample values.}
+{
+   "orderNum":123,
+   "timestamp":"2020-01-21T07:44:45-05:00",
+   "Item1":{
+     "ItemOrdered":{
+     "type":"burgerMeal",
+     "Cost":10.99
+     }
+   },
+   "Item2":{
+     "ItemOrdered":{
+     "type":"salad",
+     "Cost":9.50
+     }
+  }
+}
 ```
 ---
-
-> Explore other templates from [The Good Docs Project](https://thegooddocsproject.dev/). Use our [feedback form](https://thegooddocsproject.dev/feedback/?template=API%20reference) to give feedback on this template.
