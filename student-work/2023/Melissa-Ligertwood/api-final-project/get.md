@@ -1,6 +1,4 @@
-# API Reference template
-
-{Before using this template, read [the accompanying guide](api-reference-guide.md) to this template}.
+# ABC Take Out Order API Reference
 
 ## Overview
 
@@ -9,7 +7,7 @@ Use the {product} APIs to {access | customize | program} the {features | functio
 ### Base URL
 
 ```
-{Provide the base URL of the API. For example: https://api.example.com}
+https://api.gpmd.com
 ```
 
 ### Authorization
@@ -23,45 +21,34 @@ Authentication and authorization {is | is not} required for requests to these AP
 
 ### Version
 
-{This section is optional.}
+The current API vesrion is 1.0
 
-{Provide the version number using semantic versioning or your product's API versioning scheme. For example: `0.0.1`}
+### Rate limits
 
-### Pagination
-
-{This section is optional.}
-
-Due to the potentially very large result sets from API calls, responses {are | can be} returned as shorter pages.
-
-Pagination can be customized using {pagination settings}. If not specified, the default values are {values}.
-
-### Rate limiting and throttling
-
-{This section is optional.}
-
-The {product} APIs use a {strategy-name} rate limiting strategy. The maximum number of requests allowed to access a {resource | endpoint |..} is {number} requests per {time period}.
+Multiple orders allowed in a single request. Max three orders per request. 
 
 ### HTTP status codes
 
-The {product} APIs use the following standard HTTP response codes:
+The ABC Take Out Order API uses the following standard HTTP response codes:
 
 | Status code | Message           | Description   |
 |-------------|-------------------|---------------|
-| `200 OK`    | Request succeeds. | {description} |
+| `200 OK`    | Successful request. | Correct order is placed. |
 |             |                   |               |
 |             |                   |               |
 
 ### Errors
 
-{This section is optional.}
-
-The {product} APIs use the following error types:
+The ABC Take Out Order API uses the following error types:
 
 | Error                                   | Description      |
 |-----------------------------------------|------------------|
-| [{ExampleErrorType}](#exampleerrortype) | {Failure in ...} |
-|                                         |                  |
-|                                         |                  |
+| `400 Bad Request`| {Failure in ...} |
+| `401 Unauthorized` |                  |
+| `402 Request Failed` |                  |
+| `403 Forbidden` |                  |
+| `404 Not Found` |                  |
+| `429 Too Many Requests` |                  |
 
 #### ExampleErrorType
 
@@ -71,9 +58,9 @@ The {product} APIs use the following error types:
 | {errorMessage} | {string} | {Additional information about why the error occurs.} |
 
 
-## {Resource name}
+## Meals
 
-The {resource name} is used to {functionality}.
+Meals are how you order food using this API.
 
 ### Data model
 
