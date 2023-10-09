@@ -75,7 +75,7 @@ The Meal Order API uses the following standard HTTP response codes:
 
 | Status code | Message           | Description   |
 |-------------|-------------------|---------------|
-| `200 OK`    | Request successful. | Order has been retrived and bill is printing. |
+| `200 OK`    | Request successful. | Order has been retrieved and bill is printing. |
 | `404 Not Found` | Order not found. | Order number could not be located. A manager has removed the order from the system or the bill has already been paid. |
 | `503 Service Unavailable` | Server error. | Server is down and bill can not be printed at this time. |
 
