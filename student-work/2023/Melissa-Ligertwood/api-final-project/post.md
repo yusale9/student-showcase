@@ -10,29 +10,36 @@ This is an API to order take out meals.
 https://api.acmo.com
 ```
 
-## Place lunch order
+## Place burger order
 
 ### Endpoint
 
 ```
-POST /lunch
+POST /lunch/burgerMeal
 ```
 
 ### Description
 
-Collects the customer's order and sends to the kitchen.  
+Collects the customer's burger order and sends to the kitchen.  
 
 ### Request schema
 
-#### Request body
-
-{This section is optional.}
-
-| Field  | Type   | Required? | Description                      |
-|--------|--------|-----------|----------------------------------|
-| {id}   | string | Required  | {Unique identifier of the user}  |
-| {name} | string | Optional  | {Name of the user}               |
-
+| Parameter | Type | Required? | Description                             |
+|-----------------|------|-----------|-----------------------------------------|
+| mealType     | string | Required  |  |
+| mealCat    | string | Required |                                         |
+| burger    | object | Required |                                         |
+| pattyQty   | string | Required |                                         |
+| cheeseQty  | string | Optional |                                         |
+| bunType   | string | Optional |                                         |
+| pattyType    | string | Required |                                         |
+| topping  | string | Optional |                                         |
+| sides | object | Required |                                         |
+| side    | object | Optional |                                         |
+| drink    | object | Optional |                                         |
+| type    | string | Required  |                                         |
+| size    | string | Required |                                         |
+| ice    | boolean | Required |                                         |
 
 ### Request example
 
@@ -42,30 +49,21 @@ curl -H "Content-Type: application/json" -X POST -d'
 	"mealType": "lunch",
 	"mealCat": "burgerMeal",
 	  "burger": {
-		"pattyType": "beef",
-		"pattyQty": 1,
-		"pattyWeightG": 300,
-		"pattyCook": "MR",
-		"bunType": "wholeWheat",
-		"condiment1": "ketchup",
-		"condiment2": "secretSauce",
-		"topping1": "lettuce",
-		"topping2": "pickles",
-		"topping3": "onion"
+		"pattyQty": "single",
+		"cheeseQty": "extra",
+		"bunType": "regular",
+		"pattyType": "angus",
+		"topping1": "msauce",
+		"topping2": "lettuce",
+		"topping3": "tomato"
 	},
 	"sides": {
-		"side1": {
-			"type": "frenchFries",
-			"size": "large"
-		},
-		"side2": {
-			"type": "none",
-			"size": ""
-		}
+		"side1": "onionRings",
+		"side2": "gravy"
 	},
 	"drink": {
-		"type": "Coke",
-		"size": "large",
+		"type": "pop",
+		"size": "small",
 		"ice": true
 	}
 
