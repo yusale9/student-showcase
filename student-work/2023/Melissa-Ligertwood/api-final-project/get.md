@@ -24,28 +24,16 @@ Retrieves the customer's order and returns a bill of sale.
 
 ### Request schema
 
-#### Path parameters
+#### Query parameters
 
-| Path parameter | Type   | Required? | Description                  |
-|----------------|--------|-----------|------------------------------|
-| {id}           | string | Required  | {Unique identifier of user}  |
-|                |        |           |                              |
-
-
-#### Request body
-
-{This section is optional.}
-
-| Field  | Type   | Required? | Description                      |
-|--------|--------|-----------|----------------------------------|
-| {id}   | string | Required  | {Unique identifier of the user}  |
-| {name} | string | Optional  | {Name of the user}               |
-
+| Query parameter | Type | Required? | Description                             |
+|-----------------|------|-----------|-----------------------------------------|
+| id | int  | Required  | Table number assigned to order. The value must be between 0 and 100. The default value is 0. |
 
 ### Request example
 
 ```
-curl -X GET 'http://api.acmo.com/tableNo?id-99'
+curl -X GET 'http://api.acmo.com/tableNo?id=99'
 ```
 
 ### Response
@@ -53,10 +41,10 @@ Returns a JSON object with the following properties:
 
 | Attribute | Type   | Required? | Description                  |
 |-----------|--------|-----------|------------------------------|
-| orderNum  | int | Required  | {Unique identifier of user}  |
-| timestamp | date | Required  | {Name of user}               |
-| Items | array | Required | Contains a list of the items ordered. Each item is an object containing additional information. |
-| ItemOrdered | array | Required  | Contains the details of an item. Each itemOrdered is an object containing additional information. |
+| orderNum  | int | Required  | System generated number assigned to order. |
+| timestamp | string | Required  | Time and date the order is retrieved in ISO 8601 format. |
+| Item | object | Required | Contains an ItemOrdered object. |
+| ItemOrdered | object | Required  | Contains the type and cost of the item ordered. |
 | type | string | Required  | The name of the menu item ordered. |
 | Cost | int | Required  | The cost of the menu item ordered. |
 
