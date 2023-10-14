@@ -43,7 +43,7 @@ Returns a JSON object with the following properties:
 |-----------|--------|-----------|------------------------------|
 | orderNum  | int | Required  | System generated number assigned to order. |
 | timestamp | string | Required  | Time and date the order is retrieved in ISO 8601 format. |
-| Item | object | Required | Contains an ItemOrdered object. |
+| Item | object | Required | Contains an ItemOrdered object. Each Item is identified by a number.|
 | ItemOrdered | object | Required  | Contains the type and cost of the item ordered. |
 | type | string | Required  | The name of the menu item ordered. |
 | Cost | int | Required  | The cost of the menu item ordered. |
