@@ -1,6 +1,5 @@
-# Welcome to the Our Best Words GitHub Repository! 
-
-My name is Laura Novich and I teach Advanced Technical Communication at Our Best Words. 
+# Welcome to the Our Best Words GitHub Repository!
+My name is Laura Novich and I teach Advanced Technical Communication at Our Best Words.
 This repository was created to showcase our student's work with GitHub.
 
 * Each assignment is explained in the [student-assignments](student-assignments/readme.md) directory.
@@ -13,3 +12,4 @@ Featured Projects include:
 * [A Tech Comm Glossary of Terminology](https://laura-novich-obw.github.io/glossary/)
 * [Technical Communication Resource List](https://laura-novich-obw.github.io/TC-Resource-List/)
 * Final project documenting an API &mdash; located in each student's folder
+

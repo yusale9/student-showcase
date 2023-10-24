@@ -1,0 +1,89 @@
+# Creating an API
+## General Putnum Motel Diner API
+This API is for customers of General Putnum Motel Diner to order online.
+There is a GET.md for bills. There is a POST.md file for orders to the kitchen. I thank the Good Docs Project for their template. Also to Alex Fielder for their API document.  
+```mermaid
+flowchart TD
+A((Start))
+A-->B
+B{Do I want a burger?}
+B--Yes-->C
+B--No-->D
+D[Go and order something else]
+C[Choose a burger size]
+C-->E
+C-->F
+C-->G
+E[160g]
+F[200g]
+G[300g]
+E-->H
+F-->H
+G-->H
+H[Choose how you want it cooked]
+H-->I
+H-->J
+H-->K
+H-->L
+I[Rare]
+J[Medium rare]
+K[Medium]
+L[Well done]
+I-->M
+J-->M
+K-->M
+L-->M
+M[Choose the bun type]
+M-->N
+M-->O
+M-->P
+M-->Q
+N[Regular]
+O[Seeded]
+P[Chiabatta]
+Q[Gluten Free]
+N-->R
+O-->R
+P-->R
+Q-->R
+R[Choose toppings]
+R-->S
+R-->T
+R-->U
+S[Lettuce]
+T[Tomato]
+U[Pickle]
+S-->V
+T-->V
+U-->V
+V{Do you want a side?}
+V--Yes-->X
+V--No-->AH
+X[Choose a side]
+X-->Z
+X-->AA
+X-->AB
+Z[Fries]
+AA[Curly fries]
+AB[Sweet potato fries]
+Z-->AC
+AA-->AC
+AB-->AC
+AC{Do I want a drink?}
+AC--Yes-->AD
+AC--No-->AH
+AD[Choose a drink]
+AD-->AE
+AD-->AF
+AD-->AG
+AE[Cola]
+AF[Lemonade]
+AG[Root beer]
+AE-->AH
+AF-->AH
+AG-->AH
+AH[Pay]
+```
+Additional parts to this API include:
+* [GET Request](GET.md)
+* [POST Request](POST.md)

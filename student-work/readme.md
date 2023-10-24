@@ -1,17 +1,28 @@
 # Featured Students
 
+## 2023 Class
+* [Melissa Ligertwood](2023/Melissa-Ligertwood/)
+
 ## 2022 Class
 
 Featured students include:
 
 * [Amichai Klipstein](2022/Amichai-Klipstein/)
+  * [Introduction](2022/Amichai-Klipstein/ReadMe.md)
+  * [API Documentation Project](2022/Amichai-Klipstein/api-final-project/readme.md)
 * [Andrea Parkins](2022/Andrea-Parkins/)
 * [Debbie Mankowitz](2022/Debbie-Mankowitz/)
+  * [Introduction](2022/Debbie-Mankowitz/ReadMe.md)
+  * [Diagrams](2022/Debbie-Mankowitz/diagrams.md)
 * [Doron Lieman](2022/Doron-Liema/n)
 * [Eitan Gavson](2022/Eitan-Gavson/)
 * [Jason Rosenberg](2022/Jason-Rosenberg/)
 * [Jonathan Kemp](2022/Jonathan-Kemp/)
+  * [Introduction](2022/Jonathan-Kemp/ReadMe.md)
+  * [API Documentation Project](2022/Jonathan-Kemp/api/Readme.md)
 * [Liat Regev](2022/Liat-Regev/)
+  * [Introduction](2022/Liat-Regev/ReadMe.md)
+  * [API Documentation Project](2022/Liat-Regev/api-final-project/README.md)
 * [Mindy Steen](2022/Mindy-Steen/)
 * [Rachel Goldstuck](2022/Rachel-Goldstuck/)
 * [Rosalina Djedjo](2022/Rosalina-Djedjo/)
