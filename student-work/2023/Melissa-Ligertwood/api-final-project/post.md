@@ -29,7 +29,7 @@ Sends your burgerMeal lunch order. You can only send an order that is valid for 
 | mealType     | string | Required  | Lunch. Defined by endpoint. |
 | mealCat    | string | Required | burgerMeal. Defined by endpoint. |
 | burger    | object | Required | Contains pattyQty, cheeseQTY, bunType, pattyType, and toppings.|
-| pattyQty   | string | Required | Number of burger patties. Can be single, double, or triple. Determines burgerMeal cost. Default is single. |
+| pattyQty   | string | Required | Number of burger patties. Can be single, double, or triple. Default is single. |
 | cheeseQty  | string | Optional | Amount of cheese. Can be standard or extra. Null means no cheese.|
 | bunType   | string | Optional | Type of bun. Can be regular or gluten free. Null means no bun. |
 | pattyType    | string | Required | Type of patty. Can be angus, wagyu, or plant-based. Default is angus. |
