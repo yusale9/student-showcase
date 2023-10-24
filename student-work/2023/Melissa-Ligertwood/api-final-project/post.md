@@ -70,11 +70,15 @@ curl -H "Content-Type: application/json" -X POST -d'
 }
 ```
 
-### Response Schema
-| Status code | Schema                                  | Description          |
-|-------------|-----------------------------------------|----------------------|
-| `2xx`       | [{ExampleDataType}](#data-model)        | {Describe the result where the request succeeds.} |
-| `4xx`       | [{ExampleErrorType}](#exampleerrortype) | {Describe the result where the request fails with the specified error code.} |
+### Response codes
+
+The Meal Order API uses the following standard HTTP response codes:
+
+| Status code | Message           | Description   |
+|-------------|-------------------|---------------|
+| `200 OK`    | Order sent. | Request successful. |
+| `400 Bad Request` | Invalid order. Please ask for assistance. | Server unable to process request. |
+| `408 Request Timeout` | Server timed out. Please try again. | The server timed out waiting for the request. |
 
 ### Response example
 
