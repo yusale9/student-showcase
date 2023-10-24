@@ -15,19 +15,19 @@ https://api.acmo.com
 ### Endpoint
 
 ```
-POST /lunch
+POST /lunch/burgerMeal
 ```
 
 ### Description
 
-Sends your lunch order. You can only send an order that is valid for the current time.  
+Sends your burgerMeal lunch order. You can only send an order that is valid for the current time.  
 
 ### Request schema
 
 | Parameter | Type | Required? | Description                             |
 |-----------------|------|-----------|-----------------------------------------|
-| mealType     | string | Required  | Lunch order. |
-| mealCat    | string | Required | Lunch choice. Can be burgerMeal, saladMeal, or bowlMeal. Default is burgerMeal.|
+| mealType     | string | Required  | Defined by endpoint. |
+| mealCat    | string | Required | Defined by endpoint. |
 | burger    | object | Required | Contains pattyQty, cheeseQTY, bunType, pattyType, and toppings.|
 | pattyQty   | string | Required | Number of burger patties. Can be single, double, or triple. |
 | cheeseQty  | string | Optional | Amount of cheese. Can be standard or extra. Null means no cheese.|
