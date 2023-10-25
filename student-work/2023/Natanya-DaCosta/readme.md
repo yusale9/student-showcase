@@ -8,52 +8,52 @@ enatanyadc@gmail.com
 ### _Communications Manager_ | B’nai Brith New Zealand
 2018–2022  
 
-Created content for a non-profit.  
-Published newsletter and content for fundraising.  
-Identified problems, created solutions on a departmental level.  
-Managed the organization’s community council.  
-Created copy for all events and advertisements.  
+* Created content for a non-profit.  
+* Published newsletter and content for fundraising.  
+* Identified problems, created solutions on a departmental level.  
+* Managed the organization’s community council.  
+* Created copy for all events and advertisements.  
 
 ### _Business Owner_ | Synergy Studio
 2004–2015  
 
-Founded and managed a Pilates studio.  
-Conducted postural assessments with physiotherapists to identify alignment issues, muscle weakness/over-compensation, and any other skeletal or muscular issues.  
-Tailored sessions to include physiotherapists from a clinical approach.  
-Self-advertised and created content for promoting the studio.
+* Founded and managed a Pilates studio.  
+* Conducted postural assessments with physiotherapists to identify alignment issues, muscle weakness/over-compensation, and any other skeletal or muscular issues.  
+* Tailored sessions to include physiotherapists from a clinical approach.  
+* Self-advertised and created content for promoting the studio.
 
 ### _Logistics Coordinator_ | Jendamark Automation Ltd
 2001–2003  
 
-Processed international orders.  
-Handled tracking of shipments for the warehouse and deliveries.  
-Liaising between customers and shippers.  
-Created processes to organize the receiving and logging of faulty shipments.  
+* Processed international orders.  
+* Handled tracking of shipments for the warehouse and deliveries.  
+* Liaising between customers and shippers.  
+* Created processes to organize the receiving and logging of faulty shipments.  
 ### _Secretary_ | Spilkins Attorneys Incorporated  
 1999–2001  
 
-Junior personal assistant  
-Front-line receptionist  
-Dictaphone typist  
-Legal typist 
+* Junior personal assistant  
+* Front-line receptionist  
+* Dictaphone typist  
+* Legal typist 
 ## Skills
-Team player  
-Oral & written communication  
-Public speaking  
-Quick learner  
-Critical thinking  
-Problem solving  
-Time management  
-Computer literate  
-Office 365  
-Excel  
-Gimp  
-Inkscape  
-Draw.io  
-Wix  
+* Team player  
+* Oral & written communication  
+* Public speaking  
+* Quick learner  
+* Critical thinking  
+* Problem solving  
+* Time management  
+* Computer literate  
+* Office 365  
+* Excel  
+* Gimp  
+* Inkscape  
+* Draw.io  
+* Wix  
 ## Languages
-English (mother-tongue)  
-Afrikaans (fluent)
+* English (mother-tongue)  
+* Afrikaans (fluent)
 ## Education
 __Our Best Words__ (2023)  
 Technical Writing & Marketing Communications Foundations Course  
