@@ -28,7 +28,7 @@ Retrieves the customer's order and returns a bill of sale.
 
 | Query parameter | Type | Required? | Description                             |
 |-----------------|------|-----------|-----------------------------------------|
-| id | int  | Required  | Table number assigned to order. The value must be between 0 and 100. The default value is 0. |
+| id | int  | Required  | Table number assigned to order. Value must be between 0 and 100. Default value is 0. |
 
 ### Request example
 
@@ -42,11 +42,11 @@ Returns a JSON object with the following properties:
 | Attribute | Type   | Required? | Description                  |
 |-----------|--------|-----------|------------------------------|
 | orderNum  | int | Required  | System generated number assigned to order. |
-| timestamp | string | Required  | Time and date the order is retrieved in ISO 8601 format. |
+| timestamp | string | Required  | Time and date order is retrieved in ISO 8601 format. |
 | Item | object | Required | Contains an ItemOrdered object. Each Item is identified by a number.|
-| ItemOrdered | object | Required  | Contains the type and cost of the item ordered. |
-| type | string | Required  | The name of the menu item ordered. |
-| Cost | int | Required  | The cost of the menu item ordered. |
+| ItemOrdered | object | Required  | Contains type and cost of the item ordered. |
+| type | string | Required  | Name of menu item ordered. |
+| Cost | int | Required  | Cost of menu item ordered. |
 
 ### Response example
 
