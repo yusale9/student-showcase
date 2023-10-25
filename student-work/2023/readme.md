@@ -1,7 +1,7 @@
 # Student Roster for 2023
 
-* [Melissa Ligertwood](2023/Melissa-Ligertwood/)
-* [Alan Bariman](2023/Alan-Bariman/)
+* [Melissa Ligertwood](Melissa-Ligertwood/)
+* [Alan Bariman](Alan-Bariman/)
 * [Deborah Sorrels](2023/Deborah-Sorrels)
 * [Jacob Sacks](2023/Jacob-Sacks)
 * [Leah-Sher](2023/Leah-Sher)
