@@ -26,8 +26,8 @@ Sends your burgerMeal lunch order. You can only send an order that is valid for 
 
 | Parameter | Type | Required? | Description                             |
 |-----------------|------|-----------|-----------------------------------------|
-| mealType     | string | Required  | Lunch. Defined by endpoint. |
-| mealCat    | string | Required | burgerMeal. Defined by endpoint. |
+| mealType     | string | Required  | Type of meal. Defined by endpoint. |
+| menuItem    | string | Required | Menu item ordered. Defined by endpoint. |
 | burger    | object | Required | Contains pattyQty, cheeseQTY, bunType, pattyType, and toppings.|
 | pattyQty   | string | Required | Number of burger patties. Can be single, double, or triple. Default is single. |
 | cheeseQty  | string | Optional | Amount of cheese. Can be standard or extra. Null means no cheese.|
@@ -47,7 +47,7 @@ Sends your burgerMeal lunch order. You can only send an order that is valid for 
 curl -H "Content-Type: application/json" -X POST -d'
 {
 	"mealType": "lunch",
-	"mealCat": "burgerMeal",
+	"menuItem": "burgerMeal",
 	  "burger": {
 		"pattyQty": "single",
 		"cheeseQty": "extra",
