@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart LR
-  subgraph TOP
+  subgraph CustomerOrderFlow
     direction LR
     subgraph PattySelection
         direction LR
@@ -36,13 +36,13 @@ subgraph DrinkSelection
         
     end 
   end
-  A([START]) -->TOP
+  A([START]) -->CustomerOrderFlow
   PattySelection --> CheeseSelection
   CheeseSelection -->BunSelection
   BunSelection -->ToppingSelection
   ToppingSelection -->SideSelection
   SideSelection -->DrinkSelection
-TOP -->Q[/Send Order/] -->B([END])
+  CustomerOrderFlow -->Q[/Send Order/] -->B([END])
 
   
 ```
