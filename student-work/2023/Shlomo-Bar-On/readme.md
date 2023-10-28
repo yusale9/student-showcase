@@ -22,7 +22,7 @@ I am a published author having co-authored the IBM Redbook (the definitive "how 
 
 While living in Israel earlier in my career, I worked as a technical writer for **Fibronics** (fiber-optic telecommunications equipment) and then **Telrad** (public and private telephone exchange equipment), before running my own technical writing company, ___The Last Word___. In that capacity I provided technical writing services for a number of companies (including **Telrad**) and aslo acted as consulting SME for a then new daiy newspaper - ___The Nation___. I implemented Ventura Publisher in all departments and was able to produce a daily tabloid as well as a weekend magazine. I returned to the UK shortly thereafter for personal reasons.
 
-I left IBM at the end of June 2023 and am currently living in Bet Shemesh. I am looking for a position as a technical writer in the hi-tech sector where I can use my considerable set of skills and experience. My mother-tongue is English and my conversational Ivrit is fluent.
+I left IBM at the end of June 2023 and am currently living in Bet Shemesh. I am looking for a position as a technical writer in the hi-tech sector where I can use my considerable range of skills and experience. My mother-tongue is English and my conversational Ivrit is fluent.
 
 
 ### Key Skills Summary
@@ -30,7 +30,11 @@ I left IBM at the end of June 2023 and am currently living in Bet Shemesh. I am 
 My top five key skills are described in the table below. 
 
 <table>
-  <tr>
+ <tr>
+ <th>Skill</th>
+ <th>Summary</th>
+ </tr>
+ <tr>
     <td><b>Quick learner</td>
     <td><i>Documentation of innovative products, features and functions needs someone to quickly assimilate their advantages and benefits in order to best promote and provide instructions for the new offerings</td>
   </tr>
