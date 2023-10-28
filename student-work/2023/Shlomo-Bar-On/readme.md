@@ -4,7 +4,7 @@
 📧 shlomo.r.barron@gmail.com   
 📞 +972 58 773 1247
 
-## Experience summary
+## Experience Summary
 I have been in technical communications for more than 30 years with more than 22 years at **IBM UK Ltd** as a technical sales specialist, latterly in the area of Data and AI. This role primarily comprised presenting IBM’s wide range of data products to technical and business audiences of prospective customers and business partners in both oral and written forms. In terms of technical communications these included:
 * Design and preparation of tailored presentations
 * Pre-Tender Preliminary Questionnaires (PPQs)
