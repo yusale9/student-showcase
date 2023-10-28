@@ -25,7 +25,9 @@ While living in Israel earlier in my career, I worked as a technical writer for 
 I left IBM at the end of June 2023 and am currently living in Bet Shemesh. I am looking for a position as a technical writer in the hi-tech sector where I can use my considerable set of skills and experience. My mother-tongue is English and my conversational Ivrit is fluent.
 
 
-### My top 5 key skills are
+### Key Skills Summary
+
+My top five key skills are described in the table below. 
 
 <table>
   <tr>
