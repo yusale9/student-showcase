@@ -1,7 +1,7 @@
 # Natanya Da Costa
 +972 (0)55-290-7070  
 Dolev, Israel  
-enatanyadc@gmail.com  
+✉️ enatanyadc@gmail.com  
 [See my portfolio](https://enatanyadc.wixsite.com/natanya)
 
 ## Experience
