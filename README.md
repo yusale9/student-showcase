@@ -1,5 +1,5 @@
 # Welcome to the Our Best Words GitHub Repository!
-My name is Laura Novich and I teach Advanced Technical Communication at Our Best Words.
+My name is [Laura Novich](https://github.com/lsnovich) and I teach Advanced Technical Communication at Our Best Words.
 This repository was created to showcase our student's work with GitHub.
 
 * Each assignment is explained in the [student-assignments](student-assignments/readme.md) directory.
