@@ -1,3 +1,8 @@
+## ACME APP Co. Meal Order App
+ACME APP Co. is interested in working with General Putnam Motel Diner (GPMD) to build an app for its customers to place take out orders. Eventually, GPMD would like customers to place their own orders tableside using the app. Using the AppCorp Meal Order REST API, ACME APP Co. will design a meal order app using GPMD's famous hamburger meal deal as a proof of concept.     
+
+
+
 ## How to order a burgerMeal
 
 ```mermaid
@@ -46,3 +51,5 @@ subgraph DrinkSelection
 
   
 ```
+
+*This work was completed as part of a Docs as Code course project at [Our Best Words](https://ourbestwords.com/training-courses/skills-courses/). We gratefully acknowledge use of [The Good Docs Project](https://gitlab.com/tgdp/templates/-/tree/main/api-reference?ref_type=heads) API template and reference materials, as well as supplemental API documentation provided by [Alex Fiedler](https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/).* 
