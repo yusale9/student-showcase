@@ -7,8 +7,10 @@ Phone: 058-648-6370
 I aim to create content that helps and guides users as much as possible. With my background in technical support and teaching English, I can create clear, concise documentation that aids users use products effectively.
 
 ## Experience
-### Our Best Words Technical Writing Course (March 2023 – Present)  
-- Wrote and edited various deliverables, including user documentation, quick start guides, and blog posts
+
+### XM Cyber (Oct. 2023 – Present)
+Technical Writer
+- Created and edited documentation for cybersecurity software
 
 ### You’re On Deck (Sept. 2020 – Present)  
 Web Design | Technical Support  
@@ -28,4 +30,7 @@ English Teacher | Administrative Assistant
 make the content more engaging and current
 
 ## Education  
-B.A. in Linguistics, University of Maryland
+- B.A. in Linguistics, University of Maryland
+
+- Our Best Words Technical Writing Course (March 2023 – Present)
+  - Wrote and edited various deliverables, including user documentation, quick start guides, and blog posts
