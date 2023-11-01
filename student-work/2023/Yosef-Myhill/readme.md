@@ -8,16 +8,16 @@ Junior technical writer with experience in teaching is looking to help your comp
 
 ## Skills
 ### Writing
-**Current Skills** Content writing and blogging, technical writing (all kinds), marketing collateral basics, SEO, white papers, application notes, product description  
-**Continuing advanced training in:** API/SDKs, knowledge base, docs as code
+**Current Skills** Content writing and blogging, technical writing (all kinds), marketing collateral basics, SEO, white papers, application notes, and product descriptions  
+**Continuing advanced training in:** API/SDKs, knowledge base articles, docs as code
 ### Business
 Project management, business plans, marketing, sales, social media, data analysis, CRM, payment platforms, (Amazon, Ebay, and Paypal Business)
 ### Technical Background
-**User Interfaces:** Windows, Android, iOs  
-**Tools:** Wix, WordPresss, Office 365, Gantt chart, raster and vector graphics (using various platforms)  
+**User Interfaces:** Windows, Android, and iOs  
+**Tools:** Wix, WordPresss, Office 365, Gantt charts, raster and vector graphics (using various platforms)  
 **Technical Languages:** HTML, CSS, Javascript (basic)  
-**Current Skills:** Content writing and blogging, technical writing (all kinds), marketing collateral basics, SEO, white papers, application notes, product description   
-**Continuing advanced training in:** Github, Gitlab, MadCap Flare  
+**Current Skills:** Content writing and blogging, technical writing (all kinds), marketing collateral basics, SEO, white papers, application notes, and product descriptions   
+**Continuing advanced training in:** Github, Gitlab, and MadCap Flare  
 
 ## Experience
 * **September 2022-Present:** Teacher (Nigri International Jewish Online School)  
