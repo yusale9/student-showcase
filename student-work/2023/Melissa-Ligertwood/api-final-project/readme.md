@@ -5,7 +5,7 @@ ACME APP Co. is interested in working with General Putnam Motel Diner (GPMD) to 
 
 #### AppCorp Meal Order API
 The AppCorp Meal Order API is an open source REST API available under GNU General Public License v3.0. The following endpoint documentation is available:
-- [POST](student-work/2023/Melissa-Ligertwood/api-final-project/post.md) - Place burger order
+- [POST](https://github.com/TechWriterMelissa/student-showcase/blob/main/student-work/2023/Melissa-Ligertwood/api-final-project/get.md) - Place burger order
 - [GET](student-work/2023/Melissa-Ligertwood/api-final-project/get.md) - Retrieve the bill
 
 #### Customer Order Flow Diagram
