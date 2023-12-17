@@ -51,3 +51,27 @@
    H-->I[Go Home];
    I-->K((End));
 ```
+
+## Flowchart with different lines
+```mermaid
+   flowchart TD
+   A((Start))-->B[Phone Rings];
+   B<-->C{Is it a spam call?};
+   C-.-No-.->D[Answer the call];
+   C--Yes-->E[Ignore or block call];
+   D==>F[Have a conversation];
+   F-->G[Finish phone call];
+   G-->H((End));
+   E==>H;
+```
+
+## Flowchart with a group
+```mermaid
+flowchart TD
+    A & B--> C & D;
+```
+```mermaid
+flowchart TD
+    A & B--> C;
+    C-->D;
+```
