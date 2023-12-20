@@ -15,7 +15,7 @@ I-->G;
 G-->J[Come home, eat breakfast, get snacks and lunch ready];
 J-->K{Are the kids in school yet?};
 K -.No.-> L[Finish getting them ready, bring them to school];
-K -.No.-> M{Is there time to clean the house before leaving?};
+K -.Yes.-> M{Is there time to clean the house before leaving?};
 M-.Yes.->N[Clean the house];
 M-.No.->O[Walk towards the nearest number 12 bus stop];
 L-->O;
