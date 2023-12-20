@@ -24,6 +24,8 @@ else Everything is fine
     Lawyer->>Tenant: Approves contract as is
 end
     Tenant->>Landlord: Arrives to sign contract
+    Tenant->Landlord: Sign the contract
+    Tenant->>Agent: Pays for services
 
     
 
