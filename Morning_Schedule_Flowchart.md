@@ -2,8 +2,8 @@
 ```mermaid
 flowchart TD;
 
-A ((Start)) --> B[Wake up];
+A((START)) --> B[Wake up];
 B --> C[Wash hands, get dressed, say morning blessings];
 C --> D{What time is it?};
-D --> E(End);
+D --> E(END);
 ```
