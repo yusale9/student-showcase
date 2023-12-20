@@ -20,7 +20,8 @@ sequenceDiagram;
 alt Contract needs changes
     Lawyer->>Tenant: Makes suggestions to contract
     Landlord->Tenant: Negotiate what to add/subtract
-else Lawyer->>Tenant: Approves contract as is
+else Everything is fine
+    Lawyer->>Tenant: Approves contract as is
 end
     Tenant->>Landlord: Arrives to sign contract
 
