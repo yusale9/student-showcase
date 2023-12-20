@@ -19,7 +19,7 @@ K -.No.-> M{Is there time to clean the house before leaving?};
 M-.Yes.->N[Clean the house];
 M-.No.->O[Walk towards the nearest number 12 bus stop];
 L-->O;
-O-->P{Wait on the bus until the Hagalil St. stop];
+O-->P[Wait on the bus until the Hagalil St. stop];
 P-->Q{Is there a number 26 bus coming to the stop within 15 minutes?};
 Q-.Yes.->R[Get off the 12 at Hagalil, wait for the 26, go onto the 26];
 R-->S[Get off at Eli Cohen St.];
