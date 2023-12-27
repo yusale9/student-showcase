@@ -38,6 +38,7 @@ Sends your order to the server in the kitchen.
 | 503  | Unavailable  |Service unavailable   |
 
 ### Request
+``` curl
 curl -H "Content-Type: application/json" -X POST -d'
 {
 	"mealType": "burger",
@@ -57,6 +58,7 @@ curl -H "Content-Type: application/json" -X POST -d'
 	
 	}
 }
+```
 
 ### Response
 200 OK
