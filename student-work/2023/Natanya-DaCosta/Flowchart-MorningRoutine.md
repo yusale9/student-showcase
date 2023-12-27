@@ -10,8 +10,8 @@
    F--Eggs or Oats-->G[I make breakfast];
    F--Cereal or Toast-->H[Kids make breakfast];
    G-->I[Make sandwiches <br> for school lunches];
+   H-->I[Make sandwiches <br> for school lunches];
    I-->J[See kids off];
-   H-->J[See kids off];
    J-->K[Do dishes];
    K-->L{Decide if doing <br> a Pilates workout <br> or not};
    L--Workout-->M[Shower];
