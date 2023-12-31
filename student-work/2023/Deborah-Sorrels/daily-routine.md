@@ -19,4 +19,29 @@
  O-->P[Wipe dog's feet];
  P-->Q[Wash hands];
  Q-->R[Feed dog];
+
+J--Eat-->S[Go to the refrigerator];
+S-->T[Take out a yogurt cup, granola mix and the oat milk];
+T-->U[Open the yogurt and granola]
+U-->V[Pour some granola into the yogurt];
+V-->W[Stir and eat];
+W-->X[Throw away the yogurt cup and place the spoon near the sink];
+X-->Y[Get a cup and pour a glass of oat milk];
+Y-->Z[Drink and put glass by the sink];
+Z-->AA[Return the granola and the oat milk to the refrigerator];
+
+R-->S;
+AA-->K;
+
+R-->BB[Check messages];
+AA-->BB[Check messages];
+BB-->CC[Get dressed];
+CC-->DD((End));
+```
+
+
+
+
+
+
  
