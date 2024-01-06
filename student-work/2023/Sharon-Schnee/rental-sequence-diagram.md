@@ -2,24 +2,20 @@
 
 ```mermaid
    sequenceDiagram
-   Renter->>Agent: "I'd like to rent a three-bedroom apartment, on a low floor."
-   Renter-->Agent: They go to an apartment
-   Renter->>Agent: "This is a five-bedroom penthouse!"
-   Agent->>Renter: "It's got great air and light! Plenty of storage."
-   Renter-->Agent: They go to another apartment.
-   Renter->>Agent: "This looks great. I'll take it."
-   Agent->>Owner: "We have a renter for the apartment."
-   Owner->>Lawyer: "Please write up a contract to rent out my apartment."
-   Lawyer-->>Owner: Gives owner prepared contract.
-   Owner->>Agent: "Have the renter sign this."
-   Agent->>Renter: "Here's the contract. Please sign it and return it to me."
+   Renter->Agent: The renter approaches the agent to see an apartment.
+    Renter-->Agent: The agent takes the renter to apartments.
+   Renter->>Agent: Renter chooses an apartment to rent.
+   Agent->>Owner: Agent informs owner there is a renter for the apartment.
+   Owner->>Lawyer: The owner approaches his lawyer to get a contract for the rental agreement.
+   Lawyer-->>Owner: The lawyer draws up a contract for the owner.
+   Owner->>Agent: The owner asks the agent to get a signed contract.
+   Agent->>Renter: The agent approaches the renter to sign the contract.
    Renter-->>Agent: Tenant returns the signed contract to the agent.
-   Agent->> Owner: "Here is the contract from the renter."
-   Owner->>Lawyer: "Here is the contract signed by the tenant."
-   Owner-->>Lawyer: The owner signs the rental contract and pays the lawyer's fee
-   Owner->>Agent: "Have the renter meet me at the apartment to pick up the keys."
-   Agent->>Renter: "Meet the owner at the apartment to pick up the keys."
-   Renter->>Owner: "Hi, I'd like to pick up the keys. Here are first and last months rent, and security deposit."
+   Agent->> Owner: Agent gives it to the owner.
+   Owner->>Lawyer: Signs and gives it to the lawyer.
+   Owner->>Agent: The owner has the agent set up a time with the renter to transfer keys.
+   Agent->>Renter: The agent sets a time with the renter for the owner to hand over keys.
+   Renter->>Owner: The renter makes initial payments and gets keys.
    Owner-->>Renter: Gives renter the keys to the apartment.
    Renter-->>Agent: Pays fee to the agent.
    Owner-->>Agent: Pays fee to the agent.
