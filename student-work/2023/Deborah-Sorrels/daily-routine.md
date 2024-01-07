@@ -38,7 +38,6 @@ EE--No-->K;
 
 
 R-->BB[Check messages];
-AA-->BB[Check messages];
 BB-->CC[Get dressed];
 CC-->DD((End));
 ```
