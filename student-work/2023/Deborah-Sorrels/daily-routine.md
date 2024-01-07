@@ -30,8 +30,12 @@ X-->Y[Get a cup and pour a glass of oat milk];
 Y-->Z[Drink and put glass by the sink];
 Z-->AA[Return the granola and the oat milk to the refrigerator];
 
-R-->S;
-AA-->K;
+AA-->EE{Was the dog walked?};
+EE--Yes-->BB;
+EE--No-->K;
+
+
+
 
 R-->BB[Check messages];
 AA-->BB[Check messages];
