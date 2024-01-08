@@ -33,19 +33,19 @@ Arguments (Query Parameters) There are no arguments.
 ``` json
  { 
     "orderNum":854, "timestamp":"2023-10-15T08:00:50-05:00", 
-"Item1":
-{ 
-    
- "ItemOrdered":
- "PattySize":"M", 
-"BunType":"Regular", 
-"BurgerCook":"LE", 
-"Fixing1":"Lettuce",”Tomato”,”Onion”, 
-“Cost”:35.00 } },
-
-}
- "Total":{ "Cost":35.00 }
-
- }
+    "Item1":
+    { 
+     "ItemOrdered":
+     "PattySize":"M", 
+     "BunType":"Regular", 
+     "BurgerCook":"LE", 
+     "Fixing1":"Lettuce",
+     "Fixing2":"Tomato",
+     "Fixing3":"Onion", 
+     "Cost":35.00 },
+    "Total":
+    {
+      "Cost":35.00,
+    },
  }
 ```
