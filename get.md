@@ -1,4 +1,4 @@
-###GET /meal
+# GET /meal
 
 ##HTTP Responses
 
