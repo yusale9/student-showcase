@@ -28,7 +28,8 @@ Arguments (Query Parameters) There are no arguments.
 | FriesType  | string | Required | RegularFries, “ SweetPotatoFries” or “None” | 
 | DrinkType  | string | Required | Coke, Sprite, Sprite Zero, “Ice Tea”        | 
 
-curl -X GET http://URL/tableNo?id=99
+``` curl
+      curl -X GET http://URL/tableNo?id=99
 
 ``` json
  { 
