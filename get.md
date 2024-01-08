@@ -2,7 +2,7 @@
 
 ## HTTP Responses
 
-#Status Type Code 
+## Status Type Code 
 | Status            | Type   | Code Description          |
 |-------------------|--------|---------------------------|
 | 200 - OK          | string | Order is correct.         |
