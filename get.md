@@ -10,7 +10,7 @@
 
 This call retrieves the currently available meal Retrieves the meal that is available at the current time.
 
-#GET /meal
+## GET /meal Parameters
 
 Arguments (Query Parameters) There are no arguments.
 
