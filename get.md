@@ -14,7 +14,7 @@ This call retrieves the currently available meal Retrieves the meal that is avai
 
 Arguments (Query Parameters) There are no arguments.
 
-#Response Parameters
+# Response Parameters
 
 
 | #Parameter   |#Data type| #Required? |#Description |
