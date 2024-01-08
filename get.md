@@ -25,7 +25,7 @@ Arguments (Query Parameters) There are no arguments.
 | | BurgerCook | string | Required | LE, Phil                                    | 
 | | BunType    | string | Required | Seeded, Regular, or glutenFreeBun           | 
 | | Fixing1    | string | Required | Lettuce, Tomato, Onion or “None”            | 
-| | FriesType  | string | Required | RegularFries, “ SweetPotatoFries” or “None” | 
+| FriesType  | string | Required | RegularFries, “ SweetPotatoFries” or “None” | 
 | | DrinkType  | string | Required | Coke, Sprite, Sprite Zero, “Ice Tea”        | 
 
 curl -X GET http://URL/tableNo?id=99
