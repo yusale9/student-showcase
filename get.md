@@ -30,7 +30,8 @@ Arguments (Query Parameters) There are no arguments.
 
 curl -X GET http://URL/tableNo?id=99
 
-```{ 
+``` json
+ { 
     "orderNum":854, "timestamp":"2023-10-15T08:00:50-05:00", 
 "Item1":
 { 
