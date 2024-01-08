@@ -1,6 +1,6 @@
 # GET /meal
 
-##HTTP Responses
+## HTTP Responses
 
 #Status Type Code 
 | Status            | Type   | Code Description          |
