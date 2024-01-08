@@ -8,7 +8,7 @@
 | 200 - OK          | string | Order is correct.         |
 | 400 - Bad Request | string | Meal ordered is incorrect |
 
-GET Retrieve the currently available meal Retrieves the meal that is available at the current time.
+This call retrieves the currently available meal Retrieves the meal that is available at the current time.
 
 #GET /meal
 
