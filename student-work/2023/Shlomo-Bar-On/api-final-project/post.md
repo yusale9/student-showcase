@@ -1,8 +1,8 @@
-# API Reference - GPMD
+# API Reference - GPMD POST method
 
 ## Overview
 
-Use the General Putnam Motel Diner (GPMD) APIs to access program functions for placing orders and requesting bills.
+Use the General Putnam Motel Diner (GPMD) APIs to access program functions for placing orders and requesting bills. The **POST** method is used to create a meal request.
 
 ### Base URL
 
@@ -27,48 +27,13 @@ The GPMD APIs use the following standard HTTP response codes:
 
 | Status code | Message           | Description                        |
 |-------------|-------------------|------------------------------------|
-| `200 OK`    | Success.          | Meal was successfully ordered |
+| `100 OK`    | Continue          | No errors reported but but awaiting further data.
+| `200 OK`    | Success           | Meal was successfully ordered. |
 | `400 - Bad Request` | Order refused. | Order was not accepted. Check for invalid options.   |
 | `401 - Unauthorized` | Authorization failed. | Authorization attempt failed. Check supplied values.  |
-| `402 - Request Failed` | 
-
-### Errors
-
-{This section is optional.}
-
-The {product} APIs use the following error types:
-
-| Error                                   | Description      |
-|-----------------------------------------|------------------|
-| [{ExampleErrorType}](#exampleerrortype) | {Failure in ...} |
-|                                         |                  |
-|                                         |                  |
-
-#### ExampleErrorType
-
-| Field          | Type     | Description                                      |
-|----------------|----------|--------------------------------------------------|
-| {errorType}    | {enum}   | {Predefined error codes. Possible enum values are x, y, ..., and z.} |
-| {errorMessage} | {string} | {Additional information about why the error occurs.} |
+| `500 - Internal Server Error` | Server side failure. | Contact server administrator. |
 
 
-## {Resource name}
-
-The {resource name} is used to {functionality}.
-
-### Data model
-
-| Attribute | Type   | Required? | Description                  |
-|-----------|--------|-----------|------------------------------|
-| {id}      | string | Required  | {Unique identifier of user}  |
-| {name}    | string | Optional  | {Name of user}               |
-|           |        |           |                              |
-
-### Example
-
-```
-{Provide an example of the data representation in the format that your project use.}
-```
 
 ### Endpoints
 
