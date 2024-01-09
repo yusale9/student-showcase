@@ -1,10 +1,8 @@
-# API Reference template
-
-{Before using this template, read [the accompanying guide](api-reference-guide.md) to this template}.
+# API Reference - GPMD
 
 ## Overview
 
-Use the General Putnam Motel Diner (GPMD) APIs to access program functions.
+Use the General Putnam Motel Diner (GPMD) APIs to access program functions for placing orders and requesting bills.
 
 ### Base URL
 
@@ -15,12 +13,12 @@ https://api.gpmd.com
 ### Authorization
 
 Authentication and authorization is required for requests to these APIs. Supported authentication methods are:
-OAuth with 2 Factor Authentication (2FA).
+* OAuth with 2 Factor Authentication (2FA)
 
 
 ### Version
 
-This Version `0.01` of the API.
+This is Version `0.01` of the API.
 
 
 ### HTTP status codes
