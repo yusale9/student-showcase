@@ -4,52 +4,35 @@
 
 ## Overview
 
-Use the {product} APIs to {access | customize | program} the {features | functionality}.
+Use the General Putnam Motel Diner (GPMD) APIs to access program functions.
 
 ### Base URL
 
 ```
-{Provide the base URL of the API. For example: https://api.example.com}
+https://api.gpmd.com
 ```
 
 ### Authorization
 
-Authentication and authorization {is | is not} required for requests to these APIs. Supported authentication methods are:
-{ Basic | Digest | OAuth | others}
+Authentication and authorization is required for requests to these APIs. Supported authentication methods are:
+OAuth with 2 Factor Authentication (2FA).
 
-```
-{Provide an example request with {Basic | Digest | OAuth | others} authentication.}
-```
 
 ### Version
 
-{This section is optional.}
+This Version `0.01` of the API.
 
-{Provide the version number using semantic versioning or your product's API versioning scheme. For example: `0.0.1`}
-
-### Pagination
-
-{This section is optional.}
-
-Due to the potentially very large result sets from API calls, responses {are | can be} returned as shorter pages.
-
-Pagination can be customized using {pagination settings}. If not specified, the default values are {values}.
-
-### Rate limiting and throttling
-
-{This section is optional.}
-
-The {product} APIs use a {strategy-name} rate limiting strategy. The maximum number of requests allowed to access a {resource | endpoint |..} is {number} requests per {time period}.
 
 ### HTTP status codes
 
-The {product} APIs use the following standard HTTP response codes:
+The GPMD APIs use the following standard HTTP response codes:
 
-| Status code | Message           | Description   |
-|-------------|-------------------|---------------|
-| `200 OK`    | Request succeeds. | {description} |
-|             |                   |               |
-|             |                   |               |
+| Status code | Message           | Description                        |
+|-------------|-------------------|------------------------------------|
+| `200 OK`    | Success.          | Meal was successfully ordered |
+| `400 - Bad Request` | Order refused. | Order was not accepted. Check for invalid options.   |
+| `401 - Unauthorized` | Authorization failed. | Authorization attempt failed. Check supplied values.  |
+| `402 - Request Failed` | 
 
 ### Errors
 
