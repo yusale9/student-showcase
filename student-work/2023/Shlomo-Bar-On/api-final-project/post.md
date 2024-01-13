@@ -78,7 +78,7 @@ Served in|White bun||Choose one only
 ||Gluten free bun
 ||Gluten free slice
 ||No bread|White bun
-Serving size|Large
+Serving size|Large||Choose one only
 ||Extra large
 ||Double decker|Extra large
 |Dressing|Honey mustard||Allow multiple selection
