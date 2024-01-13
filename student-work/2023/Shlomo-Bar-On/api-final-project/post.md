@@ -37,78 +37,88 @@ The GPMD APIs use the following standard HTTP response codes:
 
 ### Endpoints
 
-Use the following endpoints to interact with the {resource name} entities.
+Use the following endpoints to interact with the GPMD entities.
 
-| Method | Endpoint name                            | Description             |
-|--------|------------------------------------------|-------------------------|
-| POST   | {[Endpoint name A](#link_to_endpoint_a)} | Creates a {resource}.   |
-| GET    | {[Endpoint name B](#link_to_endpoint_b)} | Retrieves a {resource}. |
+| Method | Endpoint name               | Description             |
+|--------|-----------------------------|-------------------------|
+| POST   | /lunch                      | Creates a burger meal order.   |
+| GET    | /tableNo                    | Retrieves a bill. |
 |        |                                          |                         |
 
 
-## {Endpoint name}
+## /lunch
 
-{Provide a one-line description of what the API does. Starts with a verb in the indicative mood. For example, "Retrieves a user by `userID`".}
+Creates an order for a GPMD burger meal.
 
 ### Endpoint
 
 ```
-{METHOD} /{request-url}/{{path-parameter}}
+POST /https://api.gpmd.com/lunch
 ```
-
-### Description
-
-{Explain what the endpoint does.}
-
-{This paragraph is optional.} This endpoint has been deprecated. Use {the recommended endpoint} instead. For more information about how to migrate to {the recommended endpoint}, see [{the migration guide}](#link).
-
-{This paragraph is optional.} The maximum number of calls to this API endpoint is {number} per minute. For more information about API rate limiting/throttling, see [{the topic}](#example).
-
-
-### Authorization
-
-The [{authorization method}](#authorization) is required for each API request.
-
-{This paragraph is optional.} Calling this endpoint also requires the {permission-name} permission.
-
-
-### Request schema
-
-#### Path parameters
-
-{This section is optional.}
-
-| Path parameter | Type   | Required? | Description                  |
-|----------------|--------|-----------|------------------------------|
-| {id}           | string | Required  | {Unique identifier of user}  |
-|                |        |           |                              |
-
-#### Query parameters
-
-{This section is optional.}
-
-| Query parameter | Type | Required? | Description                             |
-|-----------------|------|-----------|-----------------------------------------|
-| {pageSize}      | int  | Optional  | {The number of items to be returned in a single request. The default value is N.} |
-|                 |      |           |                                         |
-
-#### Header parameters
-
-{This section is optional.}
-
-| Header parameter | Type   | Required? | Description                          |
-|------------------|--------|-----------|--------------------------------------|
-| {Content-Type}   | string | Required  | {Media type of the resource. Must be an object.} |
-|                  |        |           |                                      |
 
 #### Request body
 
-{This section is optional.}
-
-| Field  | Type   | Required? | Description                      |
-|--------|--------|-----------|----------------------------------|
-| {id}   | string | Required  | {Unique identifier of the user}  |
-| {name} | string | Optional  | {Name of the user}               |
+|Menu Item|Options|Default|Comments|
+|---------|-------|-------|--------|
+|Burger|Beef||Choose one only
+||Chicken
+||Vegetarian
+||Vegan|Beef
+|Carnivorous Predilection|Well done||Choose one only
+||Medium
+||Rare
+||Still twitching|Medium
+Cooking type|Grilled||Choose one only
+||Fried
+||Baked|Grilled
+Served in|White bun||Choose one only
+||White slice
+||Wholemeal bun
+||Wholemeal slice
+||Gluten free bun
+||Gluten free slice
+||No bread|White bun
+Serving size|Large
+||Extra large
+||Double decker|Extra large
+|Dressing|Honey mustard||Allow multiple selection
+||Garlic mayo
+||Thousand island
+||Ketchup
+||None|None
+|Toppings|Lettuce||Allow multiple selection
+||Pickle
+||Tomato
+||Pepper
+||Relish
+||None|None
+|Side Dishes|Pomme frites||Allow multiple selection
+||Sauted potatoes 
+||Coleslaw
+||Israeli salad
+||Corn salad
+||None|None
+|Side Portion Size|Medium||Only if side order selected
+||Large|Medium
+|Wine (Glass)|House red||Allow multiple selection
+||House white
+||None|None
+|Beer (Bottle)|Budweiser||Allow multiple selection
+||Guinness
+||Carlsberg
+||None|None
+|Soft Drink (Can)|Coke||Allow multiple selection
+||Coke Zero
+||Diet Coke
+||Coke Caffeine Free
+||Sprite
+||Sprite Zero
+||Fanta Orange
+||Apple juice
+||Orange juice
+||None|None
+|With Ice?|Yes||If soft drink selected
+||No|No
 
 ### Request example
 
@@ -120,27 +130,27 @@ curl -H "Content-Type: application/json" -X POST -d'
 	"mealCat": "burgerMeal",
 	  "burger": {
 		"pattyType": "beef",
-		"pattyQty": 1,
-		"pattyWeightG": 300,
-		"pattyCook": "MR",
-		"bunType": "wholeWheat",
-		"condiment1": "ketchup",
-		"condiment2": "secretSauce",
+		"pattyCook": "Medium",
+	        "pattySize": "large",
+		"pattyCookType": "fried",
+		"bunType": "whiteBun",
+		"dressing1": "ketchup",
+		"dressing2": "honeyMustard",
 		"topping1": "lettuce",
-		"topping2": "pickles",
-		"topping3": "onion"
+		"topping2": "pickle",
+		"topping3": "relish"
 	},
 	"sides": {
 		"side1": {
-			"type": "frenchFries",
+			"type": "pommeFrites",
 			"size": "large"
 		},
 		"side2": {
-			"type": "none",
-			"size": ""
+			"type": "coleslaw",
+			"size": "medium"
 		}
 	},
-	"drink": {
+	"softDrink": {
 		"type": "coke",
 		"size": "large",
 		"ice": true
