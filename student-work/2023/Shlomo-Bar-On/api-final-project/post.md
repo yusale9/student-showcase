@@ -25,13 +25,13 @@ This is Version `0.01` of the API.
 
 The GPMD APIs use the following standard HTTP response codes:
 
-| Status code | Message           | Description                        |
-|-------------|-------------------|------------------------------------|
-| `100 OK`    | Continue          | No errors reported but but awaiting further data.
-| `200 OK`    | Success           | Meal was successfully ordered. |
-| `400 - Bad Request` | Order refused. | Order was not accepted. Check for invalid options.   |
-| `401 - Unauthorized` | Authorization failed. | Authorization attempt failed. Check supplied values.  |
-| `500 - Internal Server Error` | Server side failure. | Contact server administrator. |
+| Status code                    | Message              | Description                                         |
+|--------------------------------|----------------------|-----------------------------------------------------|
+| `100 OK`                       | Continue             | No errors reported but but awaiting further data.   |  
+| `200 OK`                       | Success              | Meal was successfully ordered.                      |
+| `400 - Bad Request`            | Order refused        | Order was not accepted. Check for invalid options.  |
+| `401 - Unauthorized`           | Authorization failed | Authorization attempt failed. Check supplied values.|
+| `500 - Internal Server Error`  | Server side failure  | Contact server administrator.                       |
 
 
 
@@ -112,8 +112,41 @@ The [{authorization method}](#authorization) is required for each API request.
 
 ### Request example
 
-```
-{Provide an example of the API request, filled with sample values.}
+```JSON
+
+curl -H "Content-Type: application/json" -X POST -d'
+{
+	"mealType": "lunch",
+	"mealCat": "burgerMeal",
+	  "burger": {
+		"pattyType": "beef",
+		"pattyQty": 1,
+		"pattyWeightG": 300,
+		"pattyCook": "MR",
+		"bunType": "wholeWheat",
+		"condiment1": "ketchup",
+		"condiment2": "secretSauce",
+		"topping1": "lettuce",
+		"topping2": "pickles",
+		"topping3": "onion"
+	},
+	"sides": {
+		"side1": {
+			"type": "frenchFries",
+			"size": "large"
+		},
+		"side2": {
+			"type": "none",
+			"size": ""
+		}
+	},
+	"drink": {
+		"type": "coke",
+		"size": "large",
+		"ice": true
+	}
+
+}
 ```
 
 ### Response schema
