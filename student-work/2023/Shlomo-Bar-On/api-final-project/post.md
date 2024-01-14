@@ -53,61 +53,63 @@ Creates an order for a GPMD burger meal.
 ### Endpoint
 
 ```
-POST /https://api.gpmd.com/lunch
+https://api.gpmd.com/lunch
 ```
 
 #### Request body
 
-|Menu Item|Options|Default|Comments|
-|---------|-------|-------|--------|
-|Burger|Beef||Choose one only
+|Menu Item|Valid Options|Default|Data Type|Comments|
+|---------|-------------|-------|---------|--------|
+|Meal Type|Lunch|Lunch|String|
+|Meal Category|Burger Meal|Burger Meal|String|
+|Patty Type|Beef|Beef|String|Choose one only
 ||Chicken
 ||Vegetarian
-||Vegan|Beef
-|Carnivorous Predilection|Well done||Choose one only
+||Vegan|
+|Patty Cook|Well done|Medium|String|Choose one only
 ||Medium
 ||Rare
-||Still twitching|Medium
-Cooking type|Grilled||Choose one only
+||Still twitching|
+|Patty Cook Type|Grilled|Grilled|String|Choose one only
 ||Fried
-||Baked|Grilled
-Served in|White bun||Choose one only
+||Baked|
+|Bun Type|White bun|White bun|String|Choose one only
 ||White slice
 ||Wholemeal bun
 ||Wholemeal slice
 ||Gluten free bun
 ||Gluten free slice
-||No bread|White bun
-Serving size|Large||Choose one only
+||No bread|
+|Patty size|Large|Extra large|String|Choose one only
 ||Extra large
-||Double decker|Extra large
-|Dressing|Honey mustard||Allow multiple selection
+||Double decker|
+|Dressing|Honey mustard|None|String|Allow multiple selection
 ||Garlic mayo
 ||Thousand island
 ||Ketchup
-||None|None
-|Toppings|Lettuce||Allow multiple selection
+||None|
+|Topping|Lettuce|None|String|Allow multiple selection
 ||Pickle
 ||Tomato
 ||Pepper
 ||Relish
-||None|None
-|Side Dishes|Pomme frites||Allow multiple selection
+||None|
+|Side Dishes|Pomme frites|None|String|Allow multiple selection
 ||Sauted potatoes 
 ||Coleslaw
 ||Israeli salad
 ||Corn salad
-||None|None
-|Side Portion Size|Medium||Only if side order selected
-||Large|Medium
-|Wine (Glass)|House red||Allow multiple selection
+||None|
+|Side Portion Size|Medium|Medium|String|Per side order and only if side order selected
+||Large|
+|Wine (Glass)|House red|None|String|Allow multiple selection
 ||House white
-||None|None
-|Beer (Bottle)|Budweiser||Allow multiple selection
+||None|
+|Beer (Bottle)|Budweiser|None|String|Allow multiple selection
 ||Guinness
 ||Carlsberg
-||None|None
-|Soft Drink (Can)|Coke||Allow multiple selection
+||None|
+|Soft Drink (Can)|Coke|None|String|Allow multiple selection
 ||Coke Zero
 ||Diet Coke
 ||Coke Caffeine Free
@@ -116,9 +118,9 @@ Serving size|Large||Choose one only
 ||Fanta Orange
 ||Apple juice
 ||Orange juice
-||None|None
-|With Ice?|Yes||If soft drink selected
-||No|No
+||None|
+|With Ice?|True|False|Boolean|If soft drink selected
+||False|
 
 ### Request example
 
@@ -168,8 +170,31 @@ curl -H "Content-Type: application/json" -X POST -d'
 
 ### Response example
 
-```
-{Provide an example of the API response, filled with sample values.}
+```JSON
+{
+meal_order {
+	"order_number": 506321,
+	{
+	meal 	{	 
+		"meal_type”: “lunch”, 
+		“timestamp”: “2024-01-14T07:44:45-05:00”, 
+		“mealCat”: “burgerMeal”, 
+		“meal_quantity”: 1, 
+		“side”: ”pommeFrites", 
+		“side_quantity”: 1, 
+		“side”: ”coleslaw”,
+		“side_quantity”: 1, 
+		“server”: ”Brenda”,
+		“server_id”:“aslkw0923CAE”, 
+		“cook”: ”Lou”, 
+		“cook_id”: ”l2j23j9LKJsd”, “price_base”: “10.99” 
+		“price_add”: “8.00” 
+		“price_total”: “9.99” 
+		}
+	}
+}
+}
+
 ```
 ---
 
