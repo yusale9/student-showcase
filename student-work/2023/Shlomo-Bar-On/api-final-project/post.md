@@ -126,7 +126,7 @@ https://api.gpmd.com/lunch
 
 ```JSON
 
-curl -H "Content-Type: application/json" -X POST -d'
+'curl -H "Content-Type: application/json" -X POST -d'
 {
 	"mealType": "lunch",
 	"mealCat": "burgerMeal",
@@ -172,29 +172,25 @@ curl -H "Content-Type: application/json" -X POST -d'
 
 ```JSON
 {
-meal_order {
+"meal_order" {
 	"order_number": 506321,
-	{
-	meal 	{	 
-		"meal_type”: “lunch”, 
-		“timestamp”: “2024-01-14T07:44:45-05:00”, 
-		“mealCat”: “burgerMeal”, 
-		“meal_quantity”: 1, 
-		“side”: ”pommeFrites", 
-		“side_quantity”: 1, 
-		“side”: ”coleslaw”,
-		“side_quantity”: 1, 
-		“server”: ”Brenda”,
-		“server_id”:“aslkw0923CAE”, 
-		“cook”: ”Lou”, 
-		“cook_id”: ”l2j23j9LKJsd”, “price_base”: “10.99” 
-		“price_add”: “8.00” 
-		“price_total”: “9.99” 
-		}
+	"meal_type": "lunch", 
+	"timestamp": "2024-01-14T07:44:45-05:00", 
+	"mealCat": "burgerMeal", 
+	"meal_quantity": 1, 
+	"side": "pommeFrites", 
+	"side_quantity": 1, 
+	"side": "coleslaw",
+	"side_quantity": 1, 
+	"server": "Brenda",
+	"server_id":"aslkw0923CAE", 
+	"cook": "Lou", 
+	"cook_id": "l2j23j9LKJsd",
+	"price_base": "10.99", 
+	"price_add": "8.00", 
+	"price_total": "18.99" 
 	}
 }
-}
-
 ```
 ---
 
