@@ -27,8 +27,8 @@ The GPMD APIs use the following standard HTTP response codes:
 
 | Status code                    | Message              | Description                                         |
 |--------------------------------|----------------------|-----------------------------------------------------|
-| `100 OK`                       | Continue             | No errors reported but but awaiting further data.   |  
-| `200 OK`                       | Success              | Meal was successfully ordered.                      |
+| `100 - OK`                       | Continue             | No errors reported but but awaiting further data.   |  
+| `200 - OK`                       | Success              | Meal was successfully ordered.                      |
 | `400 - Bad Request`            | Order refused        | Order was not accepted. Check for invalid options.  |
 | `401 - Unauthorized`           | Authorization failed | Authorization attempt failed. Check supplied values.|
 | `500 - Internal Server Error`  | Server side failure  | Contact server administrator.                       |
@@ -58,6 +58,11 @@ https://api.gpmd.com/lunch
 
 #### Request body
 
+> [!IMPORTANT]  
+> All attributes are mandatory.
+
+
+
 |Menu Item|Valid Options|Default|Data Type|Comments|
 |---------|-------------|-------|---------|--------|
 |Meal Type|Lunch|Lunch|String|
@@ -83,18 +88,18 @@ https://api.gpmd.com/lunch
 |Patty size|Large|Extra large|String|Choose one only
 ||Extra large
 ||Double decker|
-|Dressing|Honey mustard|None|String|Allow multiple selection
+|Dressing|Honey mustard|None|String|Allow multiple selection if not 'None'
 ||Garlic mayo
 ||Thousand island
 ||Ketchup
 ||None|
-|Topping|Lettuce|None|String|Allow multiple selection
+|Topping|Lettuce|None|String|Allow multiple selection if not 'None'
 ||Pickle
 ||Tomato
 ||Pepper
 ||Relish
 ||None|
-|Side Dishes|Pomme frites|None|String|Allow multiple selection
+|Side Dishes|Pomme frites|None|String|Allow multiple selection if not 'None'
 ||Sauted potatoes 
 ||Coleslaw
 ||Israeli salad
@@ -102,14 +107,14 @@ https://api.gpmd.com/lunch
 ||None|
 |Side Portion Size|Medium|Medium|String|Per side order and only if side order selected
 ||Large|
-|Wine (Glass)|House red|None|String|Allow multiple selection
+|Wine (Glass)|House red|None|String|Allow multiple selection if not 'None'
 ||House white
 ||None|
-|Beer (Bottle)|Budweiser|None|String|Allow multiple selection
+|Beer (Bottle)|Budweiser|None|String|Allow multiple selection if not 'None'
 ||Guinness
 ||Carlsberg
 ||None|
-|Soft Drink (Can)|Coke|None|String|Allow multiple selection
+|Soft Drink (Can)|Coke|None|String|Allow multiple selection if not 'None'
 ||Coke Zero
 ||Diet Coke
 ||Coke Caffeine Free
@@ -124,9 +129,10 @@ https://api.gpmd.com/lunch
 
 ### Request example
 
+```
+curl -H "Content-Type: application/json" -X POST -d
+```
 ```JSON
-
-'curl -H "Content-Type: application/json" -X POST -d'
 {
 	"mealType": "lunch",
 	"mealCat": "burgerMeal",
@@ -142,12 +148,12 @@ https://api.gpmd.com/lunch
 		"topping2": "pickle",
 		"topping3": "relish"
 	},
-	"sides": {
-		"side1": {
+	"sideDish": {
+		"sideDish1": {
 			"type": "pommeFrites",
 			"size": "large"
 		},
-		"side2": {
+		"sideDish2": {
 			"type": "coleslaw",
 			"size": "medium"
 		}
@@ -161,12 +167,12 @@ https://api.gpmd.com/lunch
 }
 ```
 
-### Response schema
+### Response status codes
 
-| Status code | Schema                                  | Description          |
-|-------------|-----------------------------------------|----------------------|
-| `2xx`       | [{ExampleDataType}](#data-model)        | {Describe the result where the request succeeds.} |
-| `4xx`       | [{ExampleErrorType}](#exampleerrortype) | {Describe the result where the request fails with the specified error code.} |
+| Status code |  Description          |
+|-------------|----------------------|
+| `200-OK`       | Meal ordered successfully.|
+| `400 - Bad Request`       | Meal order request failed. Check for invalid options. |
 
 ### Response example
 
@@ -176,12 +182,14 @@ https://api.gpmd.com/lunch
 	"order_number": 506321,
 	"meal_type": "lunch", 
 	"timestamp": "2024-01-14T07:44:45-05:00", 
-	"mealCat": "burgerMeal", 
-	"meal_quantity": 1, 
-	"side": "pommeFrites", 
-	"side_quantity": 1, 
-	"side": "coleslaw",
-	"side_quantity": 1, 
+	"mealCat": "burgerMeal",
+	"dressing1": "ketchup",
+	"dressing1": "honeyMustard",
+	"topping1": "lettuce",
+	"topping2": "pickle",
+	"topping3": "relish",
+	"sideDish": "pommeFrites", 
+	"sideDish": "coleslaw",
 	"server": "Brenda",
 	"server_id":"aslkw0923CAE", 
 	"cook": "Lou", 
