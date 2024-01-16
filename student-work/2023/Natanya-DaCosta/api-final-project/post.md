@@ -6,7 +6,9 @@ The POST call is used to create and process a customer's order. It consists of t
 ## Post Request (JSON object)  
 * The POST request consists of the actual meal burger order which the customer selects from the app.
 * The request is sent to the kitchen.
-   
+
+### JSON Code Snippet for POST Request
+  
 curl -H "Content-Type: application/json" -X POST -d'  
 {  
 	"mealType": "lunch",  
@@ -14,29 +16,30 @@ curl -H "Content-Type: application/json" -X POST -d'
 	  "burger": {  
 		"pattyType": "beef",  
 		"pattyQty": 1,  
-		"pattyWeightG": 300,  
-		"pattyCook": "MR",  
-		"bunType": "wholeWheat",  
-		"condiment1": "ketchup",  
-		"condiment2": "secretSauce",  
-		"topping1": "lettuce",  
-		"topping2": "pickles",  
-		"topping3": "onion"  
+		"pattyWeightG": 85,  
+		"pattyCook": "M",  
+		"bunType": "classic",  
+		"condiment1": "classicKetchup",  
+		"condiment2": "chilliSauce",  
+                "condiment3": "classicMustard",  
+		"topping1": "caramelizedOnions",  
+		"topping2": "pickledSweetPeppers",  
+		"topping3": "friedMushrooms"  
 	},  
 	"sides": {  
 		"side1": {  
-			"type": "frenchFries",  
-			"size": "large"  
+			"type": "classicFries",  
+			"size": "medium"  
 		},  
 		"side2": {  
-			"type": "none",  
-			"size": ""  
+			"type": "creamyColeslaw",  
+			"size": "medium"  
 		}  
 	},  
 	"drink": {  
 		"type": "coke",  
 		"size": "large",  
-		"ice": true  
+		"ice": "yes"   
 	}
 
 }
