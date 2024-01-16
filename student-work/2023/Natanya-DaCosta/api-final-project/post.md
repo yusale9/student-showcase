@@ -90,14 +90,22 @@ The various properties of the JSON object "drinks" is listed below.
 | ice    	| "yes"                 | string    |     N     | The category defining the ordered meal.                   |  
 
 ## POST Response (HTPP)  
-* When a correct order is placed, the server replies to the app with an acknowledgement.
-* The acknowledgement is an OK response code.  
-* The order is printed in the kitchen so that the meal can be prepared.
-
-
+* The POST response confirms receipt of the POST request.
+* This means that when a correct order is placed, the server replies to the app with an acknowledgement.
+* The acknowledgement is an OK status response code.  
+* The order can then be printed in the kitchen so that the meal can be prepared.
 
 | 200           |OK                                                                                                         | 
-|---------------|-----------------------------------------------------------------------------------------------------------|
+|---------------|-----------------------------------------------------------------------------------------------------------|  
+
+#### HTTP Error Codes  
+Error codes appear if an order is incorrect.
+
+| Status        | Description                                                                                                | 
+|---------------|------------------------------------------------------------------------------------------------------------|  
+| 404           | Page Not Found                                                                                             |  
+| 500           | Internal Server Error                                                                                      |  
+
 
 
 
