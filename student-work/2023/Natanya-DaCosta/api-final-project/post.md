@@ -7,7 +7,8 @@ The POST call is used to create and process a customer's order. It consists of t
 * The POST request consists of the actual meal burger order which the customer selects from the app.
 * The request is sent to the kitchen.
 
-### JSON Code Snippet for POST Request
+### Code Snippet for POST Request  
+
   
 curl -H "Content-Type: application/json" -X POST -d'  
 {  
@@ -43,6 +44,18 @@ curl -H "Content-Type: application/json" -X POST -d'
 	}
 
 }
+
+### Properties Table for POST Request  
+
+
+| Property Name | Description | Default Value | Data Type | Mandatory / Optional |  
+|---------------|-------------|---------------|-----------|----------------------|  
+
+
+| Property Name | Description   | Default Value | Data Type | Mandatory/Optional |
+|----------------|--------|-----------|------------------------------|
+| {id}           | string | Required  | {Unique i            |
+|                |        |           |                              |
 
 ## Post Response (HTPP)  
 * When a correct order is placed, the server replies to the app with an acknowledgement.
