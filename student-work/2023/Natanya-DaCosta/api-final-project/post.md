@@ -1,5 +1,5 @@
-# Post Call/Command 
-The POST call is used to create and process a patron's order. It consists of two parts:  
+# Post Command Documentation 
+The POST command is used to create and process a patron's order. It consists of two parts:  
 * The POST request (JSON object)
 * The POST response (HTTP)
  
@@ -8,8 +8,7 @@ The POST call is used to create and process a patron's order. It consists of two
 * The POST request is sent to the kitchen when the order is submitted.
 
 ### Code Snippet for POST Request  
-* For the purposes of the POC, the "mealType" is limited to "lunch".
-* For the purposes of the POC, the "mealCategory" is limited to "burger meal".
+* For the purposes of the POC, the "mealType" is limited to "lunch"; and the "mealCategory" is limited to "burger meal".
 * Both the above properties, will be expanded in the future to include additional meal times and order items.
 * Take-out orders, by default, are set to appear as tableNumber 99, to differentiate them from patrons dining in.  
  ```
@@ -62,7 +61,7 @@ The POST request consists of various properties.  These properties are listed be
 | mealCat	| "burgerMeal"          | string    |     Y     | The category defining the ordered meal.                   |  
 
 #### JSON Object 2: **Burger**  
-The various properties of the JSON object "burger" is listed below. Condiments are limited to 3. Toppings are limited to 4. Extra items can be selected for each at an additional charge. 
+The various properties of the JSON object "burger" is listed below. 
 
 | Property Name | Default Value         | Data Type | Mandatory | Description                                               | 
 |---------------|-----------------------|-----------|-----------|-----------------------------------------------------------|  
@@ -87,9 +86,9 @@ The various properties of the JSON object "drinks" is listed below. Drinks are l
 
 | Property Name | Default Value         | Data Type | Mandatory | Description                                               | 
 |---------------|-----------------------|-----------|-----------|-----------------------------------------------------------|  
-| type          | "coke"              	| string    |     N     | Take-out orders are always specified by table number 99.  |  							
-| size    	| "medium"	        | string    |     N	| The type of meal served depending on the time of day.     |  
-| ice    	| "yes"                 | string    |     N     | The category defining the ordered meal.                   |  
+| type          | "coke"              	| string    |     N     | Types of listed drinks.                                   |  							
+| size    	| "medium"	        | string    |     N	| The size of the drink                               .     |  
+| ice    	| "yes"                 | string    |     N     | Option to have selected drink with or without ice.        |  
 
 ## POST Response (HTPP)  
 * The POST response confirms receipt of the POST request.
@@ -97,11 +96,11 @@ The various properties of the JSON object "drinks" is listed below. Drinks are l
 * The acknowledgement is an OK status response code.  
 * The order can then be printed in the kitchen so that the meal can be prepared.
 
-| 200           |OK                                                                                                         | 
+| 200           |OK                                                                                                         |
 |---------------|-----------------------------------------------------------------------------------------------------------|  
 
 #### HTTP Error Codes  
-Error codes appear if an order is incorrect.
+Possible error codes appear if an order is incorrect.
 
 | Status        | Description                                                                                                | 
 |---------------|------------------------------------------------------------------------------------------------------------|  
