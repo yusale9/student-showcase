@@ -46,7 +46,7 @@ Use the following endpoints to interact with the GPMD entities.
 |        |                                          |                         |
 
 
-## /lunch
+## POST /lunch
 
 Creates an order for a GPMD burger meal.
 
@@ -105,14 +105,17 @@ https://api.gpmd.com/lunch
 |Menu Item|Valid Options|Default|Data Type|Comments|
 |---------|-------------|-------|---------|--------|
 |Meal Type|Lunch|Lunch|String|
-|Meal Category|Side Dish|1 x Pomme frites|Integer|Choose side orders
-||Pomme frites qty|0|Integer|
-||Sauted potatoes qty |0
-||Coleslaw qty |0
-||Israeli salad qty |0
-||Corn salad qty |0
-|Side Portion Size|Medium|Medium|String|
-||Large|
+|Meal Category|Side Dish|1 x Pomme frites (mdm)|Integer|Choose side orders
+||Pomme frites medium qty|0
+||Pomme frites large qty|0
+||Sauted potatoes medium qty |0
+||Sauted potatoes large qty |0
+||Coleslaw medium qty |0
+||Coleslaw large qty |0
+||Israeli salad medium qty |0
+||Israeli salad large qty |0
+||Corn salad medium qty |0
+||Corn salad large qty |0
 
 #### Drink
 |Menu Item|Valid Options|Default|Data Type|Comments|
@@ -125,7 +128,7 @@ https://api.gpmd.com/lunch
 |Beer (bottle)|Budweiser|0
 ||Guinness|0
 ||Carlsberg|0
-|Soft Drink (Can)|Coke|0
+|Soft Drink (Can)|Coke w/ice|0
 ||Coke Zero|0
 ||Diet Coke|0
 ||Coke Caffeine Free |0
@@ -140,7 +143,7 @@ https://api.gpmd.com/lunch
 ### Request example
 
 ```curl
-curl -H "Content-Type: application/json" -X POST -d
+curl -H "Content-Type: application/json" -X POST -d'
 ```
 ```JSON
 {
@@ -160,17 +163,14 @@ curl -H "Content-Type: application/json" -X POST -d
 	},
 	"sideDish": {
 		"sideDish1": {
-			"type": "pommeFrites",
-			"size": "large"
+			"type": "pommeFritesMedium"
 		},
 		"sideDish2": {
-			"type": "coleslaw",
-			"size": "medium"
+			"type": "coleslawLarge",
 		}
 	},
 	"softDrink": {
 		"type": "coke",
-		"size": "large",
 		"ice": true
 	}
 
@@ -199,8 +199,10 @@ curl -H "Content-Type: application/json" -X POST -d
 	"topping1": "lettuce",
 	"topping2": "pickle",
 	"topping3": "relish",
-	"sideDish": "pommeFrites", 
-	"sideDish": "coleslaw",
+	"sideDish": "pommeFritesMedium", 
+	"sideDish": "coleslawLarge",
+	"softDrink": "coke",
+	"ice": true,
 	"server": "Brenda",
 	"server_id":"aslkw0923CAE", 
 	"cook": "Lou", 
