@@ -1,75 +1,41 @@
-# API Reference template
+# General Putnam Motel Diner API Documentation for the Burger Meal
 
 {Before using this template, read [the accompanying guide](api-reference-guide.md) to this template}.
 
 ## Overview
 
-Use the {product} APIs to {access | customize | program} the {features | functionality}.
+The General Putnam Motel Diner API allows patrons of the diner to order their meals in a touchless manner via an app. Due to time restraints and for the purposes of creating a POC by April, this API documentation is limited to ordering the Burger Meal at lunch time as a take-out order. In the future, the final product will include a full menu for different meal times.  
+The API is used to interface between the app and the server in the diner kitchen. Two main functions are presented:  
+* **A command is sent to the server:**  
+  An order is submitted.
+* **A command is retrieved from the server:**  
+  A bill is generated.
 
 ### Base URL
 
-```
-{Provide the base URL of the API. For example: https://api.example.com}
-```
+https://api.generalputnammoteldiner.com
 
 ### Authorization
 
-Authentication and authorization {is | is not} required for requests to these APIs. Supported authentication methods are:
-{ Basic | Digest | OAuth | others}
-
-```
-{Provide an example request with {Basic | Digest | OAuth | others} authentication.}
-```
-
-### Version
-
-{This section is optional.}
-
-{Provide the version number using semantic versioning or your product's API versioning scheme. For example: `0.0.1`}
-
-### Pagination
-
-{This section is optional.}
-
-Due to the potentially very large result sets from API calls, responses {are | can be} returned as shorter pages.
-
-Pagination can be customized using {pagination settings}. If not specified, the default values are {values}.
-
-### Rate limiting and throttling
-
-{This section is optional.}
-
-The {product} APIs use a {strategy-name} rate limiting strategy. The maximum number of requests allowed to access a {resource | endpoint |..} is {number} requests per {time period}.
+Standard methods of authentication apply.
 
 ### HTTP status codes
 
-The {product} APIs use the following standard HTTP response codes:
+The General Putnam Motel Diner APIs use the following standard HTTP response codes:
 
-| Status code | Message           | Description   |
-|-------------|-------------------|---------------|
-| `200 OK`    | Request succeeds. | {description} |
-|             |                   |               |
-|             |                   |               |
+| Status code | Type                   | Description                         |
+|-------------|------------------------|-------------------------------------|  
+| 100         | Informational response | Request received, proceeding.       |  
+| 200         | Successful response    | No further action needed from user. |
+
 
 ### Errors
 
-{This section is optional.}
+The General Putnam Motel Diner APIs use the following error types:
 
-The {product} APIs use the following error types:
-
-| Error                                   | Description      |
-|-----------------------------------------|------------------|
-| [{ExampleErrorType}](#exampleerrortype) | {Failure in ...} |
-|                                         |                  |
-|                                         |                  |
-
-#### ExampleErrorType
-
-| Field          | Type     | Description                                      |
-|----------------|----------|--------------------------------------------------|
-| {errorType}    | {enum}   | {Predefined error codes. Possible enum values are x, y, ..., and z.} |
-| {errorMessage} | {string} | {Additional information about why the error occurs.} |
-
+| Error code | Type                | Description                         |
+|------------|---------------------|-------------------------------------|
+| 401        | Successful response | No further action needed from user. |
 
 ## {Resource name}
 
