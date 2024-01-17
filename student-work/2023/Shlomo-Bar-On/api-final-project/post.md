@@ -2,7 +2,7 @@
 
 ## Overview
 
-Use the General Putnam Motel Diner (GPMD) APIs to access program functions for placing orders and requesting bills. The **POST** method is used to create a meal request.
+Use the General Putnam Motel Diner (GPMD) APIs to access program functions for placing orders and requesting bills. The **POST** method is used to create a meal request. The other method available in theis API is <a href="GET.md">GET</a> used to retrieve a bill for a meal order.
 
 ### Base URL
 
@@ -32,18 +32,6 @@ The GPMD APIs use the following standard HTTP response codes:
 | `400 - Bad Request`            | Order refused        | Order was not accepted. Check for invalid options.  |
 | `401 - Unauthorized`           | Authorization failed | Authorization attempt failed. Check supplied values.|
 | `500 - Internal Server Error`  | Server side failure  | Contact server administrator.                       |
-
-
-
-### Endpoints
-
-Use the following endpoints to interact with the GPMD entities.
-
-| Method | Endpoint name               | Description             |
-|--------|-----------------------------|-------------------------|
-| POST   | /lunch                      | Creates a burger meal order.   |
-| GET    | /tableNo                    | Retrieves a bill. |
-|        |                                          |                         |
 
 
 ## POST /lunch
