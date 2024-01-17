@@ -54,9 +54,9 @@ The API is used to interface between the app and the server in the diner kitchen
   * The server sends a response to the app: A bill is generated and a printout is given to the patron.
     
  ### Base URL
-
+```
 https://api.generalputnammoteldiner.com
-
+```
 ### Authentication
 
 Standard methods of authentication apply.
@@ -83,7 +83,7 @@ The General Putnam Motel Diner APIs use the following error codes:
 ### Documentation
 For further details, refer to: 
 
-[POST Call Documentation](student-work/2023/Natanya-DaCosta/api-final-project/post.md)  
+[POST Call Documentation](/post.md)  
 [GET Call Documentation](student-work/2023/Natanya-DaCosta/api-final-project/get.md)  
 
 ### References/Credits
