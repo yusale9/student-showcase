@@ -38,6 +38,14 @@ A([Initiate App]);
    N-->O[/Receive bill/];
    O-->P([End]);
 ```
+### Endpoints
+
+Use the following endpoints to interact with the GPMD entities.
+
+| Method | Endpoint name               | Description             |
+|--------|-----------------------------|-------------------------|
+| POST   | /lunch                      | Creates a burger meal order. See <a href="post.md">POST.md</a>  |
+| GET    | /tableNo                    | Retrieves a bill. See <a href="get.md">GET.md</a>|
 
 
 ### HTTP status codes
