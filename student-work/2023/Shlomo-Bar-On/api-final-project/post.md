@@ -55,78 +55,78 @@ https://api.gpmd.com/lunch
 |Menu Item|Valid Options|Default|Data Type|Comments|
 |---------|-------------|-------|---------|--------|
 |Meal Type|Lunch|Lunch|String|
-|Meal Category|Burger Meal|Burger Meal|String|
-|Patty Type|Beef|Beef|String|Choose one only
+|mealCat|Burger Meal|Burger Meal|String|Meal category
+|pattyType|Beef|Beef|String|Choose one only
 ||Chicken
 ||Vegetarian
 ||Vegan|
-|Patty Cook|Well done|Medium|String|Choose one only
+|pattyCook|Well done|Medium|String|Choose one only
 ||Medium
 ||Rare
-||Still twitching|
-|Patty Cook Type|Grilled|Grilled|String|Choose one only
+||stillTwitching|
+|pattyCookType|Grilled|Grilled|String|Choose one only
 ||Fried
 ||Baked|
-|Bun Type|White bun|White bun|String|Choose one only
-||White slice
-||Wholemeal bun
-||Wholemeal slice
-||Gluten free bun
-||Gluten free slice
-||No bread|
-|Patty size|Large|Extra large|String|Choose one only
-||Extra large
-||Double decker|
-|Dressing|Honey mustard|None|String|Allow up to 2 selections if not 'None'
-||Garlic mayo
-||Thousand island
+|bunType|White bun|White bun|String|Choose one only
+||whiteSlice
+||wholemealBun
+||wholemealSlice
+||glutenFreeBun
+||glutenFreeSlice
+||noBread|
+|pattySize|Large|Extra large|String|Choose one only
+||extraLarge
+||doubleDecker|
+|Dressing[n]|Honey mustard|None|String|Allow up to 2 selections if not 'None'
+||garlicMayo
+||thousandIsland
 ||Ketchup
 ||None|
-|Topping|Lettuce|None|String|Allow up to 3 selections if not 'None'
+|Topping[n]|Lettuce|None|String|Allow up to 3 selections if not 'None'
 ||Pickle
 ||Tomato
 ||Pepper
 ||Relish
 ||None|
-|Meal Quantity|1-5|1|Integer|How many burger meals are required
+|mealQty|1-5|1|Integer|How many burger meals are required
 
 #### Side dish
 |Menu Item|Valid Options|Default|Data Type|Comments|
 |---------|-------------|-------|---------|--------|
-|Meal Type|Lunch|Lunch|String|
-|Meal Category|Side Dish|1 x Pomme frites (mdm)|Integer|Choose side orders
-||Pomme frites medium qty|0
-||Pomme frites large qty|0
-||Sauted potatoes medium qty |0
-||Sauted potatoes large qty |0
-||Coleslaw medium qty |0
-||Coleslaw large qty |0
-||Israeli salad medium qty |0
-||Israeli salad large qty |0
-||Corn salad medium qty |0
-||Corn salad large qty |0
+|mealType|Lunch|Lunch|String|Meal type
+|mealCat|Side Dish|1 x Pomme frites (mdm)|Integer|Choose side orders
+||pommeFritesMediumQty|0
+||pommeFritesLargeQty|0
+||sautedPotatoesMediumQty |0
+||sautedPotatoesLargeQty |0
+||coleslawMediumQty |0
+||coleslawLargeQty |0
+||israeliSaladMediumQty |0
+||israeliSaladLargeQty |0
+||cornSaladMediumQty |0
+||cornSaladLargeQty |0
 
 #### Drink
 |Menu Item|Valid Options|Default|Data Type|Comments|
 |---------|-------------|-------|---------|--------|
-|Meal Type|Lunch|Lunch|String|
-|Meal Category|Drink|1 x Mineral water|Integer|Choose drinks
-|Wine |House red (glass)|0
-||House white (glass)|0
-||Mineral water|0
-|Beer (bottle)|Budweiser|0
-||Guinness|0
-||Carlsberg|0
-|Soft Drink (Can)|Coke w/ice|0
-||Coke Zero|0
-||Diet Coke|0
-||Coke Caffeine Free |0
+|mealType|Lunch|Lunch|String|
+|mealCat|Drink|1 x Mineral water|Integer|Choose drinks
+|Wine |houseRed|0||per glass
+||houseWhite|0|
+||mineralWater|0||
+|Beer |Budweiser|0||per bottle
+||Guinness|0|
+||Carlsberg|0|
+|softDrink|Coke|0||per can
+||cokeZero|0
+||dietCoke|0
+||cokeCaffeineFree |0
 ||Sprite|0
-||Sprite Zero|0
-||Fanta Orange|0
-||Apple juice|0
-||Orange juice|0
-|With Ice?|True|False|Boolean|If soft drink selected
+||spriteZero|0
+||fantaOrange|0
+||appleJuice|0
+||orangeJuice|0
+|withIce?|True|False|Boolean|If soft drink selected
 ||False|
 
 ### Request example
