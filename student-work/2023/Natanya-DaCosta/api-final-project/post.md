@@ -57,7 +57,7 @@ The POST request consists of various properties.  These properties are listed be
 
 | Property Name | Default Value         | Data Type | Mandatory | Description                                               | 
 |---------------|-----------------------|-----------|-----------|-----------------------------------------------------------|  
-| tableNumber   | 99              	| integer   |     Y     | Take-out orders are always specified by table number 99.  |  							
+| tableNumber   | 99              	| integer   |     Y     | Take-out orders are always specified by table number 99.  |  					
 | mealType	| "lunch"	        | string    |     Y	| The type of meal served depending on the time of day.     |  
 | mealCat	| "burgerMeal"          | string    |     Y     | The category defining the ordered meal.                   |  
 
