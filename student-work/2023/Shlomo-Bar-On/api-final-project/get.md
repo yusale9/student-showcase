@@ -2,7 +2,7 @@
 
 ## Overview
 
-Use the General Putnam Motel Diner (GPMD) APIs to access program functions for placing orders and requesting bills. The **GET** method is used to create a bill request. The other method available in this API is <a href="POST.md">POST</a> used to create a meal request.
+Use the General Putnam Motel Diner (GPMD) APIs to access program functions for placing orders and requesting bills. The **GET** method is used to create a bill request. The other method available in this API is <a href="POST.md">POST</a> used to create a meal request. Background information for this API is in the <a href="readme.md">README</a> file.
 
 ### Base URL
 
