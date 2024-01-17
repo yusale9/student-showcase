@@ -11,8 +11,9 @@ The POST call is used to create and process a customer's order. It consists of t
 * For the purposes of the POC, the "mealType" is limited to "lunch".
 * For the purposes of the POC, the "mealCategory" is limited to "burger meal".
 * Both the above properties, will be expanded in the future to include additional meal times and order items.
-* Take-out orders, by default, are set to appear as tableNumber 99, to differentiate them from customers dining in.
-  
+* Take-out orders, by default, are set to appear as tableNumber 99, to differentiate them from customers dining in.  
+ ```
+JSON   
 curl -H "Content-Type: application/json" -X POST -d'  
 {  
         "tableNumber":99,  
@@ -48,6 +49,7 @@ curl -H "Content-Type: application/json" -X POST -d'
 	}
 
 }
+```
 
 ### Properties Table for POST Request Code Snippet  
 The POST request consists of various properties.  These properties are listed below according to their objects. 
