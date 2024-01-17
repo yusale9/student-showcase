@@ -1,17 +1,17 @@
 # Post Call/Command 
-The POST call is used to create and process a customer's order. It consists of two parts:  
+The POST call is used to create and process a patron's order. It consists of two parts:  
 * The POST request (JSON object)
 * The POST response (HTTP)
  
 ## Post Request (JSON object)  
-* The POST request specifies the customer's choices which have been selected from the menu on the app. 
+* The POST request specifies the patron's choices which have been selected from the menu on the app. 
 * The POST request is sent to the kitchen when the order is submitted.
 
 ### Code Snippet for POST Request  
 * For the purposes of the POC, the "mealType" is limited to "lunch".
 * For the purposes of the POC, the "mealCategory" is limited to "burger meal".
 * Both the above properties, will be expanded in the future to include additional meal times and order items.
-* Take-out orders, by default, are set to appear as tableNumber 99, to differentiate them from customers dining in.  
+* Take-out orders, by default, are set to appear as tableNumber 99, to differentiate them from patrons dining in.  
  ```
 JSON   
 curl -H "Content-Type: application/json" -X POST -d'  
