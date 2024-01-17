@@ -1,4 +1,4 @@
-# GET Command 
+# GET Command Documentation
 The GET call is used to request and generate the bill for a patron's order. It consists of two parts:  
 * The GET request (JSON object)
 * The GET response (JSON object)
