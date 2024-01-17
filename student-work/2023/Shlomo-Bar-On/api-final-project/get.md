@@ -58,9 +58,6 @@ https://api.gpmd.com/tableNo
 
 #### Request body
 
-#### Request body
-
-
 
 | Field  | Type   | Required? | Description                      |
 |--------|--------|-----------|----------------------------------|
@@ -72,18 +69,34 @@ https://api.gpmd.com/tableNo
 curl -X GET "http://URL/tableNo?id=99"
 ```
 
-### Response schema
-
-| Status code | Schema                                  | Description          |
-|-------------|-----------------------------------------|----------------------|
-| `2xx`       | [{ExampleDataType}](#data-model)        | {Describe the result where the request succeeds.} |
-| `4xx`       | [{ExampleErrorType}](#exampleerrortype) | {Describe the result where the request fails with the specified error code.} |
-
 ### Response example
 
+```JSON
+{
+   "orderNum":123,
+   "timestamp":"2020-01-21T07:44:45-05:00",
+   "Item1":{
+  	"ItemOrdered":{
+     	"type":"burgerMeal",
+     	"Cost":10.99
+  	}
+   },
+   "Item2":{
+  	"ItemOrdered":{
+     	"type":"pommeFritesMedium",
+     	"Cost":9.50
+  	}
+   }
+}
 ```
-{Provide an example of the API response, filled with sample values.}
-```
+### Response explained
+
+| Field  | Type   | Description                      |
+|--------|--------|----------------------------------|
+|orderNum|Integer|The number of the order for which this bill has been generated.
+|timeStamp|Date|The time the order was placed.
+|Item1|JSON object|The first menu item ordered.
+
 ---
 
 > Explore other templates from [The Good Docs Project](https://thegooddocsproject.dev/). Use our [feedback form](https://thegooddocsproject.dev/feedback/?template=API%20reference) to give feedback on this template.
