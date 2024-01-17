@@ -9,12 +9,16 @@ A([Initiate App]);
    C-->D{Want a side order?};
    B--No-->D;
    D--Yes-->E([Choose side order]);
-   E-->F([Choose side size]);
-   F-->G{Want another side?};
-   G--Yes-->E;
-   G--No-->H{Want a drink?};
-  
+   E-->F{Want another side?};
+   F--Yes-->E;
+   F--No-->G{Want a drink?};
+   G--Yes-->H([Choose drink]);
+   H-->I{Want another drink?}
+   I--Yes-->H;
+   I--No-->{Finished}?}
 
+  
+```
 
 
 ### HTTP status codes
@@ -27,4 +31,4 @@ The GPMD APIs use the following standard HTTP response codes:
 | `200 - OK`                       | Success              | Meal was successfully ordered.                      |
 | `400 - Bad Request`            | Order refused        | Order was not accepted. Check for invalid options.  |
 | `401 - Unauthorized`           | Authorization failed | Authorization attempt failed. Check supplied values.|
-| `500 - Internal Server Error`  | Server side failure  | Contact server administrator.                       |
+| `500 - Internal Server Error`  | Server-side failure  | Contact server administrator.                       |
