@@ -2,7 +2,7 @@
 
 ## Overview
 
-Use the General Putnam Motel Diner (GPMD) APIs to access program functions for placing orders and requesting bills. The **GET** method is used to create a bill request.
+Use the General Putnam Motel Diner (GPMD) APIs to access program functions for placing orders and requesting bills. The **GET** method is used to create a bill request. The other method available in this API is <a href="POST.md">POST</a> used to create a meal request.
 
 ### Base URL
 
@@ -31,19 +31,8 @@ The GPMD APIs use the following standard HTTP response codes:
 | `200 - OK`                       | Success              | Bill was successfully requested.                      |
 | `400 - Bad Request`            | Request refused        | Bill request was not accepted. Check for invalid options.  |
 | `401 - Unauthorized`           | Authorization failed | Authorization attempt failed. Check supplied values.|
-| `500 - Internal Server Error`  | Server side failure  | Contact server administrator.                       |
+| `500 - Internal Server Error`  | Server-side failure  | Contact server administrator.                       |
 
-
-
-### Endpoints
-
-Use the following endpoints to interact with the GPMD entities.
-
-| Method | Endpoint name               | Description             |
-|--------|-----------------------------|-------------------------|
-| POST   | /lunch                      | Creates a burger meal order.   |
-| GET    | /tableNo                    | Retrieves a bill. |
-|        |                                          |                         |
 
 
 ## GET /tableNo
@@ -59,8 +48,8 @@ https://api.gpmd.com/tableNo
 #### Request body
 
 
-| Field  | Type   | Required? | Description                      |
-|--------|--------|-----------|----------------------------------|
+| Field  | Data Type   | Required? | Description                      |
+|--------|---------|-----------|----------------------------------|
 | id   | integer | Required  | Table number of order  |
 
 ### Request example
@@ -91,11 +80,19 @@ curl -X GET "http://URL/tableNo?id=99"
 ```
 ### Response explained
 
-| Field  | Type   | Description                      |
+| Field  | Data Type   | Description                      |
 |--------|--------|----------------------------------|
 |orderNum|Integer|The number of the order for which this bill has been generated.
-|timeStamp|Date|The time the order was placed.
+|timestamp|Date|The time the order was placed.
 |Item1|JSON object|The first menu item ordered.
+|ItemOrdered|Nested JSON object|Detail of Item1
+|type|String|There's only one type for this POC
+|Cost|Float|Cost of burgerMeal
+|Item2|JSON object|The side order menu item ordered.
+|ItemOrdered|Nested JSON object|Detail of Item2
+|type|String|pommeFritesMedium
+|Cost|Float|Cost of side order type
+
 
 ---
 
