@@ -84,7 +84,7 @@ The General Putnam Motel Diner APIs use the following error codes:
 For further details, refer to: 
 
 * [POST Call Documentation](post.md)  
-[GET Call Documentation](student-work/2023/Natanya-DaCosta/api-final-project/get.md)  
+* [GET Call Documentation](get.md)  
 
 ### References/Credits
 
