@@ -89,7 +89,7 @@ For further details, refer to:
 ### References/Credits
 
 * [An Adaptation of the API Guide](https://docs.google.com/document/d/11uNd8m5EorsLjGV84CjiJehiM8PxT2pdNbDFOnP3cDI/edit?usp=sharing) by Alex Fiedler.
-* The Google Docs Project [API Template Guide](https://gitlab.com/tgdp/templates/-/blob/main/api-reference/guide-api-reference.md) and [API Template](https://gitlab.com/tgdp/templates/-/blob/main/api-reference/template-api-reference.md).  
+* The Google Docs Project [API Reference Template Guide](https://gitlab.com/tgdp/templates/-/blob/main/api-reference/guide-api-reference.md) and [API Reference Template](https://gitlab.com/tgdp/templates/-/blob/main/api-reference/template-api-reference.md).  
 
 
 
