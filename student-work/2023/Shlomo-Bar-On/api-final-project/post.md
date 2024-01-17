@@ -61,7 +61,7 @@ https://api.gpmd.com/lunch
 > [!IMPORTANT]  
 > All attributes are mandatory.
 
-
+#### Main burger meal
 
 |Menu Item|Valid Options|Default|Data Type|Comments|
 |---------|-------------|-------|---------|--------|
@@ -88,48 +88,58 @@ https://api.gpmd.com/lunch
 |Patty size|Large|Extra large|String|Choose one only
 ||Extra large
 ||Double decker|
-|Dressing|Honey mustard|None|String|Allow multiple selection if not 'None'
+|Dressing|Honey mustard|None|String|Allow up to 2 selections if not 'None'
 ||Garlic mayo
 ||Thousand island
 ||Ketchup
 ||None|
-|Topping|Lettuce|None|String|Allow multiple selection if not 'None'
+|Topping|Lettuce|None|String|Allow up to 3 selections if not 'None'
 ||Pickle
 ||Tomato
 ||Pepper
 ||Relish
 ||None|
-|Side Dishes|Pomme frites|None|String|Allow multiple selection if not 'None'
-||Sauted potatoes 
-||Coleslaw
-||Israeli salad
-||Corn salad
-||None|
-|Side Portion Size|Medium|Medium|String|Per side order and only if side order selected
+|Meal Quantity|1-5|1|Integer|How many burger meals are required
+
+#### Side dish
+|Menu Item|Valid Options|Default|Data Type|Comments|
+|---------|-------------|-------|---------|--------|
+|Meal Type|Lunch|Lunch|String|
+|Meal Category|Side Dish|1 x Pomme frites|Integer|Choose side orders
+||Pomme frites qty|0|Integer|
+||Sauted potatoes qty |0
+||Coleslaw qty |0
+||Israeli salad qty |0
+||Corn salad qty |0
+|Side Portion Size|Medium|Medium|String|
 ||Large|
-|Wine (Glass)|House red|None|String|Allow multiple selection if not 'None'
-||House white
-||None|
-|Beer (Bottle)|Budweiser|None|String|Allow multiple selection if not 'None'
-||Guinness
-||Carlsberg
-||None|
-|Soft Drink (Can)|Coke|None|String|Allow multiple selection if not 'None'
-||Coke Zero
-||Diet Coke
-||Coke Caffeine Free
-||Sprite
-||Sprite Zero
-||Fanta Orange
-||Apple juice
-||Orange juice
-||None|
+
+#### Drink
+|Menu Item|Valid Options|Default|Data Type|Comments|
+|---------|-------------|-------|---------|--------|
+|Meal Type|Lunch|Lunch|String|
+|Meal Category|Drink|1 x Mineral water|Integer|Choose drinks
+|Wine |House red (glass)|0
+||House white (glass)|0
+||Mineral water|0
+|Beer (bottle)|Budweiser|0
+||Guinness|0
+||Carlsberg|0
+|Soft Drink (Can)|Coke|0
+||Coke Zero|0
+||Diet Coke|0
+||Coke Caffeine Free |0
+||Sprite|0
+||Sprite Zero|0
+||Fanta Orange|0
+||Apple juice|0
+||Orange juice|0
 |With Ice?|True|False|Boolean|If soft drink selected
 ||False|
 
 ### Request example
 
-```
+```curl
 curl -H "Content-Type: application/json" -X POST -d
 ```
 ```JSON
@@ -173,6 +183,7 @@ curl -H "Content-Type: application/json" -X POST -d
 |-------------|----------------------|
 | `200-OK`       | Meal ordered successfully.|
 | `400 - Bad Request`       | Meal order request failed. Check for invalid options. |
+| `500 - Internal Server Error`  | Server side failure  | Contact server administrator.  |
 
 ### Response example
 
