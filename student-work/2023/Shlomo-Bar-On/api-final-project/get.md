@@ -64,13 +64,12 @@ https://api.gpmd.com/tableNo
 
 | Field  | Type   | Required? | Description                      |
 |--------|--------|-----------|----------------------------------|
-| {id}   | string | Required  | {Unique identifier of the user}  |
-| {name} | string | Optional  | {Name of the user}               |
+| id   | integer | Required  | Table number of order  |
 
 ### Request example
 
-```
-{Provide an example of the API request, filled with sample values.}
+```curl
+curl -X GET "http://URL/tableNo?id=99"
 ```
 
 ### Response schema
