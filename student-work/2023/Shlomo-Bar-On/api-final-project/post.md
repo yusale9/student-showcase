@@ -77,7 +77,7 @@ https://api.gpmd.com/lunch
 |pattySize|Large|Extra large|String|Choose one only
 ||extraLarge
 ||doubleDecker|
-|Dressing[n]|Honey mustard|None|String|Allow up to 2 selections if not 'None'
+|Dressing[n]|honeyMustard|None|String|Allow up to 2 selections if not 'None'
 ||garlicMayo
 ||thousandIsland
 ||Ketchup
