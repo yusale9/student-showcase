@@ -62,7 +62,7 @@ The POST request consists of various properties.  These properties are listed be
 | mealCat	| "burgerMeal"          | string    |     Y     | The category defining the ordered meal.                   |  
 
 #### JSON Object 2: **Burger**  
-The various properties of the JSON object "burger" is listed below.  
+The various properties of the JSON object "burger" is listed below. Condiments are limited to 3. Toppings are limited to 4. Extra items can be selected for each at an additional charge. 
 
 | Property Name | Default Value         | Data Type | Mandatory | Description                                               | 
 |---------------|-----------------------|-----------|-----------|-----------------------------------------------------------|  
@@ -71,11 +71,11 @@ The various properties of the JSON object "burger" is listed below.
 | pattyWeightG  | 85     	        | integer   |     Y     | The weight of a single patty.                             |  							
 | pattyCook	| "M"  	                | string    |     Y	| The degree of doneness to which the patty is cooked.      |  
 | bunType	| "classic"             | string    |     Y     | The type of bun based on ingredients.                     |  
-| condiment     | "none"                | string    |     N     | Choice limit of 3 from listed condiments.                 |  							
-| topping	| "lettuceTomato"     	| string    |     N	| Choice limit of 4 from listed toppings.                   |  
+| condiment     | "none"                | string    |     N     | Choice limit of 3 from listed condiments. Extra condiments can be selected at an additional charge per item.|  							
+| topping	| "lettuceTomato"     	| string    |     N	| Choice limit of 4 from listed toppings. Extra toppings can be selected at an additional charge per item.                  |  
 
 #### JSON Object 3: **Sides**   
-The various properties of the JSON object "sides" is listed below.  
+The various properties of the JSON object "sides" is listed below.  Sides are limited to 2. Extra sides can be ordered at an additional charge.
 
 | Property Name | Default Value         | Data Type | Mandatory | Description                                               | 
 |---------------|-----------------------|-----------|-----------|-----------------------------------------------------------|  
@@ -83,7 +83,7 @@ The various properties of the JSON object "sides" is listed below.
 | size   	| "medium" 	        | string    |     N	| The size of the servings of additional listed side foods. |  
 
 #### JSON Object 4: **Drinks**   
-The various properties of the JSON object "drinks" is listed below.
+The various properties of the JSON object "drinks" is listed below. Drinks are limited to 1. Extra drinks can be ordered at an additional charge.
 
 | Property Name | Default Value         | Data Type | Mandatory | Description                                               | 
 |---------------|-----------------------|-----------|-----------|-----------------------------------------------------------|  
