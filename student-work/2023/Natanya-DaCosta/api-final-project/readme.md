@@ -1,7 +1,7 @@
 # General Putnam Motel Diner API Documentation for the Burger Meal
 
 ## Introduction
-The General Putnam Motel Diner API allows patrons of the diner to order their meals in a touchless manner via an app. Due to time restraints and for the purposes of creating a POC by April, this API documentation is limited to ordering the Burger Meal at lunch time as a take-out order. In the future, the final product will include a full menu for different meal times.  
+The General Putnam Motel Diner API allows patrons of the diner to order their meals in a touchless manner via an app. For the purposes of the required POC, this API documentation is limited to ordering the Burger Meal at lunch time as a take-out order. In the future, the final product will include a full menu for different meal times.  
 
 ### A Basic Workflow for Placing an Order on the App  
 (For the purposes of this POC, the workflow is limited to only selecting take-out for the Table ID, lunch for the mealType, and a Burger Meal for the MealCat.)
@@ -36,7 +36,7 @@ The General Putnam Motel Diner API allows patrons of the diner to order their me
    S--No-->W[Make changes to order];
    W-->S{Confirm order?};  
    W-->V[Place order];
-   V-->X{Payment method?};
+   
 
 
 
