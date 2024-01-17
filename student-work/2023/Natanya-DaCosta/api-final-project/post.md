@@ -10,10 +10,12 @@ The POST command is used to create and process a patron's order. It consists of 
 ### Code Snippet for POST Request  
 * For the purposes of the POC, the "mealType" is limited to "lunch"; and the "mealCategory" is limited to "burger meal".
 * Both the above properties, will be expanded in the future to include additional meal times and order items.
-* Take-out orders, by default, are set to appear as tableNumber 99, to differentiate them from patrons dining in.  
- ```
-JSON   
-curl -H "Content-Type: application/json" -X POST -d'  
+* Take-out orders, by default, are set to appear as tableNumber 99, to differentiate them from patrons dining in.
+
+``` curl
+curl -H "Content-Type: application/json" -X POST -d'
+```    
+``` JSON
 {  
         "tableNumber":99,  
 	"mealType": "lunch",  
