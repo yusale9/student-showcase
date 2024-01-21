@@ -2,7 +2,7 @@
 ```mermaid
    flowchart TD
 
-A((Alarm Rings))-->B[Go to washroom]
+A((Alarm Rings-Wake up))-->B[Go to washroom]
 B-->C[Go to Kitchen]
 C-->D[Drink 2 glasses of water]
 D--Going to work-->E[choose clothes for work]
