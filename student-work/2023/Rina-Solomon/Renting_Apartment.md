@@ -20,5 +20,4 @@
    Lawyer->>Apartment Owner: Gives copy of signed contract;
    Apartment Owner->>Tenant: Gives him the Apartment keys;
    Tenant->>Apartment: Moves into the Apartment;
-
    ```
