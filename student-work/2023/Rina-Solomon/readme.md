@@ -38,11 +38,14 @@ _Jan 1995 – Feb 1995_
 •	Typist using the company program.  
 
 ## Teacher - St Jude’s School, Jabalpur, India
-_1991 – 1993_
+_1991 – 1993_  
 •	Teacher in English and Mathematics for classes I to XII.  
 
 ## Languages
-* English (mother-tongue)  
+* English (mother-tongue)
+* Hebrew (reading, speaking)
+* Hindi (fluent)
+* Marathi (fluent)
   
 ## Education
 **Our Best Words** (2023)  
