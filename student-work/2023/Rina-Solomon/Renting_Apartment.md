@@ -18,7 +18,7 @@
    Apartment Owner->>Lawyer: Signs the contract;
    Lawyer->>Tenant: Gives copy of signed contract;
    Lawyer->>Apartment Owner: Gives copy of signed contract;
-   Apartment Owner->Tenant: Gives him the Apartment keys;
+   Apartment Owner->>Tenant: Gives him the Apartment keys;
    Tenant->>Apartment: Moves into the Apartment;
 
    ```
