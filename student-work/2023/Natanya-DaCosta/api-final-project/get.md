@@ -44,26 +44,26 @@ The endpoint "99" at the end of the URL specifies the take-out bill request.
 The GET response consists of various properties.  These properties are listed below according to their objects. 
 #### JSON Objects 1: **orderNum and timestamp**  
 
-| Property Name | Value                       | Data Type | Mandatory | Description                                        | 
-|---------------|-----------------------------|-----------|-----------|----------------------------------------------------|  
-| orderNum      | 123                         | integer   | Y         | The number identifying a patron's order.           |  					
-| timestamp	    | 2020-01-21T07:44:45-05:00   | string    | Y         | The date and time the order was submitted.         |  
+| Property Name | Data Type | Mandatory | Description                                        | 
+|---------------|-----------|-----------|----------------------------------------------------|  
+| orderNum      | integer   | Y         | The number identifying a patron's order.           |  					
+| timestamp	    | string    | Y         | The date and time the order was submitted.         |  
 
 #### JSON Object 2: **Item1**  
 
-| Property Name | Value                   | Data Type | Mandatory | Description                                        | 
-|---------------|-------------------------|-----------|-----------|----------------------------------------------------|  
-| item1         |                         | string    | Y         | First order item.                                  |  					
-| type         	| burgerMeal              | string    | Y         | The type of meal ordered.                          |  
-| cost          | 10.99                   | float     | Y         | The cost of item1.                                 |  
+| Property Name | Data Type | Mandatory | Description                                        | 
+|---------------|-----------|-----------|----------------------------------------------------|  
+| item1         | string    | Y         | First order item.                                  |  					
+| type         	| string    | Y         | The type of meal ordered.                          |  
+| cost          | float     | Y         | The cost of item1.                                 |  
 
 #### JSON Object 3: **Item2**  
 
-| Property Name | Value                   | Data Type | Mandatory | Description                                        | 
-|---------------|-------------------------|-----------|-----------|----------------------------------------------------|  
-| item2         |                         | string    | Y         | Second order item.                                 |  					
-| type         	| salad                   | string    | Y         | The type of meal ordered.                          |  
-| cost          | 9.50                    | float     | Y         | The cost of item2.                                 |  
+| Property Name | Data Type | Mandatory | Description                                        | 
+|---------------|-----------|-----------|----------------------------------------------------|  
+| item2         | string    | Y         | Second order item.                                 |  					
+| type         	| string    | Y         | The type of meal ordered.                          |  
+| cost          | float     | Y         | The cost of item2.                                 |  
 
  
  
