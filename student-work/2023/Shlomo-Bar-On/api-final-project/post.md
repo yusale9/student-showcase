@@ -204,4 +204,4 @@ curl -H "Content-Type: application/json" -X POST -d'
 ```
 ---
 
-> Explore other templates from [The Good Docs Project](https://thegooddocsproject.dev/). Use our [feedback form](https://thegooddocsproject.dev/feedback/?template=API%20reference) to give feedback on this template.
+> Explore other templates from [The Good Docs Project](https://thegooddocsproject.dev/). Use the [feedback form](https://thegooddocsproject.dev/feedback/?template=API%20reference) to give feedback on this template.
