@@ -1,6 +1,14 @@
-# General Putnam Motel Diner
+## General Putnam Motel Diner - Orders  
 
-The General Putnam Motel Diner allows you to order for meals through ther app.
+# Introduction
+
+The General Putnam Motel Diner API allows you to order for meals through their app.  
+There are two main parts to this:  
+* **GET** request - This includes the Table number and order number. Documented in Get.md  
+* **POST** request - This includes order requested that is sent to the kitchen.  
+  On receiving an OK, the order is printed in the kitchen so that the cook can begin cooking. Documented in POST.md
+
+# Workflow  
 
 ```mermaid
    flowchart TD
@@ -9,10 +17,33 @@ The General Putnam Motel Diner allows you to order for meals through ther app.
    C-->D[Select burger size]
    D-->E[Select cook level]
    E-->F{want topping}
-   F--Yes-->G[choose topping]
    F--No-->H{want condiments}
+   F--Yes-->G[choose topping]
    G-->H{want condiments}
-   H--Yes-->I[choose condiments]
    H--No-->J{want sides}
+   H--Yes-->I[choose condiments]
    I-->J{want sides}
+   J--Yes-->K[choose sides]
+   K-->L{want drink}
+   J--No-->L{want drink}
+   L--Yes-->M[choose drink]
+   M-->N[choose size]
+   N-->O{want ice?}
+   L--No-->P{want extras}
+   O-->P{want extras}
+   P--Yes-->Q[choose extras]
+   P--No-->R[Order complete]
+   Q-->R[Order complete]
+   R-->S((Order sent to Kitchen))
+```
+
+# References
+This exercise was borrowed and adapted from Alex Fiedler.  
+Workflow was created with the help of Mermaid.  
+Error Code was copied from the API Guide (Adapted from Alex Fiedler)
+
+
+
+
+   
   
