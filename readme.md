@@ -8,6 +8,18 @@ There are two main parts to this:
 * **POST** request - This includes order requested that is sent to the kitchen.  
   On receiving an OK, the order is printed in the kitchen so that the cook can begin cooking. Documented in POST.md
 
+# Error Codes
+
+The following are the HTTP status codes for success or failure of an API call. 
+
+| Status | Code Description | 
+| --- | --- |
+| 200 - OK  | Your request was successful. |
+| 400 - Bad Request | Error. Check your order for unsupported additions.|
+| 401 - Unauthorized Request | Error. Is all information in the request correct  |
+| 402 - Request Failed | Your order was not received  |
+| 404 - Not Found  | Page not found|
+
 # Workflow  
 
 ```mermaid
