@@ -11,7 +11,7 @@
 * [Sergey Boroditsky](/Sergey-Boroditsky)
 * [Sharon Schnee](/Sharon-Schnee)
 * [Shlomo Bar-On](/Shlomo-Bar-On)
-   * [Resume Assignment](/Shlomo-Bar-On/readme.md)
-   * [API Assignment](/Shlomo-Bar-On/api-final-project/readme.md)
+   * [Resume Assignment](Shlomo-Bar-On/readme.md)
+   * [API Assignment](Shlomo-Bar-On/api-final-project/readme.md)
 * [Yosef Myhill](/Yosef-Myhill)
 
