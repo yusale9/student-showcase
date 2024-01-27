@@ -5,6 +5,8 @@
 Featured students include:
 
 * [Melissa Ligertwood](2023/Melissa-Ligertwood/)
+   * [Introduction](Melissa-Ligertwood/readme.md)
+   * [API Documentation](Melissa-Ligertwood/api-final-project/readme.md)
 * [Alan Bariman](2023/Alan-Bariman/)
 * [Deborah Sorrels](2023/Deborah-Sorrels)
 * [Jacob Sacks](2023/Jacob-Sacks)
