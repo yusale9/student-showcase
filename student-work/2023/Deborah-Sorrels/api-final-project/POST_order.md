@@ -14,7 +14,8 @@ The code confirms the order selections.
 curl -H "Content-Type: application/json" -X POST -d'  
 ```
 ### Value Meal Code 
-```
+
+``` JSON
 {
 "mealType": "lunch",
 "mealCat": "burgerValueMeal",
@@ -50,12 +51,12 @@ curl -H "Content-Type: application/json" -X POST -d'
 
 ### Request Status Code 
 
-```
-200 OK  
-400 Bad Request  
-500 Internal Server Error   
-503 Service Unavailable
-```
+Status Code | Status Type  
+---------- | ----------  
+200 | OK  
+400 | Bad Request  
+500 | Internal Server Error   
+503 | Service Unavailable
 
 ## Code Explanation 
 
@@ -98,120 +99,7 @@ drinkSize | string | "small", "medium", "large" | Size of drink. | "medium"
 ice | boolean | true, false | Does the customer want the drin with ice? | true | Optional  
 
 
-## Sample JSON Code Response Snippet  
+## Sample JSON Code Response Snippet   
 
-```
-{ 
-“meal_type”: “lunch”, 
-“timestamp”: “2020-01-21T07:44:45-05:00”, 
-"mealCat": "burgerValueMeal", 
-"pattyType": "beef", 
-"pattyQty": 1,
-"pattyWeightG": 220,
-"pattyCook": "MR",
- "bunType": "wholeWheat",
-"condiment1": "barbeque",
-"condiment2": "garlicMayonaise",
-"topping1": "tomato",
-"topping2": "pickles",
-"topping3": "friedMushrooms"
-"side1": :sweetPotatoFries",
-"sideSize": "medium",
-"side2": "coleslaw",
-"sidSize": "medium",
-"drink": "coke",
-"drinkSize": "medium",
-"ice": true, 
-“server”: ”Poppy”,
-“server_id”:“aslkw0923CAE”, 
-“cook”: ”Sam”, 
-“cook_id”: ”l2j23j9LKJsd”,
-“priceBase”: “10.99”
-"salesTax": "1.15
- “priceTotal”: “12.14” 
-}
-```
-
-## Response Code Explanation  
-
-Property Name | Data Type | Description  
-------------- | --------- | -----------  
-meal_type | string | Type of meal customer ordered, i.e., lunch or dinner.  
-timestamp | date | The time that the meal was ordered.  
-mealCat | string | Meal category. 
-pattyType | string | Type of meat.  
-pattyQty | interger | Number of patties ordered.  
-pattyWeightG | integer | Size of patties in grams.  
-pattyCook | string | How well the meat is cooked.  
-bunType | string | Bun type.  
-condiment1 | string | Condiment to add to the burger.  
-condiment 2 | string | Condiment to add to the burger. 
-topping1 | string | Topping to add to the burger.  
-topping2 | string | Topping to add to the burger.  
-topping3 | string | Topping to add to the burger.  
-side1 | string | The side dish that was selected.  
-side2 | string | The side dish that was selected.  
-sideSize | string | The size of side dish that was selected.  
-drink | string | The type of drink that was selected. 
-drinkSize | string | The size of the drink that was selected. 
-ice | boolean | Did the customer want ice or not?  
-server | string | Name of waiter/waitress.  
-server_id | uuid | The unique identifer of the waiter/waitress.  
-cook | string | Name of the cook.  
-cook_id | uuid | The unique identifer of the cook preparing the meal. 
-priceBase | interger | The base price of the meal.  
-salesTax | interger | Additional taxes added to the bill.  
-priceTotal | interger | Total price of the meal.  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<code> <b>200 OK                 </b></code>
 
