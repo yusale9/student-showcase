@@ -14,14 +14,13 @@ GET | base_url/endpoint/etc.
 # GET Request  
 NAME  | Type  | Description  
 ----- | ----| -----  
-table | Integer | This includes the table number of the client. Table 99 is reserved for takeouts.  
-OrderNo  | string | This is the meal requested by the client.  
+OrderNum  | string | Number exclusive for ordering the meal. The table number or takeouts.
 timestamp | timestamp | The time the meal was ordered.
-Item1 | xxx | xxx
-ItemOrdered | xxx | xxx
-type | xxx | xxx
-Cost | xxx | xxx
-Item2 | xxx | xxx
+Item1 | string | First item ordered
+ItemOrdered | string | The order requested by the client
+type | string | Type of meal ordered
+Cost | Float | Cost of the meal
+Item2 | string | Second item ordered
 
 
 
