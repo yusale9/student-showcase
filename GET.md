@@ -15,8 +15,13 @@ GET | base_url/endpoint/etc.
 NAME  | Type  | Description  
 ----- | ----| -----  
 table | Integer | This includes the table number of the client. Table 99 is reserved for takeouts.  
-Order  | string | This is the meal requested by the client.  
+OrderNo  | string | This is the meal requested by the client.  
 timestamp | timestamp | The time the meal was ordered.
+Item1 | xxx | xxx
+ItemOrdered | xxx | xxx
+type | xxx | xxx
+Cost | xxx | xxx
+Item2 | xxx | xxx
 
 
 
@@ -25,3 +30,21 @@ timestamp | timestamp | The time the meal was ordered.
 curl -X GET "http://URL/tableNo?id=99"
 
 # GET Response (JSON Object)  
+``` JSON
+{
+   "orderNum":123,
+   "timestamp":"2020-01-21T07:44:45-05:00",
+   "Item1":{
+      "ItemOrdered":{
+         "type":"burgerMeal",
+         "Cost":10.99
+      }
+   },
+   "Item2":{
+      "ItemOrdered":{
+         "type":"salad",
+         "Cost":9.50
+      }
+   }
+}
+```
