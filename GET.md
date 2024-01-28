@@ -20,14 +20,8 @@ timestamp | timestamp | The time the meal was ordered.
 
 
 
-# GET Request Curl
-curl -X GET "http://URL/tableNo?id=99"  
+# GET Request Curl  
+  
+curl -X GET "http://URL/tableNo?id=99"
 
 # GET Response (JSON Object)  
-
-
-
-
-
-
-
