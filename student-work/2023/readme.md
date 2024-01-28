@@ -9,6 +9,8 @@
 * [Jacob Sacks](Jacob-Sacks)
 * [Leah-Sher](Leah-Sher)
 * [Max Zingerman](Max-Zingerman)
+  * [Mermaid Flowchart](Max-Zingerman/morning_routine.md)
+  * [Mermaid Sequence Diagram](Max-Zingerman/renting_an_appartment.md)
 * [Natanya DaCosta](Natanya-DaCosta)
 * [Rina-Solomon](Rina-Solomon)
    * [Resume Assignment](Rina-Solomon/readme.md)
