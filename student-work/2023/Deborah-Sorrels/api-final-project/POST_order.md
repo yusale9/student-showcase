@@ -158,7 +158,7 @@ ice | boolean | Did the customer want ice or not?
 server | string | Name of waiter/waitress.  
 server_id | uuid | The unique identifer of the waiter/waitress.  
 cook | string | Name of the cook.  
-cook_id | The unique identifer of the cook preparing the meal. 
+cook_id | uuid | The unique identifer of the cook preparing the meal. 
 priceBase | interger | The base price of the meal.  
 salesTax | interger | Additional taxes added to the bill.  
 priceTotal | interger | Total price of the meal.  
