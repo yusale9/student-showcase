@@ -19,3 +19,6 @@
 * [Yosef Myhill](Yosef-Myhill)
    * [Resume Assignment](Yosef-Myhill/readme.md)
    * [Mermaid Flowchart](Yosef-Myhill/Morning_Schedule_Flowchart.md)
+   * [Mermaid Sequence Diagram](Yosef-Myhill/Apartment_Rental_Sequence_Diagram.md)
+ 
+     
