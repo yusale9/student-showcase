@@ -12,7 +12,7 @@ curl -X GET "http://URL/tableNo?id=99"
 
 ## Sampel GET JSON Response Code Snippet  
 
-```
+``` JSON 
 {
 "orderNum":123,
 "timestamp":"2020-01-23T07:44:45-05:00",
