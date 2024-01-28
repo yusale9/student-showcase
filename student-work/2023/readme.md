@@ -15,6 +15,8 @@
 * [Sharon Schnee](Sharon-Schnee)
 * [Shlomo Bar-On](Shlomo-Bar-On)
    * [Resume Assignment](Shlomo-Bar-On/readme.md)
+   * [Mermaid Flowchart](Shlomo-Bar-On/Shlomo-Morning-Routine.md)
+   * [Mermaid Sequence Diagram](Shlomo-Bar-On/Renting-apartment-sequence.md)
    * [API Assignment](Shlomo-Bar-On/api-final-project/readme.md)
 * [Yosef Myhill](Yosef-Myhill)
    * [Resume Assignment](Yosef-Myhill/readme.md)
