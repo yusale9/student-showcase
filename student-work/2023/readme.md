@@ -2,6 +2,7 @@
 
 * [Melissa Ligertwood](Melissa-Ligertwood/)
   * [Resume Assignment](Melissa-Ligertwood/readme.md)
+  * [Mermaid Flowchart](Melissa-Ligertwoo/Mermaid-Demo.md)
   * [API Assignment](Melissa-Ligertwood/api-final-project/readme.md)
 * [Alan Bariman](Alan-Bariman/)
 * [Deborah Sorrels](Deborah-Sorrels)
