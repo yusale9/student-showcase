@@ -116,11 +116,11 @@ ice | boolean | true, false | Does the customer want the drin with ice? | true |
 "topping2": "pickles",
 "topping3": "friedMushrooms"
 "side1": :sweetPotatoFries",
-"sideSize": "meidum",
+"sideSize": "medium",
 "side2": "coleslaw",
 "sidSize": "medium",
 "drink": "coke",
-"drinkSize": "meidum",
+"drinkSize": "medium",
 "ice": true, 
 “server”: ”Poppy”,
 “server_id”:“aslkw0923CAE”, 
