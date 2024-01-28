@@ -25,25 +25,7 @@ curl -X GET "http://URL/tableNo?id=99"
 
 # GET Response (JSON Object)  
 
-``` JSON
-{
-   "orderNum":123,
-   "timestamp":"2020-01-21T07:44:45-05:00",
-   "Item1":{
-  	"ItemOrdered":{
-     	"type":"burgerMeal",
-     	"Cost":10.99
-  	}
-   },
-   "Item2":{
-  	"ItemOrdered":{
-     	"type":"salad",
-     	"Cost":9.50
-  	}
-   }
-}
 
-```
 
 
 
