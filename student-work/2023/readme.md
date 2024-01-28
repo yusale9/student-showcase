@@ -14,6 +14,8 @@
 * [Natanya DaCosta](Natanya-DaCosta)
 * [Rina-Solomon](Rina-Solomon)
    * [Resume Assignment](Rina-Solomon/readme.md)
+   * [Mermaid Flowchart](Rina-Solomon/Morning_Routine.md)
+   * [Mermaid Sequence Diagram](Rina-Solomon/Renting_Apartment.md)
 * [Sergey Boroditsky](Sergey-Boroditsky)
 * [Sharon Schnee](Sharon-Schnee)
   * [Resume Assignment](Sharon-Schnee/readme.md)
