@@ -48,7 +48,7 @@ curl -H "Content-Type: application/json" -X POST -d'
 }
 ```
 
-### Response Code 
+### Request Status Code 
 
 ```
 200 OK  
@@ -68,34 +68,71 @@ mealCat | string | burgerValueMeal | Meal category.
 
 ### Burger Order 
 
-Property Type | Data Type| Value | Description | Default  
-------------- | --------- | ----- | ---------- | -------  
-pattyType | string | "beef" , "lamb" , "vegan" , "chicken" , "turkey" | Type of meat. | "beef"  
-pattyQty | interger | 1, 2, 3 | Number of patties ordered. | 1  
-pattyWeightG | interger | 160, 220, 280 | Size of patties in grams. | 220  
-pattyCook | string | "R", "MR", "M", "MW", "W" | How well the meat is cooked. | MW  
-bunType | string | "classicHamburgerBun", "sesameSeedBun", "wholeWheatBun", "ciabattaBun", "briocheBun", "pretzelBun", "potatoRoll", 'sourdoughBun", glutenFreeBun", "lettuceWrap" | Bun type. | "classicHamburgerBun"  
-condiment1 | string | "Mayonaise", "garlicMayonaise", "spicyMayonaise", "ketchup", "barbequeSauce", "mustard" | Condiment options. | "mayonaise"  
-condiment2 | string | "Mayonaise", "garlicMayonaise", "spicyMayonaise", "ketchup", "barbequeSauce", "mustard" | Condiment options. Limit of two.| "ketchup"
-topping1 | string | "lettuce", "tomato", "pickles", "slicedOnions", "choppedOnions", "friedOnions", "friedMushrooms", "freshMushrooms", "friedEgg", "roastedCornBeef", "onionJam", "veganCheddar", "garlicConfit", "jalepenoPepper"  | Topping options. Limit of three. | "ketchup"   
-topping2 | string | "lettuce", "tomato", "pickles", "slicedOnions", "choppedOnions", "friedOnions", "friedMushrooms", "freshMushrooms", "friedEgg", "roastedCornBeef", "onionJam", "veganCheddar", "garlicConfit", "jalepenoPepper"  | Topping options. Limit of three. |  "slicedOnions"  
-topping3 | string | "lettuce", "tomato", "pickles", "slicedOnions", "choppedOnions", "friedOnions", "friedMushrooms", "freshMushrooms", "friedEgg", "roastedCornBeef", "onionJam", "veganCheddar", "garlicConfit", "jalepenoPepper"  | Topping options. Limit of three. | "pickles"   
+Property Type | Data Type| Value | Description | Default | Mandatory/Optional   
+------------- | --------- | ----- | ---------- | ------- | ------------------   
+pattyType | string | "beef" , "lamb" , "vegan" , "chicken" , "turkey" | Type of meat. | "beef" | Mandatory   
+pattyQty | interger | 1, 2, 3 | Number of patties ordered. | 1 | Mandatory   
+pattyWeightG | interger | 160, 220, 280 | Size of patties in grams. | 220 | Mandatory    
+pattyCook | string | "R", "MR", "M", "MW", "W" | How well the meat is cooked. | MW | Mandatory    
+bunType | string | "classicHamburgerBun", "sesameSeedBun", "wholeWheatBun", "ciabattaBun", "briocheBun", "pretzelBun", "potatoRoll", 'sourdoughBun", glutenFreeBun", "lettuceWrap" | Bun type. | "classicHamburgerBun" | Mandatory 
+condiment1 | string | "Mayonaise", "garlicMayonaise", "spicyMayonaise", "ketchup", "barbequeSauce", "mustard" | Condiment options. | "mayonaise" | Optional     
+condiment2 | string | "Mayonaise", "garlicMayonaise", "spicyMayonaise", "ketchup", "barbequeSauce", "mustard" | Condiment options. Limit of two.| "ketchup" | Optional  
+topping1 | string | "lettuce", "tomato", "pickles", "slicedOnions", "choppedOnions", "friedOnions", "friedMushrooms", "freshMushrooms", "friedEgg", "roastedCornBeef", "onionJam", "veganCheddar", "garlicConfit", "jalepenoPepper"  | Topping options. Limit of three. | "ketchup" | Optional   
+topping2 | string | "lettuce", "tomato", "pickles", "slicedOnions", "choppedOnions", "friedOnions", "friedMushrooms", "freshMushrooms", "friedEgg", "roastedCornBeef", "onionJam", "veganCheddar", "garlicConfit", "jalepenoPepper"  | Topping options. Limit of three. |  "slicedOnions" | Optional   
+topping3 | string | "lettuce", "tomato", "pickles", "slicedOnions", "choppedOnions", "friedOnions", "friedMushrooms", "freshMushrooms", "friedEgg", "roastedCornBeef", "onionJam", "veganCheddar", "garlicConfit", "jalepenoPepper"  | Topping options. Limit of three. | "pickles" | Optional  
 
 ### Side Dish Options  
 
-Property Type | Data Type| Value | Description | Default  
-------------- | --------- | ----- | ---------- | -------  
-side1 | string | "sweetPotatoFries", "traditionalFries", "greenSalad", "israeliSalad", "coleslaw", "puree", "onionRings", "guacamole" | Side dishes available.  Limit of 2. | "traditionalFries"  
-side2 | string | "sweetPotatoFries", "traditionalFries", "greenSalad", "israeliSalad", "coleslaw", "puree", "onionRings", "guacamole" | Side dishes available.  Limit of 2. | "greenSalad" 
+Property Type | Data Type| Value | Description | Default | Mandatory/Optional   
+------------- | --------- | ----- | ---------- | ------- | ------------------  
+side1 | string | "sweetPotatoFries", "traditionalFries", "greenSalad", "israeliSalad", "coleslaw", "puree", "onionRings", "guacamole" | Side dishes available.  Limit of 2. | "traditionalFries" | Mandatory   
+side2 | string | "sweetPotatoFries", "traditionalFries", "greenSalad", "israeliSalad", "coleslaw", "puree", "onionRings", "guacamole" | Side dishes available.  Limit of 2. | "greenSalad" | Optional 
 sideSize | string | "small", "medium", "large" | Size of side dish. | "medium"  
 
 ### Drink Options  
 
-Property Type | Data Type| Value | Description | Default  
-------------- | --------- | ----- | ---------- | -------  
-drink | string | "coke", "cokeZero", "dietCoke", "sprite", "dietSprite", "orangeJuice", "lemonade", "appleCider", gingerAle" | Type of drink. | "coke"  
-drinkSize | string | "small", "medium", "large" | Size of drink. | "meidum"  
-ice | boolean | true, false | Does the customer want the drin with ice? | true  
+Property Type | Data Type| Value | Description | Default | Mandatory/Optional   
+------------- | --------- | ----- | ---------- | ------- | ------------------   
+drink | string | "coke", "cokeZero", "dietCoke", "sprite", "dietSprite", "orangeJuice", "lemonade", "appleCider", gingerAle" | Type of drink. | "coke" | Mandatory   
+drinkSize | string | "small", "medium", "large" | Size of drink. | "medium"  
+ice | boolean | true, false | Does the customer want the drin with ice? | true | Optional  
+
+
+## Sample JSON Code Response Snippet  
+
+```
+{ 
+“meal_type”: “lunch”, 
+“timestamp”: “2020-01-21T07:44:45-05:00”, 
+"mealCat": "burgerValueMeal", 
+"pattyType": "beef", 
+"pattyQty": 1,
+"pattyWeightG": 220,
+"pattycook": "MR",
+ "bunType": "wholeWheat",
+"condiment1": "barbeque",
+"condiment2": "garlicMayonaise",
+"topping1": "tomato",
+"topping2": "pickles",
+"topping3": "friedMushrooms"
+"side1": :sweetPotatoFries",
+"sideSize": "meidum",
+"side2": "coleslaw",
+"sidSize": "medium",
+"drink": "coke",
+"drinkSize": "meidum",
+"ice": true, 
+“server”: ”Poppy”,
+“server_id”:“aslkw0923CAE”, 
+“cook”: ”Sam”, 
+“cook_id”: ”l2j23j9LKJsd”, “price_base”: “10.99” 
+ “price_total”: “10.99” 
+}
+```
+
+## Response Code Explanation  
+
+Property Name | Data Type | 
 
 
 
