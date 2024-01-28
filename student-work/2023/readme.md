@@ -10,6 +10,7 @@
 * [Max Zingerman](Max-Zingerman)
 * [Natanya DaCosta](Natanya-DaCosta)
 * [Rina-Solomon](Rina-Solomon)
+   * [Resume Assignment](Rina-Solomon/readme.md)
 * [Sergey Boroditsky](Sergey-Boroditsky)
 * [Sharon Schnee](Sharon-Schnee)
 * [Shlomo Bar-On](Shlomo-Bar-On)
