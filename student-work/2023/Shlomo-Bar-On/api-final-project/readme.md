@@ -1,4 +1,4 @@
-# GPMD API POC Introduction
+# GPMD API Reference
 
 ### Overview
 
