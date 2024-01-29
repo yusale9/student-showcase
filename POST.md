@@ -5,5 +5,8 @@ This consists of a POST Request and POST Response
 POST Request (JSON object)
 
 
-POST Response
-Name Description Default Value Data Type 
+POST Response  
+Name Description Default Value Data Type Required  
+Patty type Choice of the patty from Beef, chicken, lamb and vegan Beef  string  yes  
+Burger size Weight of the Burger from 160g, 220g and 300gm 220g Integer yes
+
