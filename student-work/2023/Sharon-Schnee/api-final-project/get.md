@@ -2,35 +2,29 @@
 
 This GET call allows customers to request the bill following a meal order. When this is printed, the customer can pay the bill. 
 
-#### Authorization
-
-Include the authorization header, using the following structure:
-
-```
-curl --request GET https://api.gphd.net/lunch/burgermeal
---header 'Content-Type: application/json'
---header 'Authorization: Bearer ImahFWLZWFdD8VVcUtIED2YuOjPFlZpldQTE5tUqKdv'
-```
-
 Method | syntax
 ----- | ----------
 GET | "http://api.gphd.net/tableNo?id=99
 
-#### PATH PARAMETERS
+## Examples
+
+### Request Path Parameters
 
 Name | type | Required | Description | Default 
 ---- | ----- | ----- | -------------------- | ---
 Id | integer | Y |  The table number. Take out orders are table 99. |
 
-## Examples
-
 ### Request
 
+Include the authorization header, using the following structure:
+
 ```
-curl -X GET "http://URL/tableNo?id=99"
+curl --request GET https://api.gphd.net/tableNo?id=99
+--header 'Content-Type: application/json'
+--header 'Authorization: Bearer ImahFWLZWFdD8VVcUtIED2YuOjPFlZpldQTE5tUqKdv'
 ```
 
-### Response (JSON object)
+### Response
 
 ```
 {
@@ -45,7 +39,7 @@ curl -X GET "http://URL/tableNo?id=99"
 }
 ```
 
-#### Response Parameters
+### Response Parameters
 
 Name | type | Description | Example 
 ---- | ----- | ----- | --------------------
@@ -67,4 +61,3 @@ Cost | integer | The cost of the order. | 10.99
 | `200 - OK` | Request successful. Enjoy your meal. |
 | `400 - Bad Request`       | Request failed. Check your request and try again. |
 | `500 - Internal Server Error`  | Server error. Please contact the server administrator.  |
-
