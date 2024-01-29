@@ -6,17 +6,17 @@ Method | syntax
 ----- | ----------
 GET | "http://api.gphd.net/tableNo?id=99
 
-## Examples
-
 ### Request Path Parameters
 
 Name | type | Required | Description | Default 
 ---- | ----- | ----- | -------------------- | ---
 Id | integer | Y |  The table number. Take out orders are table 99. |
 
+## Examples
+
 ### Request
 
-Include the authorization header, using the following structure:
+Include the authorization header using the following structure. For more information about Authentication, see the [ReadMe](https://github.com/Schnee18/student-showcase/blob/main/student-work/2023/Sharon-Schnee/api-final-project/readme.md) file.
 
 ```
 curl --request GET https://api.gphd.net/tableNo?id=99
