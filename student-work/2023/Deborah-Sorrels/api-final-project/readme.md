@@ -2,7 +2,7 @@
 
 ## Overview  
 
-The General Putnam Motel Diner is modernizing its takeout experience with a touchless API system, similar to fast-food chains.  This API allows customers to place order directly, sending them straight to the kitchen for quicker preparation.  Servers can use the API to request and print bills, streamlining the payment process.  By reducing wait times and simplifying ordering, the API enhances both customer satisfaction and staff productivity.   
+The General Putnam Motel Diner is modernizing its takeout experience with a touchless API system, similar to fast-food chains.  This API allows customers to place orders directly, sending them straight to the kitchen for quicker preparation.  Servers can use the API to request and print bills, streamlining the payment process.  By reducing wait times and simplifying ordering, the API enhances both customer satisfaction and staff productivity.   
 
 ## Documentation  
 
