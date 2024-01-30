@@ -27,34 +27,43 @@ When the placed order is correct, the server sends an acknowlegment reply to the
 
 # POST Request (JSON object)
 curl -H "Content-Type: application/json" -X POST -d'  
-{
-  "mealType": "lunch",  
-  "mealCat": "burgerMeal",  
-  "burger": {  
-  "pattyType": "beef",  
-  "pattyWeightG": 220,  
-  "pattyCook": "WD",  
-  "bunType": "White",  
-	"condiment1": "ketchup",  
-	"condiment2": "Barbeque Sauce",  
-	"topping1": "Fried Onions",
-	"topping2": "",    
-	"topping3": "None"  
-	"topping3": "None"
-	},
-  
-	"sides": {
-		"side1": {
-			"type": "frenchFries",
-			"size": "large"
-		},
-		"side2": {
-			"type": "none",
-			"size": ""
-		}
-	},
-	"drink": {
-		"type": "coke",
-		"size": "large",
-		"ice": true
-	}
+
+```JSON
+
+   "mealType":"lunch",
+   "mealCat":{
+  	"main":"burgerMeal",
+  	"burger":{
+     	"pattyType":"beef",
+     	"pattyQty":1,
+     	"pattyWeightG":220,
+     	"pattyCook":"WD",
+     	"bunType":"White",
+     	"condiment1":"ketchup",
+     	"condiment2":"Barbeque Sauce",
+     	"topping1":"lettuce",
+     	"topping2":"pickles",
+     	"topping3":"Fried Onions",
+     	"topping4":"None",
+  	},
+  	"sides":{
+     	"side1":{
+        	"type":"frenchFries",
+        	"size":"large"
+     	},
+     	"side2":{
+        	"type":"none",
+        	"size":""
+     	}
+  	},
+  	"drink":{
+     	"type":"Coke",
+     	"size":"large",
+     	"ice":true
+  	}
+        "Extras":{
+        	"type":"none",
+        	"size":""
+}
+},
+
