@@ -2,7 +2,7 @@
 
 # GET/tableNo  
 This request is sent when the client asks to receive the bill.  
-GET reqest includes the table number. Order number is included in the GET response. Takeout orders are table 99.  
+GET request includes the table number. Order number is also included in the GET response. Takeout orders are table 99.  
 
 
 # Endpoint name
