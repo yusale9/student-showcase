@@ -72,8 +72,8 @@ mealCat | string | burgerValueMeal | Meal category.
 Property Name | Data Type| Value | Description | Default | Mandatory/Optional   
 ------------- | --------- | ----- | ---------- | ------- | ------------------   
 pattyType | string | "beef" , "lamb" , "vegan" , "chicken" , "turkey" | Type of meat. | "beef" | Mandatory   
-pattyQty | interger | 1, 2, 3 | Number of patties ordered. | 1 | Mandatory   
-pattyWeightG | interger | 160, 220, 280 | Size of patties in grams. | 220 | Mandatory    
+pattyQty | integer  | 1, 2, 3 | Number of patties ordered. | 1 | Mandatory   
+pattyWeightG | integer | 160, 220, 280 | Size of patties in grams. | 220 | Mandatory    
 pattyCook | string | "R", "MR", "M", "MW", "W" | How well the meat is cooked. | MW | Mandatory    
 bunType | string | "classicHamburgerBun", "sesameSeedBun", "wholeWheatBun", "ciabattaBun", "briocheBun", "pretzelBun", "potatoRoll", 'sourdoughBun", glutenFreeBun", "lettuceWrap" | Bun type. | "classicHamburgerBun" | Mandatory 
 condiment1 | string | "Mayonaise", "garlicMayonaise", "spicyMayonaise", "ketchup", "barbequeSauce", "mustard" | Condiment options. | "mayonaise" | Optional     
