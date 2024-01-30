@@ -1,3 +1,5 @@
+# POST Documentation  
+
 # POST Meal (Lunch)
 This command is to process the order and is sent to the Kitchen. After an OK response is received, the client's order is printed in the kitchen, so the cook can begin cooking.  
 This consists of a POST Request and POST Response
@@ -21,9 +23,22 @@ This consists of a POST Request and POST Response
 *R/O = Required/Optional
 
 # POST Response 
-When the placed order is correct, the server sends an acknowlegment reply to the app. 
+When the placed order is correct, the server sends an acknowlegment reply to the app. Listed in a table below are few of the Error codes. 
 
 200 OK  
+
+# Error Codes
+
+The following are the HTTP status codes for success or failure of an API call. 
+
+| Status | Code Description | 
+| --- | --- |
+| 200 - OK  | Your request was successful. |
+| 400 - Bad Request | Error. Check your order for unsupported additions.|
+| 401 - Unauthorized Request | Error. Is all information in the request correct  |
+| 402 - Request Failed | Your order was not received  |
+| 404 - Not Found  | Page not found|
+
 
 # POST Request (JSON object)
 curl -H "Content-Type: application/json" -X POST -d'  
