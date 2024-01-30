@@ -17,7 +17,7 @@ The following are the HTTP status codes for success or failure of an API call.
 | --- | --- |
 | 200 - OK  | Your request was successful. |
 | 400 - Bad Request | Error. Check your order for unsupported additions.|
-| 401 - Unauthorized Request | Error. Is all information in the request correct  |
+| 401 - Unauthorized Request | Error. Is all information in the request correct?  |
 | 402 - Request Failed | Your order was not received  |
 | 404 - Not Found  | Page not found|
 
