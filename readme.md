@@ -7,8 +7,7 @@ There are two main parts to this:
 * **GET** request - This is a call sent when the client asks for the bill. The GET request includes the Table number and order number.   
 Takeout orders are table 99.  Documented in [Get.md](https://github.com/RinaSol/student-showcase/blob/API_Project/GET.md)   
 * **POST** request - This includes order requested that is sent to the kitchen.  
-  On receiving an OK, the order is printed in the kitchen so that the cook can begin cooking. Documented in POST.md
-
+  On receiving an OK, the order is printed in the kitchen so that the cook can begin cooking. Documented in [POST.md].
 # Error Codes
 
 The following are the HTTP status codes for success or failure of an API call. 
