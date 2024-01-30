@@ -38,12 +38,12 @@ curl -X GET "http://URL/tableNo?id=99"
 
 Property Name | Data Type | Description
 ------------- | --------- | -----------
-orderNum | interger | A unique set of numbers that identify each order.  
+orderNum | integer | A unique set of numbers that identify each order.  
 timestamp | date | The time the meal was ordered.  
 Item1 | N/A | Lists the specific number of items ordred.   
 ItemOrdered | N/A | Lists the item ordered. 
 type | string | Lists the specific item ordered.  
-Cost | interger | Lists the amount of the bill.  
+Cost | integer | Lists the amount of the bill.  
 
 
 
