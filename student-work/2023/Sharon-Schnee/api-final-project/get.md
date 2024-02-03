@@ -34,9 +34,17 @@ curl --request GET https://api.gphd.net/tableNo?id=99
   	"ItemOrdered":{
      	"type":"burgerMeal",
      	"Cost":10.99
-  	}
+     	}
    },
+   "Item2":{
+  	"ItemOrdered":{
+     	"type":"salad",
+     	"Cost":9.50
+     	}
+   }
 }
+
+
 ```
 
 ### Response Parameters
