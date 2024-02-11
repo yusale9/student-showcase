@@ -5,6 +5,8 @@
 Featured students include:
 
 * [Melissa Ligertwood](2023/Melissa-Ligertwood/)
+   * [Introduction](2023/Melissa-Ligertwood/readme.md)
+   * [API Documentation](2023/Melissa-Ligertwood/api-final-project/readme.md)
 * [Alan Bariman](2023/Alan-Bariman/)
 * [Deborah Sorrels](2023/Deborah-Sorrels)
 * [Jacob Sacks](2023/Jacob-Sacks)
@@ -14,7 +16,9 @@ Featured students include:
 * [Rina-Solomon](2023/Rina-Solomon)
 * [Sergey Boroditsky](2023/Sergey-Boroditsky)
 * [Sharon Schnee](2023/Sharon-Schnee)
-* [Shlomo Bar-On](2023/Shlomo-Bar-On)
+* [Shlomo Bar-On](2023/Shlomo-Bar-On/)
+  * [Introduction](2023/Shlomo-Bar-On/readme.md)
+  * [API Documentation](2023/Shlomo-Bar-On/api-final-project/readme.md)
 * [Yosef Myhill](2023/Yosef-Myhill)
 
 ## 2022 Class
