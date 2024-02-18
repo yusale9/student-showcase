@@ -32,7 +32,7 @@ The response is a JSON object with a separate entry for each menu item that was 
 |---|---|---|
 | orderNum | Order number | int |
 | timeStamp | Time stamp of the response | Date |
-| Item1 | Ordered item No 1 | 'ItemOrdered' object |
+| Item1 | Ordered item No 1 | object |
 | Item2 | Ordered item No 2. Optional | 'ItemOrdered' object |
 | Item3 | Ordered item No 3. Optional | 'ItemOrdered' object |
 | Item4 | Ordered item No 4. Optional | 'ItemOrdered' object |
