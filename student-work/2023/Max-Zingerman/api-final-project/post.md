@@ -29,7 +29,7 @@ The parameters and values for the `burger` object are as follows:
 |---|---|---|---|---|---|
 | pattyType | Patty type of the   burger | string | beef, chicken, vaggie | beef | No |
 | pattyQty | Number of patty units | int | 1 - 3 | 1 | No |
-| pattyWeightG | Patty weight (Grams) | int | 150, 200, 300 | 150 | No |
+| pattyWeightG | Patty weight (Grams) | number | 150, 200, 300 | 150 | No |
 | pattyCook | Patty cook level | string | R, M, MR, WD | M | No |
 | bunType | Type of the bun | string | classisc,  sameSeed, wholeWheat, brioche | Classic | No |
 | condiment1,   condiment2, condiment3 | Types of  condiments. Up to 3  are allowed. | string | ketchup, secretSause,   hotSauce, Dijon Mustard, salsa |  | No |
