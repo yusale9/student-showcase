@@ -37,7 +37,7 @@ The response is a JSON object with a separate entry for each menu item that was 
 | Item3 | Ordered item No 3. Optional | object |
 | Item4 | Ordered item No 4. Optional | object |
 | Item5 | Ordered item No 5. Optional | object |
-| Item6 | Ordered item No 6. Optional | 'ItemOrdered' object |
+| Item6 | Ordered item No 6. Optional | object |
 
 ### ItemOrdered object:
 | **Property** | **Description** | **Data Type** |
