@@ -53,7 +53,6 @@ This object contains all the items ordered within this meal. It is composed of s
 
 
 ### Syntax Example:
-```
 curl -H "Content-Type: application/json" -X POST -d'
 ### Response Example
 
