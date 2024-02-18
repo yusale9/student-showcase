@@ -18,7 +18,10 @@ This object contains all the items ordered within this meal. It is composed of s
 | sides | The two side dishes.   Two side dishes is the standard for this meal. | 'sides' object. It has two properties, both of them are 'side' objects:  side1 & side2. | See 'sides' object   documentation. If no sides are choosen, Null is passed for each 'side'   object. |  | Yes |
 | drink | Type of drink | drink' object. | See 'drink' object documentation |   | No |
 
-#### 'burger' object:
+#### Burger Definition
+
+The parameters and values for the `burger` object are as follows:
+
 
 | Property | Description | Data Type | Values | Default | Mandatory |
 |---|---|---|---|---|---|
