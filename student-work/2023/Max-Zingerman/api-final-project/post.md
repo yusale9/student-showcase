@@ -35,7 +35,9 @@ The parameters and values for the `burger` object are as follows:
 | condiment1,   condiment2, condiment3 | Types of  condiments. Up to 3  are allowed. | string | ketchup, secretSause,   hotSauce, Dijon Mustard, salsa |  | No |
 | topping1,   topping2, topping3 | Types of toppings. Up to 3   toppings are allowed. | string | lettuce, pickles, onion |  | NO |
 
-#### 'sides' object:
+#### Sides Definition
+
+The parameters and values for the `sides` object are as follows:
 
 | Property | Description | Data   Type | Values | Default | Mandatory |
 |---|---|---|---|---|---|
