@@ -60,7 +60,10 @@ The parameters and values for the `sides` object are as follows:
 | ice | With or without ice | boolean | TRUE, FALSE | TRUE | No |
 
 
-### Syntax Example:
+### Request Example
+
+`curl -H "Content-Type: application/json" -X POST -d`
+
 ### Response Example
 
 ``` JSON
