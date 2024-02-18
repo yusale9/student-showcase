@@ -10,7 +10,9 @@ POST
 A single 'burgerMeal' JSON object.  
 This object contains all the items ordered within this meal. It is composed of some other JSON objects, as listed below:
 
-#### 'burgerMeal' object:
+#### Burger Meal Definition
+
+The parameters and values for the `burgerMeal` object are as follows:
 
 | Property | Description | Data Type | Values | Default | Mandatory |
 |---|---|---|---|---|---|
