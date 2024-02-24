@@ -5,31 +5,39 @@ Send a new burger meal order to the kitchen.
 
 ### HTTP Method:
 POST
+
 ### Parameters:
 A single 'burgerMeal' JSON object.  
 This object contains all the items ordered within this meal. It is composed of some other JSON objects, as listed below:
 
-#### 'burgerMeal' object:
+#### Burger Meal Definition
+
+The parameters and values for the `burgerMeal` object are as follows:
 
 | Property | Description | Data Type | Values | Default | Mandatory |
 |---|---|---|---|---|---|
 | burger | Type of the burger | 'burger' object | See burger object documentation. |   | Yes |
-| sides | The two side dishes.   Two side dishes is the standard for this meal. | 'sides' object. It has two properties, both of them are 'side' objects:  side1 & side2. | See 'sides' object   documentation. If no sides are choosen, Null is passed for each 'side'   object. |  | Yes |
+| sides | The two side dishes.   Two side dishes is the standard for this meal. | 'sides' object. It has two properties, both of them are 'side' objects:  side1 & side2. | See [Sides Definition](#sides-definition) documentation. If no sides are choosen, Null is passed for each 'side'   object. |  | Yes |
 | drink | Type of drink | drink' object. | See 'drink' object documentation |   | No |
 
-#### 'burger' object:
+#### Burger Definition
+
+The parameters and values for the `burger` object are as follows:
+
 
 | Property | Description | Data Type | Values | Default | Mandatory |
 |---|---|---|---|---|---|
 | pattyType | Patty type of the   burger | string | beef, chicken, vaggie | beef | No |
 | pattyQty | Number of patty units | int | 1 - 3 | 1 | No |
-| pattyWeightG | Patty weight (Grams) | int | 150, 200, 300 | 150 | No |
+| pattyWeightG | Patty weight (Grams) | number | 150, 200, 300 | 150 | No |
 | pattyCook | Patty cook level | string | R, M, MR, WD | M | No |
 | bunType | Type of the bun | string | classisc,  sameSeed, wholeWheat, brioche | Classic | No |
 | condiment1,   condiment2, condiment3 | Types of  condiments. Up to 3  are allowed. | string | ketchup, secretSause,   hotSauce, Dijon Mustard, salsa |  | No |
 | topping1,   topping2, topping3 | Types of toppings. Up to 3   toppings are allowed. | string | lettuce, pickles, onion |  | NO |
 
-#### 'sides' object:
+#### Sides Definition
+
+The parameters and values for the `sides` object are as follows:
 
 | Property | Description | Data   Type | Values | Default | Mandatory |
 |---|---|---|---|---|---|
@@ -52,9 +60,13 @@ This object contains all the items ordered within this meal. It is composed of s
 | ice | With or without ice | boolean | TRUE, FALSE | TRUE | No |
 
 
-### Syntax Example:
-```
-curl -H "Content-Type: application/json" -X POST -d'
+### Request Example
+
+`curl -H "Content-Type: application/json" -X POST -d`
+
+### Response Example
+
+``` JSON
 {
 	  "burger": {
 		"pattyType": "beef",		

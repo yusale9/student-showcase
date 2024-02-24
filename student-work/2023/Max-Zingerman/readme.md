@@ -8,7 +8,7 @@
 📞 +972 54 534 2205  
 
 ## Summary
-Able to combine technical orientation and experience as software developer with very good linguistic skills to create technical documentation that is both user-friendly and technically precise. Capable of autonomously learning new technologies. Seeking a significant role in a product development team as a technical writer, leveraging my combination of skills. 
+Using my technical orientation and experience as software developer with excellent linguistic skills to create technical documentation that is both user-friendly and precise. Capable of autonomously learning new technologies. Seeking a significant role in a product development team as a technical writer, leveraging a combination of my skills. 
 
 ## Experience
 

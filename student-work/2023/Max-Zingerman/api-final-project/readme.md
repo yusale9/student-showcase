@@ -7,6 +7,7 @@ Following are some diagrams to illustrate this API intended usage.
 
 ### General Workflow:
 Following is a simplified sequence diagram to illustrate this API intended usage in the context of this POC:
+
 ```mermaid
 sequenceDiagram
 participant Client
@@ -22,15 +23,10 @@ Server-->>Client: Send the bill
 You can order a Burger Meal by sending a POST request to the server. As previously stated, this POC is for the Burger Meal only, in which a burger is mandatory.  
 Following is a simplified diagram of the **Burger Meal** ordering:
 
-```mermaid
-flowchart TD
-A([Start])-->B[Order meal]
-B--Server response-->C{Check<br>response<br>status}
-C--Modification required-->E[Modify<br>order]
-C--OK-->D[Wait for the order]
-D-->H([End])
-C--Bad request-->F[Correct<br>errors]
-```
+
+<div align="center">
+  <img src="orderMeal.svg" alt="Order meal SVG diagram">
+</div>
 
 Refer to [POST /meal/burgerMeal](post.md) API reference for detailed documentation.
 
@@ -39,16 +35,11 @@ Refer to [POST /meal/burgerMeal](post.md) API reference for detailed documentati
 You can request the bill by sending a GET request to the server, accompanied with the Table Number. If successfull, server will responde with the detailed bill.  
 Following is a simplified diagram of the the bill request:  
 
-```mermaid
-flowchart TD
-A([Start])-->B[Request bill]
-B--Server response-->C{Check<br>response<br>status}
-C--Parameter error-->E[Check tableNo]
-C--OK-->D[Get the bill]
-C--Unauthorized-->F[Check pass]
-D-->G[Summarize individual<br>item prices]
-G-->H([End])
-```
+<div align="center">
+  <img src="getBill.svg" alt="Get the bill SVG diagram">
+</div>
+
+
 Refer to [GET /meal/burgerMeal](get.md) API reference for detailed documentation.
 
 ### Credits
