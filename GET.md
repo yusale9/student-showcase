@@ -15,18 +15,18 @@ GET | base_url/endpoint/etc.
 NAME  | Type  | Description  
 ----- | ----| -----  
 OrderNum  | string | Number exclusive for ordering the meal. The table number or takeout order.
-timestamp | timestamp | The time the meal was ordered.
+timestamp | string | The time the meal was ordered.
 Item1 | string | First item ordered
 ItemOrdered | string | Item ordered by the client
 type | string | Type of meal ordered
-Cost | Float | Cost of the meal
+Cost | number | Cost of the meal
 Item2 | string | Second item ordered
 
 
 
 # GET Request Curl  
   
-curl -X GET "http://URL/tableNo?id=99"
+```curl -X GET "http://URL/tableNo?id=99"```
 
 # GET Response (JSON Object)  
 ``` JSON
