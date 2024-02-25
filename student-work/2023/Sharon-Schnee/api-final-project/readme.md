@@ -2,7 +2,7 @@
 
 [Getting started](#getting-started)
 [Authentication](#authentication)
-3. [API reference](#API-reference)
+[API reference](#API-reference)
 
 ## Getting started
 
