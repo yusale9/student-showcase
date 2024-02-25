@@ -56,7 +56,7 @@ curl --request GET https://api.gphd.net/lunch/burgermeal
 --header 'Authorization: Bearer ImahFWLZWFdD8VVcUtIED2YuOjPFlZpldQTE5tUqKdv'
 ```
 
-```
+``` JSON
 {
 	"mealType": "lunch",
 	"mealCat": "burgerMeal",
