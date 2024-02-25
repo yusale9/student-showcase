@@ -1,7 +1,7 @@
 # Hamburger POC API Guide
 
 [Getting started](#getting-started)
-2. [Authentication](#authentication)
+[Authentication](#authentication)
 3. [API reference](#API-reference)
 
 ## Getting started
