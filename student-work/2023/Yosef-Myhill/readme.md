@@ -13,10 +13,9 @@ Junior technical writer with experience in teaching is looking to help your comp
 ### Business
 Project management, business plans, marketing, sales, social media, data analysis, CRM, payment platforms, (Amazon, Ebay, and Paypal Business)
 ### Technical Background
-**User Interfaces:** Windows, Android, and iOs  
-**Tools:** Wix, WordPress, Office 365, Gantt charts, raster and vector graphics (using various platforms)  
-**Technical Languages:** HTML, CSS, Javascript (basic)  
-**Current Skills:** Content writing and blogging, technical writing (all kinds), marketing collateral basics, SEO, white papers, application notes, and product descriptions   
+**User Interfaces:** Windows, Android, and iOs
+**Technical Languages:** HTML, CSS, Javascript (basic) 
+**Tools:** Wix, WordPress, Office 365, Gantt charts, raster and vector graphics (using various platforms)    
 **Continuing advanced training in:** Github, Gitlab, and MadCap Flare  
 
 ## Experience
