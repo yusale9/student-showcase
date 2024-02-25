@@ -16,7 +16,7 @@ This consists of a POST Request and POST Response
 |Sides|french fries, onion rings, salad, green beans, none|which sides would the client like|french fries|string|O|
 |Side Size|medium, large and extra large|The size of the side dish|medium|string|O|
 |Drinks|cola regular or zero, sprite, fanta, water, iced tea, soda, apple juice and grape juice|choice of the drink the client would like with his meal|cola regular|string|R|
-|Drink size|medium, large or extra large|which size would the client like for his drink that is from the fountain and not a bottled drink|medium|string|O|
+|Drink size|medium, large or extra large|fountain drink size|medium|string|O|
 |Ice in drink|true,false|request for ice or no ice in the drink|True|boolean|O|
 |Extras|fried cauliflower, sweet potato chips, chicken wings or chicken nuggets|if the client would like an extra side dish|none|string|O|
 
