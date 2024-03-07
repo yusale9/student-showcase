@@ -48,7 +48,6 @@ The General Putnam Motel Diner API follows the standard HTTP status codes for su
 "mealCat" value of "burgerMeal". The "burgerMeal" API call allows the user to choose a meal that includes a burger, 1 or 2 side dishes, and a soft drink.
 ### Syntax
 The "burgerMeal" endpoint is nested under the "lunch" value in the "mealType" object.
-```json
 curl -H "Content-Type: application/json" -X POST -d'
 {
 	"mealType": "lunch",
