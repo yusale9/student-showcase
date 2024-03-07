@@ -61,7 +61,7 @@ curl -X GET "http://URL/tableNo?id=99"
 In the response to the GET call, the server sends an itemized bill of the customer's order.
 ### Syntax
 The following is the syntax for the GET response:
-```
+``` JSON
 {
    "orderNum":Order Number,  
    "timestamp":"YYYY-MM-DDTHH:MM:SSTime Zone",  
