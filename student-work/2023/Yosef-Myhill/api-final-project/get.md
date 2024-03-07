@@ -55,7 +55,6 @@ Insert the customer's table number as an integer between 1 and 16 in the custome
 
 ### Example
 Here is an example of a GET call for a takeout order:
-```json
 curl -X GET "http://URL/tableNo?id=99"
 ```
 ## Response
