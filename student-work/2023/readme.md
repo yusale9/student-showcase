@@ -6,7 +6,6 @@
   * [API Assignment](Melissa-Ligertwood/api-final-project/readme.md)
 * [Alan Bariman](Alan-Bariman/)
 * [Deborah Sorrels](Deborah-Sorrels)
-  * [Resume Assignment](Deborah-Sorrels/readme.md)
   * [Mermaid Flowchart](Deborah-Sorrels/daily-routine.md)
   * [Mermaid Sequence Diagram](Deborah-Sorrels/rental-agreement.md)
 * [Jacob Sacks](Jacob-Sacks)
