@@ -8,6 +8,7 @@
 * [Deborah Sorrels](Deborah-Sorrels)
   * [Mermaid Flowchart](Deborah-Sorrels/daily-routine.md)
   * [Mermaid Sequence Diagram](Deborah-Sorrels/rental-agreement.md)
+  * [API Assignment](Deborah-Sorrels/api-final-project/readme.md)
 * [Jacob Sacks](Jacob-Sacks)
 * [Leah-Sher](Leah-Sher)
 * [Max Zingerman](Max-Zingerman)
