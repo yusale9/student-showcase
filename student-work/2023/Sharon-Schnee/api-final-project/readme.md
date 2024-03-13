@@ -31,11 +31,10 @@ General Putnam Hotel Diner (GPHD) API uses bearer authentication (also known as 
 
 You need an email address and password to get a bearer token. When you get started with GPHD orders app, we send you an email containing this information.
 
-:::Info NOTE
 
-Each customer can request up to ten additional sets of credentials.
+> [!NOTE]  
+> Each customer can request up to ten additional sets of credentials.
 
-:::
 
 To receive an authentication token:
 
