@@ -39,7 +39,7 @@ Name | type | Required | Description | Default
 ---- | ----- | ----- | -------------------- | ---
 type | string  | N | Type of drink. Options include coke, dietCoke, sprite, iceTea, orangeJuice, appleJuice, mangoNectar, peachNectar, and none | coke |
 size | string | N |  Size of drink. Options include small, medium, large, and xLarge. | medium |
-drink | boolean  | N | With or without ice. Options include true=with ice, false=without ice. | true |
+ice | boolean  | N | With or without ice. Options include true=with ice, false=without ice. | true |
 
 <!-- Replace the two example rows and include rows for all your parameters. -->
 <!-- If one of the parameters has a set of sub-parameters, create a table or bulleted list for that, but proceed with caution. If the API is complex, there might be an easier way to do your reference section than writing markup by hand. -->
