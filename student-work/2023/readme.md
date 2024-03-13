@@ -11,6 +11,7 @@
   * [Mermaid Sequence Diagram](Deborah-Sorrels/rental-agreement.md)
   * [API Assignment](Deborah-Sorrels/api-final-project/readme.md)
 * [Jacob Sacks](Jacob-Sacks)
+  * [Resume Assignment](Jacob-Sacks/readme.md)
 * [Leah-Sher](Leah-Sher)
 * [Max Zingerman](Max-Zingerman)
   * [Mermaid Flowchart](Max-Zingerman/morning_routine.md)
