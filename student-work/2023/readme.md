@@ -13,6 +13,7 @@
 * [Jacob Sacks](Jacob-Sacks)
   * [Resume Assignment](Jacob-Sacks/readme.md)
 * [Leah-Sher](Leah-Sher)
+  * [Resume Assignment](Leah-Sher/readme.md)
 * [Max Zingerman](Max-Zingerman)
   * [Mermaid Flowchart](Max-Zingerman/morning_routine.md)
   * [Mermaid Sequence Diagram](Max-Zingerman/renting_an_appartment.md)
