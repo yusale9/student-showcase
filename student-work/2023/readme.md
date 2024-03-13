@@ -5,6 +5,7 @@
   * [Mermaid Flowchart](Melissa-Ligertwood/Mermaid-Demo.md)
   * [API Assignment](Melissa-Ligertwood/api-final-project/readme.md)
 * [Alan Bariman](Alan-Bariman/)
+  * [Resume Assignment](Alan-Bariman/readme.md)
 * [Deborah Sorrels](Deborah-Sorrels)
   * [Mermaid Flowchart](Deborah-Sorrels/daily-routine.md)
   * [Mermaid Sequence Diagram](Deborah-Sorrels/rental-agreement.md)
