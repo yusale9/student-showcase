@@ -1,5 +1,5 @@
 # Hamburger POC API Guide
-
+## Contents
 [Getting started](#getting-started)
 [Authentication](#authentication)
 [API reference](#API-reference)
@@ -55,15 +55,12 @@ In the request body, enter the email address and password you received from Gene
 
 An authentication token is returned. This is the authentication token you will use for subsequent requests.
 
-:::Info NOTE
-
-The returned token is valid for twenty-four hours.
-
-:::
+> [!NOTE]  
+> The returned token is valid for twenty-four hours.
 
 In any subsequent request, include the authorization header, using the following structure:
 
---header 'Authorization: Bearer ImahFWLZWFdD8VVcUtIED2YuOjPFlZpldQTE5tUqKdv'
+```--header 'Authorization: Bearer ImahFWLZWFdD8VVcUtIED2YuOjPFlZpldQTE5tUqKdv'```
 
 ## API reference
 
