@@ -15,6 +15,7 @@ Featured students include:
 * [Jacob Sacks](2023/Jacob-Sacks)
 * [Leah-Sher](2023/Leah-Sher)
 * [Max Zingerman](2023/Max-Zingerman)
+  * [Introduction](/2023/Max-Zingerman/readme.md)
   * [Mermaid Flowchart](2023/Max-Zingerman/morning_routine.md)
   * [Mermaid Sequence Diagram](2023/Max-Zingerman/renting_an_appartment.md)
   * [API Assignment](2023/Max-Zingerman/api-final-project/readme.md)
