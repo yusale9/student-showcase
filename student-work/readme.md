@@ -17,6 +17,7 @@ Featured students include:
 * [Max Zingerman](2023/Max-Zingerman)
   * [Mermaid Flowchart](2023/Max-Zingerman/morning_routine.md)
   * [Mermaid Sequence Diagram](2023/Max-Zingerman/renting_an_appartment.md)
+  * [API Assignment](2023/Max-Zingerman/api-final-project/readme.md)
 * [Natanya DaCosta](2023/Natanya-DaCosta)
 * [Rina-Solomon](2023/Rina-Solomon)
   * [Introduction](2023/Rina-Solomon/readme.md)
