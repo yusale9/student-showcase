@@ -14,7 +14,6 @@ sequenceDiagram
     Tenant->>Real Estate Agent: Agree to proposal;
     Real Estate Agent->>Landlord: Request contract;
     Landlord->>Real Estate Agent: Provide contract;
-    Real Estate Agent->>Tenant: Provide contract;
     Real Estate Agent->>Tenant: Transfer contract to tenant, provide advice;
     Tenant->>Real Estate Agent: Propose amendments to contract;
     Real Estate Agent->>Landlord: Propose amendments to contract;
