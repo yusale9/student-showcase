@@ -31,14 +31,14 @@ The parameters and values for the `burger` object are as follows:
 | pattyWeightG | Patty weight in grams | number | 150, 200, 300 | 150 | No |
 | pattyCook | Patty doneness | string | R, M, MR, WD | M | No |
 | bunType | Type of the bun | string | plain, sesameSeed, wholeWheat, brioche, pretzel, potato | Classic | No |
-| condiment1, condiment2, condiment3 | Types of  condiments. Up to 3  are allowed. | string | ketchup, secretSause, thousandIsland, hotSauce, dijonMustard |  | No |
+| condiment1, condiment2, condiment3 | Types of condiments. Up to 3 are allowed. | string | ketchup, secretSause, thousandIsland, hotSauce, dijonMustard |  | No |
 | topping1, topping2, topping3 | Types of toppings. Up to 3 toppings are allowed. | string | lettuce, pickles, onion |  | NO |
 
 #### Sides Definition
 
 The parameters and values for the `sides` object are as follows:
 
-| Property | Description | Data   Type | Values | Default | Mandatory |
+| Property | Description | Data Type | Values | Default | Mandatory |
 |---|---|---|---|---|---|
 | side1 | 1st side dish | side' object | See [Sides Internal Objects](#sides-internal-objects) below. If this 'side' is not ordered, Null is passed for its "type" property. |  | Yes |
 | side2 | 2nd side dish | side' object | See [Sides Internal Objects](#sides-internal-objects) below. If this 'side' is not ordered, Null is passed for its "type" property. |  | Yes |
@@ -99,7 +99,7 @@ The parameters and values for the `sides` object are as follows:
 
 | **Code** | **Status** | **Description** |
 |---|---|---|
-| 200 | OK | Meal successfully ordered.  |
+| 200 | OK | Meal successfully ordered. |
 | 315 | Order modification required | The order has been processed, but it cannot be fulfilled in its current state. This situation can occur if some of the items in the order are not currently available in the inventory. |
 | 400 | Bad request | Meal order request failed. Check for invalid options. |
 | 501 | General error | Something else went wrong. Generic error. |
