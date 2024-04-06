@@ -41,7 +41,7 @@ The parameters and values for the `sides` object are as follows:
 | Property | Description | Data   Type | Values | Default | Mandatory |
 |---|---|---|---|---|---|
 | side1 | 1st side dish | side' object | See [Sides Internal Objects](#sides-internal-objects) below. If this 'side' is not ordered, Null is passed for its "type" property. |  | Yes |
-| side2 | 2cd side dish | side' object | See [Sides Internal Objects](#sides-internal-objects) below. If this 'side' is not ordered, Null is passed for its "type" property. |  | Yes |
+| side2 | 2nd side dish | side' object | See [Sides Internal Objects](#sides-internal-objects) below. If this 'side' is not ordered, Null is passed for its "type" property. |  | Yes |
 
 #### Sides Internal Objects:
 
