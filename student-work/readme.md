@@ -41,6 +41,7 @@ Featured students include:
   * [Introduction](2023/Sharon-Schnee/readme.md)
   * [Mermaid Flowchart](2023/Sharon-Schnee/mermaid-morning-routine.md)
   * [Mermaid Sequence Diagram](2023/Sharon-Schnee/rental-sequence-diagram.md)
+  * [API Assignment](2023/Sharon-Schnee/api-final-project/readme.md)
 * [Shlomo Bar-On](2023/Shlomo-Bar-On)
    * [Introduction](2023/Shlomo-Bar-On/readme.md)
    * [Mermaid Flowchart](2023/Shlomo-Bar-On/Shlomo-Morning-Routine.md)
