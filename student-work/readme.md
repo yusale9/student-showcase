@@ -15,7 +15,7 @@ Featured students include:
   * [Mermaid Sequence Diagram](2023/Deborah-Sorrels/rental-agreement.md)
   * [API Documentation Final Project](2023/Deborah-Sorrels/api-final-project/readme.md)
 * [Jacob Sacks](2023/Jacob-Sacks)
-  * [Inbtroduction](2023/Jacob-Sacks/readme.md)
+  * [Introduction](2023/Jacob-Sacks/readme.md)
 * [Leah-Sher](2023/Leah-Sher)
   * [Inbtroduction](2023/Leah-Sher/readme.md)
 * [Max Zingerman](2023/Max-Zingerman)
