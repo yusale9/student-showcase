@@ -51,6 +51,7 @@ Featured students include:
    * [Introduction](2023/Yosef-Myhill/readme.md)
    * [Mermaid Flowchart](2023/Yosef-Myhill/Morning_Schedule_Flowchart.md)
    * [Mermaid Sequence Diagram](2023/Yosef-Myhill/Apartment_Rental_Sequence_Diagram.md)
+   * [API Documentation Final Project](/2023/Yosef-Myhill/api-final-project/readme.md)
 
 ## 2022 Class
 
