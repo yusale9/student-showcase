@@ -5,8 +5,9 @@
 Featured students include:
 
 * [Melissa Ligertwood](2023/Melissa-Ligertwood/)
-   * [Introduction](2023/Melissa-Ligertwood/readme.md)
-   * [API Documentation Final Project](2023/Melissa-Ligertwood/api-final-project/readme.md)
+  * [Introduction](2023/Melissa-Ligertwood/readme.md)
+  * [Mermaid Flowchart](2023/Melissa-Ligertwood/Mermaid-Demo.md)
+  * [API Assignment](2023/Melissa-Ligertwood/api-final-project/readme.md)
 * [Alan Bariman](2023/Alan-Bariman/)
 * [Deborah Sorrels](/Deborah-Sorrels/)
   * [Mermaid Flowchart](2023/Deborah-Sorrels/daily-routine.md)
