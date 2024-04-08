@@ -1,7 +1,7 @@
 # POST /meal/burgerMeal
 
 ### Description:
-Send a new burger meal order to the kitchen.
+Utilize the GPMD APIs to access program functionalities for placing orders and requesting bills. Use the POST method to create a meal request and the GET method to retrieve a bill for a meal order. Refer to the README file for background information on this API.
 
 ### HTTP Method:
 POST
