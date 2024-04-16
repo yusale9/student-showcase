@@ -9,15 +9,15 @@ This is the Api documentation for placing orders for a burger meal and getting t
 title: Mermaid Burger Meal Flowchart
 ---
 flowchart TD
-    A[start new order]-->B([select burger options]):::opts
-    B-->C{want any side dishes}
-    C--yes-->D([select side dishes]):::opts
+    A[Start new order]-->B([Select burger options]):::opts
+    B-->C{Want any side dishes?}
+    C--yes-->D([Select side dishes]):::opts
     D-->E
-    C--"no"-->E{want any drinks}
-    E--yes-->F([select drinks]):::opts
-    F-->G{confirm order}
+    C--"no"-->E{Want any drinks?}
+    E--yes-->F([Select drinks]):::opts
+    F-->G{Confirm order}
     E--"no"-->G
-    G--"correct"-->H[order placed!]
+    G--"correct"-->H[Order placed!]
     G--"nope"-->A
 
     classDef opts stroke:#3DFFC5;
