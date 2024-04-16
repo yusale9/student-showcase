@@ -2,7 +2,7 @@
 
 This is the Api documentation for placing orders for a burger meal and getting the bill back. use [GET on `/bill`](./get.md) endpont for bills and [post on `/order/burgerMeal`](/post.md) for ordering a burger meal.
 
-## flow diagram
+## Mermaid
 
 ```mermaid
 ---
