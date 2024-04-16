@@ -6,7 +6,7 @@ This is the Api documentation for placing orders for a burger meal and getting t
 
 ```mermaid
 ---
-title: order a burger meal
+title: Mermaid Burger Meal Flowchart
 ---
 flowchart TD
     A[start new order]-->B([select burger options]):::opts
