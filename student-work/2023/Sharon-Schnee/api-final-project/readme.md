@@ -17,7 +17,7 @@ The General Putnam Motel Diner API is being developed to allow customers to orde
    C-->D[Receive authentication information];
    D-->E[/Send API call/];
    E-->F[Recieve 200 code];
-   F-->G((Transaction completed));
+   F-->G((End));
    E-->H[Receive error code];
    H--400 code-->J;
    H--500 code-->I[Contact server administrator];
