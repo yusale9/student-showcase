@@ -1,4 +1,4 @@
-# create order
+# Create Order
 
 `POST /order/burgerMeal`
 
