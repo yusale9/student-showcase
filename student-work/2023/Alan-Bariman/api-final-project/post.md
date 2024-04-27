@@ -66,7 +66,7 @@ customers have options to choose a bun type, patty(s) and various toppings and c
 |bun_type|string|bun type| true| plain|rulal,plain,glutenFree|
 |toppings|string[]| an array of toppings to include| false | []|none,lettuce,tomato,redOnion|
 
-### side dish
+### Side Dish
 
 |name|type|description|required|default|
 |---|---|---|---|---|
