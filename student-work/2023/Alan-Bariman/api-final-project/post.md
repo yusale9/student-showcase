@@ -4,7 +4,7 @@
 
 ordering a burger meal
 
-## request body
+## Request Body
 
 Each burger meal contains a burger, side dishes and a drink.
 
