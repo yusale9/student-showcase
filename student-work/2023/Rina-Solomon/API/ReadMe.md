@@ -29,21 +29,21 @@ The following are the HTTP status codes for success or failure of an API call.
    B-->C[Select Patty]
    C-->D[Select burger size]
    D-->E[Select cook level]
-   E-->F{want topping}
-   F--No-->H{want condiments}
+   E-->F{want toppings?}
+   F--No-->H{want condiments?}
    F--Yes-->G[choose topping]
-   G-->H{want condiments}
-   H--No-->J{want sides}
+   G-->H{want condiments?}
+   H--No-->J{want sides?>}
    H--Yes-->I[choose condiments]
-   I-->J{want sides}
+   I-->J{want sides?}
    J--Yes-->K[choose sides]
-   K-->L{want drink}
-   J--No-->L{want drink}
-   L--Yes-->M[choose drink]
-   M-->N[choose size]
+   K-->L{want a drink?}
+   J--No-->L{want a drink?}
+   L--Yes-->M[choose a drink]
+   M-->N[choose a size]
    N-->O{want ice?}
-   L--No-->P{want extras}
-   O-->P{want extras}
+   L--No-->P{want extras?}
+   O-->P{want extras?}
    P--Yes-->Q[choose extras]
    P--No-->R[Order complete]
    Q-->R[Order complete]
