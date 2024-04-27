@@ -12,7 +12,7 @@ The General Putnam Motel Diner API is being developed to allow customers to orde
 
 ```mermaid
    flowchart TD
-   A((Start))-->B[Read API documentation.];
+   A((Start))-->B[Read API documentation];
    B-->C[/Request authentication/];
    C-->D[Receive authentication information];
    D-->E[/Send API call/];
