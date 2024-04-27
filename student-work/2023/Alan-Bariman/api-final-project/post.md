@@ -54,7 +54,7 @@ curl -X POST /order/burgerMeal \
 
 ```
 
-### burger
+### Burger
 
 customers have options to choose a bun type, patty(s) and various toppings and condiments for their burger.
 
