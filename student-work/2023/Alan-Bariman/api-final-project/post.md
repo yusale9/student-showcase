@@ -81,7 +81,7 @@ customers have options to choose a bun type, patty(s) and various toppings and c
 |size|number| size of the drink| true| medium|
 |ice|boolean| whether to include ice| true| false|
 
-## response
+## Response
 
 The server responds with either a 200 ok response when order has been placed and 400-500 errors
 with the general error type.
