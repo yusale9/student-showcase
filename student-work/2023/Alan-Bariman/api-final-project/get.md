@@ -4,7 +4,7 @@
 
 get bill from the poc
 
-## Query parameters
+## Query Parameters
 
 This route lists the table id and order id
 
