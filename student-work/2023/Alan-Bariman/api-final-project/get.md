@@ -19,7 +19,7 @@ curl example
 curl - X GET /bill?table_id=21&order_id=2376-438-490869
 ```
 
-## responses
+## Responses
 
 the server responds with either a 200 ok response if the bill is correct and 400-500 errors
 with the general error type.
