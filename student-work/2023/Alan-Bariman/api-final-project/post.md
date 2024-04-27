@@ -73,7 +73,7 @@ customers have options to choose a bun type, patty(s) and various toppings and c
 |type|string| the type of side dish| true| none|
 |size|number| size of side dish| true| medium|
 
-### drinks
+### Drinks
 
 |name|type|description|required|default|
 |---|---|---|---|---|
