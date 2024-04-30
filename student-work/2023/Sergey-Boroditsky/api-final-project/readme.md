@@ -9,7 +9,7 @@ This proof of concept (POC) documentation demonstrates the touchless ordering sy
 ```mermaid
    flowchart TD
    A((Start))-->B[Select bun type]
-   B-->C[Select patty]
+   B-->C[Select patty type]
    C-->D[Select burger size]
    D-->E[Select doneness level]
    E-->F{Want any toppings?}
@@ -30,7 +30,7 @@ This proof of concept (POC) documentation demonstrates the touchless ordering sy
    P--Yes-->Q[Choose extras]
    P--No-->R[Order complete]
    Q-->R[Order complete]
-   R-->S((Order sent to kitchen))
+   R-->S((Order sent))
 ```
 
 # Credits
