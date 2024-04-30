@@ -5,7 +5,7 @@ Utilize the GPMD APIs to interact with the program's functionalities, such as pl
 ### HTTP Method:
 GET
 ### Request Parameters:
-- tableN: the number assigned to the table. For takeaway orders, the table number is 99.
+- tableNo: the number assigned to the table. For takeaway orders, the table number is 99.
 - password: password for authentification
 ### Request Scheme:
 | Property | Description | Data Type |
@@ -30,7 +30,7 @@ The server response is a JSON object with a separate entry for each menu item th
 | Property | Description | Data Type |
 |---|---|---|
 | orderNum | Order number | number |
-| timeStamp | Time stamp of the response | string |
+| timestamp | Time stamp of the response | string |
 | Item1 | Ordered item No 1 | object |
 | Item2 | Ordered item No 2. Optional | object |
 | Item3 | Ordered item No 3. Optional | object |
