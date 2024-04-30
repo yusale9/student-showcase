@@ -1,13 +1,13 @@
-# GET /meal/burgerMeal
+# GET Documentation
 
 ### Description:
 Utilize the GPMD APIs to interact with the program's functionalities, such as placing orders and requesting bills. The GET method is utilized for initiating a bill request, while the POST method is used for creating a meal request. For further details about this API, refer to the README file.
 ### HTTP Method:
 GET
-### Parameters:
-- tableNo: the number assigned to the table. For takeaway orders, the table number is 99.
-- password: valid password for autentication
-### Request Schema:
+### Request Parameters:
+- tableN: the number assigned to the table. For takeaway orders, the table number is 99.
+- password: password for authentification
+### Request Scheme:
 | Property | Description | Data Type |
 |---|---|---|
 | tableNo | Table number | int |
@@ -25,7 +25,7 @@ curl -X GET "https://meal/burgerMeal?tableNo=5&password=your_password"
 | 501 | General error | Something else went wrong. Generic error. |
 
 ### Response Scheme:
-The response is a JSON object with a separate entry for each menu item that was ordered. Each menu item is represented by an 'ItemOrdered' object. The overall bill is calculated by summing up the prices of all the items in the order. Optional items in the response are omitted if not applicable.
+The server response is a JSON object with a separate entry for each menu item that was ordered. Each menu item is represented by an 'ItemOrdered' object. The overall bill is calculated by summing up the prices of all the items in the order. Optional items in the response are omitted if not applicable.
 
 | Property | Description | Data Type |
 |---|---|---|
@@ -48,17 +48,17 @@ The response is a JSON object with a separate entry for each menu item that was 
 ```json
 {
    "orderNum":103,
-   "timestamp":"2023-07-15T08:45:30",
+   "timestamp":"2024-04-30T13:15:00",
    "Item1":{
   	"ItemOrdered":{
-     	"type":"salad",
-     	"cost":7.99
+     	"type":"frenchFries",
+     	"cost":3.50
   	}
    },
    "Item2":{
   	"ItemOrdered":{
      	"type":"drink",
-     	"Cost":5.75
+     	"Cost":4.99
   	}
    }
 }
