@@ -17,7 +17,7 @@ The parameters and values for the `burgerMeal` object are as follows:
 |---|---|---|---|---|---|
 | burger | Type of the burger | 'burger' object | See [Burger Definition](#burger-definition) below. |   | Yes |
 | sides | The two side dishes (two sides is the default option for this meal). | 'sides' object with 2 properties, both being also being JSON objects: side1 and side2. | See [Sides Definition](#sides-definition) below. If no sides are chosen, Null is passed for each of the 'side' objects. |  | Yes |
-| drink | Type of drink | drink' object. | See [Drink Definition](#drink-definition) below |   | No |
+| drink | Type of drink | 'drink' object. | See [Drink Definition](#drink-definition) below |   | No |
 
 #### Burger Definition
 
