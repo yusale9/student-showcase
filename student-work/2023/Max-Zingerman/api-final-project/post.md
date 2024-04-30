@@ -33,7 +33,7 @@ The parameters and values for the `burger` object are as follows:
 | pattyCook | Patty cook level | string | R, M, MR, WD | M | No |
 | bunType | Type of the bun | string | classisc,  sameSeed, wholeWheat, brioche | Classic | No |
 | condiment1,   condiment2, condiment3 | Types of  condiments. Up to 3  are allowed. | string | ketchup, secretSause,   hotSauce, Dijon Mustard, salsa |  | No |
-| topping1,   topping2, topping3 | Types of toppings. Up to 3   toppings are allowed. | string | lettuce, pickles, onion |  | NO |
+| topping1,   topping2, topping3 | Types of toppings. Up to 3   toppings are allowed. | string | lettuce, pickles, onion |  | No |
 
 #### Sides Definition
 

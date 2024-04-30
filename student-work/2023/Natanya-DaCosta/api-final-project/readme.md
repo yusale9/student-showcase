@@ -61,7 +61,7 @@ https://api.generalputnammoteldiner.com
 
 Standard methods of authentication apply.
 
-### HTTP status codes
+### HTTP Status Codes
 
 The General Putnam Motel Diner APIs use the following standard HTTP response codes:
 
