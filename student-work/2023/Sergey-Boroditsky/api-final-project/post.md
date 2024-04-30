@@ -1,4 +1,4 @@
-# POST /meal/burgerMeal
+# POST Documentation
 
 ### Description:
 Utilize the GPMD APIs to access program functionalities for placing orders and requesting bills. Use the POST method to create a meal request and the GET method to retrieve a bill for a meal order. Refer to the README file for background information on this API.
@@ -6,8 +6,8 @@ Utilize the GPMD APIs to access program functionalities for placing orders and r
 ### HTTP Method:
 POST
 
-### Parameters:
-A single 'burgerMeal' JSON object with all the items ordered within a meal. It contains other JSON objects, as shown below.
+### POST Parameters:
+A 'burgerMeal' JSON object that encompasses all the items ordered in a meal, including other JSON objects, as illustrated below.
 
 #### Burger Meal Definition
 
@@ -68,17 +68,17 @@ The parameters and values for the `sides` object are as follows:
 ``` JSON
 {
 	  "burger": {
-		"pattyType": "beef",		
-		"pattyCook": "WD",
-		"bunType": "sesameSeed",
-		"condiment1": "ketchup",
-		"condiment2": "salsa",
+		"pattyType": "vegan",		
+		"pattyCook": "M",
+		"bunType": "plain",
+		"condiment1": "thousandIsland",
+		"condiment2": "secretSause",
 		"topping1": "lettuce",
-		"topping2": "onion",		
+		"topping2": "pickles",		
 	},
 	"sides": {
 		"side1": {
-			"type": "homeFries",
+			"type": "rice",
 			"size": "null"
 		},
 		"side2": {
@@ -88,7 +88,7 @@ The parameters and values for the `sides` object are as follows:
 	},
 	"drink": {
 		"type": "coke",
-		"size": "large",
+		"size": "medium",
 		"ice": true
 	}
 
@@ -100,6 +100,6 @@ The parameters and values for the `sides` object are as follows:
 | **Code** | **Status** | **Description** |
 |---|---|---|
 | 200 | OK | Meal successfully ordered. |
-| 315 | Order modification required | The order has been processed, but it cannot be fulfilled in its current state. This situation can occur if some of the items in the order are not currently available in the inventory. |
+| 315 | Order modification required | The order has been processed, but it cannot be completed in its current state. This may happen if some items in the order are not currently in stock. |
 | 400 | Bad request | Meal order request failed. Check for invalid options. |
-| 501 | General error | Something else went wrong. Generic error. |
+| 535 | General error | Something else went wrong. Generic error. |
