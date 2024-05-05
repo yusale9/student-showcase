@@ -24,7 +24,7 @@ curl -X GET "https://meal/burgerMeal?tableNo=5&password=your_password"
 | 400 | Unauthorized | Invalid credentials. Check password. |
 | 535 | General error | Something else went wrong. Generic error. Contact technical support for assistance. |
 
-### Response Scheme:
+### Response Schema:
 The server response is a JSON object with a separate entry for each menu item that was ordered. Each menu item is represented by an 'ItemOrdered' object. The overall bill is calculated by summing up the prices of all the items in the order. Optional items in the response are omitted if not applicable.
 
 | Property | Description | Data Type |
