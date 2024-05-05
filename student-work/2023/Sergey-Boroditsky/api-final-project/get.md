@@ -22,7 +22,7 @@ curl -X GET "https://meal/burgerMeal?tableNo=5&password=your_password"
 | 200 | OK | Request successfully processed |
 | 315 | Wrong parameter | Invalid table number. Check tableNo. |
 | 400 | Unauthorized | Invalid credentials. Check password. |
-| 535 | General error | Something else went wrong. Generic error. |
+| 535 | General error | Something else went wrong. Generic error. Contact technical support for assistance. |
 
 ### Response Scheme:
 The server response is a JSON object with a separate entry for each menu item that was ordered. Each menu item is represented by an 'ItemOrdered' object. The overall bill is calculated by summing up the prices of all the items in the order. Optional items in the response are omitted if not applicable.
