@@ -7,7 +7,7 @@ GET
 ### Request Parameters:
 - tableNo: the number assigned to the table. For takeaway orders, the table number is 99.
 - password: password for authentification
-### Request Scheme:
+### Request Schema:
 | Property | Description | Data Type |
 |---|---|---|
 | tableNo | Table number | int |
