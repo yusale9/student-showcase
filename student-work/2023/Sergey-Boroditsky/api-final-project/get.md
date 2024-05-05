@@ -1,7 +1,7 @@
 # GET Documentation
 
 ### Description:
-Utilize the GPMD APIs to interact with the program's functionalities, such as placing orders and requesting bills. The GET method is utilized for initiating a bill request, while the POST method is used for creating a meal request. For further details about this API, refer to the README file.
+Utilize the GPMD APIs to interact with the program's functionalities, such as placing orders and requesting bills. The GET method is used for initiating a bill request, while the [POST](post.md) method is used for creating a meal request. For further details about this API, refer to [readme.md](readme.md).
 ### HTTP Method:
 GET
 ### Request Parameters:
