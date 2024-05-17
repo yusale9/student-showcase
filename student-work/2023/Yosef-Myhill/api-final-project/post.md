@@ -1,7 +1,11 @@
 # API Reference- POST Method
+
 ## Overview
+
 General Putnam's Motel Diner API processes a customer's meal order and retrieves the bill for the customer. The POST method is used to order a meal from the menu. 
+
 ### Base URL
+
 ```
 https://api.gpmd.com
 ```
@@ -9,8 +13,11 @@ https://api.gpmd.com
 Authentication and authorization are required before any request using the API. Supported authentication methods include:
 * OAuth 2.0
 * 2-factor Authorization
+  
 ### HTTP Status Codes
+
 The General Putnam Motel Diner API follows the standard HTTP status codes for success or failure of an API call.
+
 <table>
 	<tr>
 		<th>Status Code</th>
@@ -45,18 +52,29 @@ The General Putnam Motel Diner API follows the standard HTTP status codes for su
 </table>
 
 ##  POST Request for "burgerMeal"
+
 "mealCat" value of "burgerMeal". The "burgerMeal" API call allows the user to choose a meal that includes a burger, 1 or 2 side dishes, and a soft drink.
+
 ### Syntax
+
 The "burgerMeal" endpoint is nested under the "lunch" value in the "mealType" object.
+
+```
 curl -H "Content-Type: application/json" -X POST -d'
 {
 	"mealType": "lunch",
 	"mealCat": "burgerMeal"
+}
 ```
+
 ### POST/lunch/burgerMeal/burger
-The "burger" endpoint is used to order the burger patty, bun, and toppings.    
+
+The "burger" endpoint is used to order the burger patty, bun, and toppings.
+   
 #### Description
+
 The following table contains the parameters for the "burger" endpoint.
+
 <table> 
   <tr>
     <th> Property Name</th>
@@ -192,6 +210,7 @@ The following table contains the parameters for the "burger" endpoint.
 </table>
 
 #### Example
+
 Here is an example of a POST call for a burger that includes:
 * one 300 gram beef patty cooked to Medium-Rare
 * a whole wheat bun
@@ -200,6 +219,7 @@ Here is an example of a POST call for a burger that includes:
 * lettuce
 * pickles
 * onion
+
 ```json
 "burger": {
 		"pattyType": "beef",
@@ -215,8 +235,10 @@ Here is an example of a POST call for a burger that includes:
 	}
 ```
 ### POST/lunch/burgerMeal/burger/sides
+
 The "sides" endpoint is used to order the side dishes served with the burger.
 #### POST/lunch/burgerMeal/burger/sides/side1
+
 The "sides1" endpoint is used to order the first side dish served with the burger.
 ##### Description    
 The following table contains the parameters for the "sides1" endpoint.
@@ -251,8 +273,11 @@ The following table contains the parameters for the "sides1" endpoint.
 </table>
 
 #### POST/lunch/burgerMeal/burger/sides/side2
+
 The "sides2" endpoint is used to order the second side dish served with the burger.
+
 ##### Description
+
 The following table contains the parameters for the "sides1" endpoint.
 <table>
   <tr>
@@ -286,6 +311,7 @@ The following table contains the parameters for the "sides1" endpoint.
 </table>
 
 #### Example
+
 Here is an example of a POST call for one large side dish of french fries:
 ```json
  "sides": {
@@ -299,9 +325,12 @@ Here is an example of a POST call for one large side dish of french fries:
 		}
 ```
 ### Drink
+
 The "drink" endpoint is used to order a soft drink.
+
 #### Description    
 The following table contains the parameters for the "drink" endpoint.
+
 <table>
   <tr>
     <th>Property Name</th>
@@ -353,9 +382,12 @@ Here is an example of a POST call for a large coke with ice:
 	}
 ```
 ## POST Response for "burgerMeal"
+
 The API responds to the POST request with a standard HTTP status code. This code indicates if the API call was successful, and if not, what the error is.
+
 ### Description
 The following table contains a list of status codes and what they mean.
+
 <table>
 	<tr>
 		<th>Status Code</th>
@@ -379,6 +411,7 @@ The following table contains a list of status codes and what they mean.
 </table>
 
 ### Example
+
 ```http
 200 OK
 ```
