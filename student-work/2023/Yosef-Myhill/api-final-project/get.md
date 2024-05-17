@@ -1,16 +1,25 @@
 # API Reference- GET Method
+
 ## Overview
+
 General Putnam's Motel Diner API processes a customer's meal order and retrieves the bill for the customer. The GET method is used to get the bill for the customer's order.
+
 ### Base URL
+
 ```
 https://api.gpmd.com
 ```
+
 ### Authentication
+
 Authentication and authorization are required before any request using the API. Supported authentication methods include:
 * OAuth 2.0
 * 2-factor Authorization
+  
 ### HTTP Status Codes
+
 The General Putnam Motel Diner API follows the standard HTTP status codes for success or failure of an API call.
+
 <table>
 	<tr>
 		<th>Status Code</th>
@@ -45,36 +54,49 @@ The General Putnam Motel Diner API follows the standard HTTP status codes for su
 </table>
 
 ## GET/tableNo
+
 A GET request is sent to retrieve the customer's bill from the system. The app finds the bill by using the customer's table number.
+
 ### Syntax
+
 The following is the syntax for a GET request:
+
 ```
 curl -X GET "http://URL/tableNo?id=customersTableNumber"
 ```
+
 Insert the customer's table number as an integer between 1 and 16 in the customerTableNumber endpoint. For a takeout order, insert 99.
 
 ### Example
+
 Here is an example of a GET call for a takeout order:
+```
 curl -X GET "http://URL/tableNo?id=99"
 ```
 ## Response
+
 In the response to the GET call, the server sends an itemized bill of the customer's order.
+
 ### Syntax
+
 The following is the syntax for the GET response:
+
 ``` JSON
 {
-   "orderNum":Order Number,  
+   "orderNum":99,  
    "timestamp":"YYYY-MM-DDTHH:MM:SSTime Zone",  
    "ItemX":{  
   	"ItemOrdered":{  
      	"type":"Item Type",  
-     	"Cost":Item Cost
+     	"Cost":12.95
   	}  
    } 
 }
 ```
 ### Description
+
 The following table contains the required parameters for the GET response.
+
 <table> 
   <tr><th> Property Name</th>
     <th>Description</th>
@@ -123,11 +145,13 @@ The following table contains the required parameters for the GET response.
 </table>
 
 ### Example
+
 Here is an example of a GET response for an order with:
 * an order number of "123"
 * a time stamp of January 21, 2020 at 07:44:45 UTC -05:00
 * one burger meal that costs $10.99
 * one salad that costs $9.50
+  
 ```json
 {
    "orderNum":123,
