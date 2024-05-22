@@ -1,8 +1,31 @@
 # Hamburger API Proof of Concept Documentation
 
-## Introduction
+## Overview
 
-The General Putnam Motel Diner wants to create an app for its customers to order food easily and efficiently. This app needs to take orders from customers, send the orders to the kitchen, and calculate the bills for the customers. This POC focuses on ordering a burger at dinner time, but the plan for the app is to handle all kinds of meals throughout the day. This documentation explains how the meal is processed from the customer (POST.md) and how the server gets the bill (GET.md).
+The General Putnam Motel Diner wants to create an app for its customers to order food easily and efficiently. This app needs to take orders from customers, send them to the kitchen, and calculate the bills for the customers. This POC focuses on ordering a burger at dinner time, but the plan for the app is to handle all kinds of meals throughout the day. This documentation explains how the customer's order is processed (POST.md) and how the server gets the bill (GET.md).
+
+### Base URL
+
+This is the base URL for all API calls:
+
+```
+https://api.gpmd.com
+```
+
+### Version
+
+The current version of the API is 1.0.
+
+## Endpoints
+
+The API supports these two endpoints:
+
+| Method | URL                | Description                              |
+|--------|--------------------|------------------------------------------|
+| POST   | /dinner/burgerMeal | Creates an order for the kitchen to make<br>See [POST.md](POST.md) for more info |
+| GET    | tableNo            | Retrieves the bill for the server<br>See [GET.md](GET.md) for more info        |
+
+## Order customization
 
 Below are flowcharts explaining what customization the customer has for their [burger](#ordering-a-burger), [sides](#ordering-sides), and [drink](#ordering-a-drink).
 
@@ -43,12 +66,14 @@ E-- One side -->H;
 
 flowchart TD;
 A((Customer decides<br>if they want a drink))-->B[(Choose drink options)];
-B-->C(Drink type);
-C-->D(Drink size);
+B-->C(Drink type,<br>including none);
+C-- None -->F
+C-- not none -->D(Drink size);
 D-->E(Ice?);
 E-->F[(Order gets sent<br>to the kitchen)];
 
 ```
+
 ## Getting the Bill
 
 When the customer requests the bill through the app, the order information and bill are sent to their server. The server can then bring the bill to the customer for them to pay. 
