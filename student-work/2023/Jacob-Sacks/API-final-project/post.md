@@ -1,4 +1,4 @@
-# POST dinner/burgerMeal
+# POST /dinner/burgerMeal
 
 ## Overview
 
