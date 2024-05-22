@@ -22,8 +22,8 @@ The API supports these two endpoints:
 
 | Method | URL                | Description                              |
 |--------|--------------------|------------------------------------------|
-| POST   | /dinner/burgerMeal | Creates an order for the kitchen to make<br>See [POST.md](POST.md) for more info |
-| GET    | tableNo            | Retrieves the bill for the server<br>See [GET.md](GET.md) for more info        |
+| POST   | /dinner/burgerMeal | Creates an order for the kitchen to make<br>See [post.md](post.md) for more info |
+| GET    | tableNo            | Retrieves the bill for the server<br>See [get.md](get.md) for more info        |
 
 ## Order customization
 
