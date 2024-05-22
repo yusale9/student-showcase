@@ -78,5 +78,4 @@ E-->F[(Order gets sent<br>to the kitchen)];
 
 ```
 
-#### Acknowledgements
-This API documentation project is based on an exercise created by <a href="https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/">Alex Feidler</a>. This API documentation is adapted from a template provided by <a href="https://thegooddocsproject.dev/">The Good Docs Project</a>.
+> This API documentation is adapted from a template provided by <a href="https://thegooddocsproject.dev/">The Good Docs Project</a>. This project is based on an exercise created by <a href="https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/">Alex Feidler</a>.
