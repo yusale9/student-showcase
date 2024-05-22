@@ -98,3 +98,8 @@ Here are the possible HTTP responses:
 | 200         | Success        | Meal was successfully received and sent to the kitchen |
 | 400         | Invalid order  | Improper input, such as too many toppings              |
 | 500         | Server problem | API couldn't connect to the server                     |
+
+<br>
+<br>
+
+> This API documentation is adapted from a template provided by <a href="https://thegooddocsproject.dev/">The Good Docs Project</a>. This project is based on an exercise created by <a href="https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/">Alex Feidler</a>.
