@@ -43,8 +43,8 @@ C-->D(Doneness of meat);
 D-->E(Patty weight);
 E-->F(Number of patties, limited to 3);
 F-->G(Bun type);
-G-->H(Toppings, limited to 4);
-H-->I(Condiments, limited to 3);
+G-->H(Toppings, limited to 3);
+H-->I(Condiments, limited to 2);
 I-->J[\Now the customer orders a side/];
 
 ```
