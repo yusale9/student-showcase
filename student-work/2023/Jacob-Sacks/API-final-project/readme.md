@@ -27,7 +27,7 @@ The API supports these two endpoints:
 
 ## Order customization
 
-Below are flowcharts explaining what customization the customer has for their [burger](#ordering-a-burger), [sides](#ordering-sides), and [drink](#ordering-a-drink).
+The customer can customize their burger, sides, and drink, as shown below ([burger flowchart](#ordering-a-burger), [sides flowchart](#ordering-sides), and [drink flowchart](#ordering-a-drink).
 
 ## Getting the Bill
 
