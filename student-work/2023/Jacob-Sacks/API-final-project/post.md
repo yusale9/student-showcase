@@ -94,7 +94,7 @@ Here are the possible HTTP responses:
 
 | Status code | Description    | Description                                            |
 |-------------|----------------|--------------------------------------------------------|
-| 200         | Success        | Meal was successfully received and sent to the kitchen |
+| 200         | Success        | Meal request was successfully received and sent to the kitchen |
 | 400         | Invalid order  | Improper input, such as too many toppings              |
 | 500         | Server problem | API couldn't connect to the server                     |
 
