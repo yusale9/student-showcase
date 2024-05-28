@@ -42,7 +42,7 @@ curl -X GET "http://URL/tableNo?id=18"
 
 ## Example response
 
-```
+``` json
 {
    "orderNo":314,
    "timestamp":"2024-01-15T19:48:27-05:00",
