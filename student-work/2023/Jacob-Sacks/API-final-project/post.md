@@ -55,7 +55,6 @@ Here is an example of a POST request for a customer's order:
 ```
 curl -H "Content-Type: application/json" -X POST -d'
 ```
-```
 {
 "mealCat": "burgerMeal",
     "burger": {
