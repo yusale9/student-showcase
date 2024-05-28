@@ -67,7 +67,7 @@ Here are the possible HTTP responses:
 
 | Status code | Description    | Description                                            |
 |-------------|----------------|--------------------------------------------------------|
-| 200         | Success        | Bill was successfully printed |
+| 200         | Success        | Request for the bill was successfully executed|
 | 400         | Invalid order  | Improper input, such as invalid table number            |
 | 500         | Server problem | API couldn't connect to the server                     |
 
