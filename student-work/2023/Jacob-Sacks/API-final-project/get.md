@@ -10,7 +10,7 @@ https://api.gpmd.com/tableNo?id=<NUMBER>
 ```
 
 Where \<NUMBER> is the customer's table number
-
+For takeout orders the table number is 99.
 ## Request body parameter
 
 The GET request has one parameter:
