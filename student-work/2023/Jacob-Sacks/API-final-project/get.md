@@ -35,7 +35,8 @@ Here is a table showing the different response parameters:
 ## Example request
 
 This would be the request for the bill for table number 18:
-```
+
+``` none
 curl -X GET "http://URL/tableNo?id=18"
 ```
 
