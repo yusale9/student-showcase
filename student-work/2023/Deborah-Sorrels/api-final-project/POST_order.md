@@ -99,7 +99,4 @@ drinkSize | string | "small", "medium", "large" | Size of drink. | "medium"
 ice | boolean | true, false | Does the customer want the drin with ice? | true | Optional  
 
 
-## Sample JSON Code Response Snippet   
-
-<code> <b>200 OK                 </b></code>
 
