@@ -27,12 +27,11 @@ curl -X GET "http://URL/tableNo?id=99"
 
 ### Request Status Code
 
-```
 200 OK  
 400 Bad Request  
 500 Internal Server Error   
 503 Service Unavailable
-```
+
 
 ## Code Explanation
 
