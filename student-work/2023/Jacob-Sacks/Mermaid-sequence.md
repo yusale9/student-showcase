@@ -8,7 +8,7 @@ participant O as Realtor
 participant L as Landlord
 L->>O: Hire realtor to find potential renter
 O->>E: Find potential renter
-E->L: Agree on a date/time to check the apartment
+E<->L: Agree on a date/time to check the apartment
 E->>L: Renter comes to check apartment
 Note over E: Likes apartment
 E->L: Negotiate terms of rental
