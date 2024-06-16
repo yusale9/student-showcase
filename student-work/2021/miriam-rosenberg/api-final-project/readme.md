@@ -2,8 +2,8 @@
 
 This project is to create a Hamburger App POC for takeout orders for General Putnam Motel Diner. The API facilitates meal ordering through an App. 
 There files in this project document the following endpoints:
-* POST/order - creates a meal order and sends it to the kitchen
-* GET/bill - creates a bill when the customer is ready to pay  
+* [POST/order](POST-order-meal.md) - creates a meal order and sends it to the kitchen
+* [GET/bill](GET-bill.md) - creates a bill when the customer is ready to pay  
 
 The Response codes file contains possible HTTP responses after a request for a meal order.
 
