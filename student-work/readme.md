@@ -14,6 +14,7 @@ Featured students include:
   * [Mermaid Sequence Diagram](2023/Alan-Bariman/Mermaid_diagrams/Sequence.md)
   * [API Documentation Final Project](2023/Alan-Bariman/api-final-project/readme.md)
 * [Deborah Sorrels](/Deborah-Sorrels/)
+  * [Introduction](2023/Deborah-Sorrels/readme.md)
   * [Mermaid Flowchart](2023/Deborah-Sorrels/daily-routine.md)
   * [Mermaid Sequence Diagram](2023/Deborah-Sorrels/rental-agreement.md)
   * [API Documentation Final Project](2023/Deborah-Sorrels/api-final-project/readme.md)
