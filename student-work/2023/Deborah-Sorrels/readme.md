@@ -59,7 +59,7 @@ Western Kentucky University, Kentucky, U.S.A.
 Western Kentucky University, Kentucky, U.S.A.  
 2014  
 
-#### Additional Information   
+#### Professional Training   
 **Technical Writing Training**  
 Our Best Words, Israel   
 2023  
